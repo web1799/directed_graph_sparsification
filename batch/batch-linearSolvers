@@ -1,0 +1,12 @@
+# Run linear solvers on test graph collection
+
+phase=$1
+if [ $phase == "1" ]; then
+   matlab-batch -w "00:29:59" -q development -r 20 -v "\"run\" \"\" 1000 2e7 \"lamg\"" $bin/linearSolvers
+else
+   matlab-batch -w "00:29:59" -q development -r 20 -v "\"run\" \"\" 2.000001e7 4.7e7 \"lamg\"" $bin/linearSolvers
+fi
+
+# Debugging
+#matlab-batch -w "00:01:00" -q development -r  2 -v "\"run\" \"\" 1000 10000 \"lamg\"" $bin/linearSolvers
+#matlab-batch -w "00:01:00" -q development -r  1 -v "\"run\" \"walshaw/.*\" 1000 2000 \"lamg\""  $bin/linearSolvers

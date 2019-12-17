@@ -1,0 +1,23 @@
+LAMG RELEASE CHANGELOG
+======================
+---------------------------------------------------------------------------
+Release 2.0.1
+Date: January 18, 2012
+
+Minor optimization of time-intensive functions.
+
+---------------------------------------------------------------------------
+Release 2.0.0
+Date: January 10, 2012
+
+1. MEX implementation of time-intensive functions (gsrelax, ...).
+2. Class Solvers replaces runCycleAcf() as the main LAMG interface.
+3. Better treatment of very weak connections.
+
+---------------------------------------------------------------------------
+Release 1.0.0
+Date: August 26, 2011
+
+Implementation of the basic LAMG algorithm described in the ArXiV e-prints
+http://arxiv.org/abs/1108.0123
+http://arxiv.org/abs/1108.1310

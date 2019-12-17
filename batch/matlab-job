@@ -1,0 +1,138 @@
+#!/bin/bash
+#-----------------------------------------------------
+# A generic MATLAB PBS job file.
+# Inputs: the following environment variables:
+# EXEC      - name of matlab executable
+# EXEC_ARGS - MATLAB function arguments
+#-----------------------------------------------------
+
+#=============================================
+# Constants
+#=============================================
+
+# Root directory of MRC (you might need to change this if you need
+# a specific version of MCR)
+#export MCR_ROOT=/soft/mcr/v714
+MCR_ROOT=/soft/matlab/7.13
+
+export progname=`basename $0`
+
+#=============================================
+# Print usage
+#=============================================
+
+function printUsage
+{
+    echo ""
+    echo "Usage: $progname"
+    echo ""
+    echo "Run a MATLAB MCC executable in a PBS job. The following environment"
+    echo "variables must be set:"
+    echo -e "\t$EXEC      - name of executable under the batch directory"
+    echo -e "\t$EXEC_ARGS - arguments of executable, in quotes"
+}
+
+function runJob()
+{
+  #=============================================
+  # Run the desired job.
+  #=============================================
+  EXEC="$1"
+
+  # The corresponding file
+  cd ${JOB_WORK_DIR}
+  EXEC_SH=run_`basename $EXEC`.sh
+  EXEC_ARGS="${2}"
+  echo "JOB_WORK_DIR = ${JOB_WORK_DIR}"
+  echo "Currently in $(pwd)"
+  cmd="aprun -b -n 1 -d 1 $EXEC_SH $MCR_ROOT ${EXEC_ARGS}"
+#  cmd="aprun -b -n 1 -d 1 \"$EXEC_SH $MCR_ROOT ${EXEC_ARGS} >& ${JOB_WORK_DIR}/apirun.log\"" 
+  echo "Running: $cmd"
+ `$cmd`
+
+#  FILE="/tmp/$progname.$RANDOM.txt"
+#  echo "cd ${JOB_WORK_DIR}" > $FILE
+#  echo "$EXEC_SH $MCR_ROOT ${EXEC_ARGS} >& run.log" >> $FILE
+#  echo "$EXEC_SH $MCR_ROOT ${EXEC_ARGS}" >> $FILE
+#  chmod +x $FILE
+#  cmd="aprun -b -n 1 -d 1 $FILE"
+#  echo "Running: $cmd"
+#  cat $FILE
+#  rm -f $FILE # Clean up
+}
+
+function setUp()
+{
+  #=============================================
+  # Set up environment for a PBS MATLAB job run.
+  # Inputs: <batchExecutable>
+  # Outputs: ${JOB_TMP_DIR} env variable
+  #=============================================
+  EXEC="$1"
+
+  # Load modules and set for dynamic environment
+  . /opt/modules/3.2.6.6/init/bash
+
+  # Be mindful that this sets the shared library environment and might be necessary for
+  # a number of simulations
+  export CRAY_ROOTFS=DSL
+
+  # Create, if necessary, a directory on /lustre to run the simulations
+  export JOB_WORK_DIR="$WORK_DIR/${PBS_JOBID}"
+  echo "Creating work directory $JOB_WORK_DIR"
+  mkdir -p $JOB_WORK_DIR
+
+  # Set up TMP and a cache root dir for MCR, it won't work if it isn't set
+  JOB_TMP_DIR=${JOB_WORK_DIR}/tmp
+  mkdir -p $JOB_TMP_DIR
+  export TMP=$JOB_TMP_DIR
+  export MCR_CACHE_ROOT=$JOB_TMP_DIR
+  export MCR_ROOT
+
+  # Copy the file to the run dir and run the code
+  # cd $PBS_O_WORKDIR
+  EXEC_SH=`dirname $EXEC`/run_`basename $EXEC`.sh
+  cp $EXEC $EXEC_SH $JOB_WORK_DIR
+}
+
+function tearDown()
+{
+  #=============================================
+  # Tear down environment of a MATLAB job run.
+  #
+  # Inputs: <batchExecutable>
+  # Outputs: None
+  #=============================================
+  EXEC="$1"
+
+  # Update database with out job parameters
+  #sqlite3 $DB "insert into job values ('${PBS_JOBID}')"
+
+  # Delete temp dirs
+  rm -rf $JOB_TMP_DIR
+}
+
+#=============================================
+# Main program
+#=============================================
+if [[ ($# -ne 0) ]]; then
+    printUsage
+    exit -1
+fi
+
+# A work around a possible qsub variable parsing bug. Replace magic token '%%%'
+# quotes inside MATLAB function arguments back by quotes
+export EXEC_ARGS=`echo "${EXEC_ARGS}" | sed -e 's/%%%/\"/g'`
+
+echo "--- Running MATLAB MCC Executable: job ---"
+echo "Executable : ${EXEC}"
+echo "Arguments  : ${EXEC_ARGS}"
+echo "Current dir: ${CURRENT_DIR}"
+echo "Work dir   : ${WORK_DIR}"
+
+echo "Setting up"
+cd ${CURRENT_DIR}
+setUp ${EXEC}
+runJob ${EXEC} "${EXEC_ARGS}"
+echo "Tearing down"
+tearDown ${EXEC}

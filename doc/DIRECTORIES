@@ -1,0 +1,23 @@
+=====================================
+Multigrid for Graphs MATLAB Software:
+Directory Organization
+=====================================
+doc      - Documentation
+
+Utilities:
+core      - core utilities
+graph     - graph API, graph readers & writers, batcher runners
+graphViz4Matlab - graph visualization package (third party)
+ufget     - UF matrix collection interface (Davis, third party)
+
+lin-api   - linear solver API
+lin-solve - centralizes linear solver implementations. Contains main classes to use.
+eig-api   - eigensolver API
+eig-solve - centralizes eigensolver implementations. Contains main classes to use.
+
+Linear solvers:
+lamg      - Lean Algebraic Multigrid (LAMG, Livne & Brandt)
+cmg       - Combinatorical Multigrid (CMG, Koutis, third party)
+
+Eigensolvers:
+lame      - Lean Algebraic Multigrid Eigensolver (LAME, Livne & Brandt, in progress)

@@ -1,0 +1,105 @@
+#!/bin/bash
+#-------------------------------------------------------------------------------
+# Run linear solvers on our test graph collection. This is the entire pipeline.
+#-------------------------------------------------------------------------------
+
+#=============================================
+# Constants
+#=============================================
+
+# Max time to run job in minutes
+RUN_MINUTES="30"
+
+# Assume that jobs take this many minutes to start running once queued
+QUEUE_MINUTES="2"
+
+# Compile program before running or not
+COMPILE=false
+
+# Merge results after running or not
+MERGE=false
+
+#=============================================
+# Print usage, parse input arguments
+#=============================================
+progname=`basename $0`
+
+function printTypeForHelp
+{
+    echo "Type \"$progname -h\" for help."
+}
+
+function printUsage
+{
+    echo -e ""
+    echo -e "Usage: $progname [-c] [-m]"
+    echo -e ""
+    echo -e "Runs the entire linear solvers pipeline in multiple phases, each of which schedules"
+    echo -e "a set of parallel PBS batch jobs."
+    echo -e ""
+    echo -e "\t-c\tCompile the code by mcc."
+    echo -e ""
+    echo -e "\t-m\tMerge the results in matlab after jobs finish."
+    echo -e ""
+}
+
+while getopts "hcm" optionName; do
+    case "$optionName" in
+#	r) NUM_RUNS="${OPTARG}";;
+#	w) WALL_TIME="${OPTARG}";;
+	c) COMPILE=true;;
+	m) MERGE=true;;
+	h) printUsage; exit 0;;
+	[?]) printTypeForHelp; exit -1;;
+    esac
+done
+shift $(($OPTIND - 1))
+set -- "$*" 
+IFS=" "; declare -a remaining_args=($*)
+
+# Argument validation
+#if [ ${#remaining_args[*]} -ne 1 ]; then
+#    echo "Must specify an MCC executable"
+#    printTypeForHelp
+#    exit -1
+#fi
+#EXEC=${remaining_args[0]}
+
+# Print args
+echo "--- Running MATLAB MCC Executable in batch jobs ---"
+echo "Compile?  : $COMPILE"
+echo "Merge?    : $MERGE"   
+#echo "Wall time : $WALL_TIME"
+
+#=============================================
+# Main program
+#=============================================
+
+run_seconds=$(( 60 * (RUN_MINUTES + QUEUE_MINUTES) ))
+echo "Will sleep for $run_seconds between phases"
+
+if $COMPILE; then
+   echo "Compiling"
+   echo '( echo "config; mccCompile('linearSolvers'); quit;" | matlab ) >& /dev/null'
+fi
+
+# Phase 1
+echo matlab-batch -w "00:29:59" -q development -r 20 -v "\"run\" \"\" 1000 2e7 \"lamg\"" $bin/linearSolvers
+
+# Wait until phase 1 is done
+echo sleep $run_seconds
+
+# Phase 2
+echo matlab-batch -w "00:29:59" -q development -r 20 -v "\"run\" \"\" 2.000001e7 4.7e7 \"lamg\"" $bin/linearSolvers
+
+if $MERGE; then
+   echo "Merging"
+# config;
+# r = reduceResults('linearSolvers_20120321_224357', 20);
+# r2 = reduceResults('linearSolvers_20120322_074135', 20);
+# r.appendAll(r2);
+# save beagle_results_2012_03_22 r
+# quit
+
+   echo '( echo "config; mccCompile('linearSolvers'); quit;" | matlab ) >& /dev/null'
+fi

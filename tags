@@ -1,0 +1,1646 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+1	core/matlab_xunit/architecture/html/matlab_xunit_architecture.html	/^         <h2>TestComponent, TestCase, and TestSuite<a name="1"><\/a><\/h2>$/;"	a
+1	core/matlab_xunit/doc/html/exQuickStart.html	/^         <h2>Make a folder for your tests<a name="1"><\/a><\/h2>$/;"	a
+10	core/matlab_xunit/architecture/html/matlab_xunit_architecture.html	/^         <h2>Stack Traces and "Assertion Roulette"<a name="10"><\/a><\/h2>$/;"	a
+11	core/matlab_xunit/architecture/html/matlab_xunit_architecture.html	/^         <h2>Extending the Framework<a name="11"><\/a><\/h2>$/;"	a
+2	core/matlab_xunit/architecture/html/matlab_xunit_architecture.html	/^         <h2>TestCase: The Four-Phase Test<a name="2"><\/a><\/h2>$/;"	a
+2	core/matlab_xunit/doc/html/exQuickStart.html	/^<\/pre><h2>Write each test case as a simple M-file<a name="2"><\/a><\/h2>$/;"	a
+3	core/matlab_xunit/architecture/html/matlab_xunit_architecture.html	/^         <h2>Test Case Discovery<a name="3"><\/a><\/h2>$/;"	a
+4	core/matlab_xunit/architecture/html/matlab_xunit_architecture.html	/^         <h2>FunctionHandleTestCase: For the Procedural World<a name="4"><\/a><\/h2>$/;"	a
+5	core/matlab_xunit/architecture/html/matlab_xunit_architecture.html	/^         <h2>Writing Procedural Test Cases<a name="5"><\/a><\/h2>$/;"	a
+5	core/matlab_xunit/doc/html/exQuickStart.html	/^         <h2>Run all the tests using <tt>runtests<\/tt><a name="5"><\/a><\/h2>$/;"	a
+6	core/matlab_xunit/architecture/html/matlab_xunit_architecture.html	/^         <h2>TestRunMonitor<a name="6"><\/a><\/h2>$/;"	a
+7	core/matlab_xunit/architecture/html/matlab_xunit_architecture.html	/^  PASSED in 7.040 seconds.<\/pre><h2>File System Test Runner<a name="7"><\/a><\/h2>$/;"	a
+8	core/matlab_xunit/architecture/html/matlab_xunit_architecture.html	/^         <h2>Test Selection<a name="8"><\/a><\/h2>$/;"	a
+9	core/matlab_xunit/architecture/html/matlab_xunit_architecture.html	/^         <h2>Assertion Methods<a name="9"><\/a><\/h2>$/;"	a
+A	cmg.h	/^    matrix    A;              \/* single precision symmetric matrix *\/$/;"	m	struct:shlevel	access:public
+A	cmg/Include/cmg.h	/^    matrix    A;              \/* single precision symmetric matrix *\/$/;"	m	struct:shlevel	access:public
+A	core/lightspeed/dtrsm.c	20;"	d	file:
+A	core/lightspeed/dtrsm.c	244;"	d	file:
+ABSFLAG_IN	lamg/main/mex/filterSmallEntries.cpp	14;"	d	file:
+AGGREGATESIZE_IN	lamg/main/mex/aggregationsweep.cpp	26;"	d	file:
+AGGREGATESIZE_OUT	lamg/main/mex/aggregationsweep.cpp	38;"	d	file:
+ALWAYS_2D	core/lightspeed/repmat.c	18;"	d	file:
+A_IN	cmg/Source/Hierarchy/adjacency.c	16;"	d	file:
+A_IN	cmg/Source/Hierarchy/adjacency_cmg.c	16;"	d	file:
+A_IN	cmg/Source/Hierarchy/diagconjugate.c	16;"	d	file:
+A_IN	cmg/Source/Hierarchy/forest_components.c	16;"	d	file:
+A_IN	cmg/Source/Hierarchy/graphprofile.c	17;"	d	file:
+A_IN	cmg/Source/Hierarchy/laplacian2.c	18;"	d	file:
+A_IN	cmg/Source/Hierarchy/perturbtril.c	17;"	d	file:
+A_IN	cmg/Source/Hierarchy/splitforest.c	17;"	d	file:
+A_IN	cmg/Source/Hierarchy/update_groups.c	15;"	d	file:
+A_IN	lamg/main/mex/eliminationOperators.cpp	15;"	d	file:
+A_IN	lamg/main/mex/filterSmallEntries.cpp	11;"	d	file:
+A_IN	lamg/main/mex/galerkinCaliber1.cpp	15;"	d	file:
+A_IN	lamg/main/mex/galerkinElimination.cpp	18;"	d	file:
+A_IN	lamg/main/mex/gsrelax.cpp	8;"	d	file:
+A_IN	lamg/main/mex/lowdegreesweep.cpp	12;"	d	file:
+A_IN	lamg/main/mex/medianCol.cpp	15;"	d	file:
+A_IN	lamg/main/mex/undecidedNodes.cpp	26;"	d	file:
+Allocate	core/lightspeed/matfile.c	16;"	d	file:
+B	core/lightspeed/dtrsm.c	21;"	d	file:
+B	core/lightspeed/dtrsm.c	245;"	d	file:
+BINS_IN	lamg/main/mex/aggregationsweep.cpp	22;"	d	file:
+BINS_OUT	lamg/main/mex/undecidedNodes.cpp	31;"	d	file:
+BLAS64	core/lightspeed/solve_tril.c	7;"	d	file:
+BLAS64	core/lightspeed/solve_triu.c	20;"	d	file:
+BOUNDTYPE_IN	lamg/main/mex/filterSmallEntries.cpp	15;"	d	file:
+BUFSIZE	ufget/UFgui.java	/^    private static final int K = 1024, M = K*K, BUFSIZE = K,$/;"	f	class:UFgui	file:	access:private
+B_IN	lamg/main/mex/filterSmallEntries.cpp	12;"	d	file:
+B_OUT	cmg/Source/Hierarchy/adjacency.c	17;"	d	file:
+B_OUT	cmg/Source/Hierarchy/adjacency_cmg.c	17;"	d	file:
+B_OUT	cmg/Source/Hierarchy/diagconjugate.c	18;"	d	file:
+B_OUT	cmg/Source/Hierarchy/graphprofile.c	19;"	d	file:
+B_OUT	cmg/Source/Hierarchy/laplacian2.c	20;"	d	file:
+B_OUT	cmg/Source/Hierarchy/perturbtril.c	20;"	d	file:
+B_OUT	lamg/main/mex/galerkinCaliber1.cpp	17;"	d	file:
+B_OUT	lamg/main/mex/galerkinElimination.cpp	25;"	d	file:
+BetaRand	core/lightspeed/random.c	/^double BetaRand(double a, double b)$/;"	f	signature:(double a, double b)
+BetaRand	core/lightspeed/util.h	/^double BetaRand(double a, double b);$/;"	p	signature:(double a, double b)
+BinoRand	core/lightspeed/random.c	/^int BinoRand(double p, int n)$/;"	f	signature:(double p, int n)
+BinoRand	core/lightspeed/util.h	/^int BinoRand(double p, int n);$/;"	p	signature:(double p, int n)
+C	Gauss_Seidel/iterseidel.c	14;"	d	file:
+C	examples/iterweightedjacobi.c	14;"	d	file:
+C	iterseidel.c	14;"	d	file:
+C	iterweightedjacobi.c	14;"	d	file:
+C	lamg/iterweightedjacobi.c	14;"	d	file:
+CACHE_SIZE	core/lightspeed/util.c	49;"	d	file:
+CANDIDATE_IN	lamg/main/mex/lowdegreesweep.cpp	13;"	d	file:
+CANDIDATE_IN	lamg/main/mex/undecidedNodes.cpp	27;"	d	file:
+C_IN	cmg/Source/Hierarchy/update_groups.c	16;"	d	file:
+C_IN	lamg/main/mex/aggregationsweep.cpp	28;"	d	file:
+C_IN	lamg/main/mex/galerkinElimination.cpp	21;"	d	file:
+C_INDEX_IN	lamg/main/mex/eliminationOperators.cpp	17;"	d	file:
+C_OUT	cmg/MATLAB/Solver/mx_read_hierarchy.c	15;"	d	file:
+C_OUT	cmg/Source/Hierarchy/splitforest.c	18;"	d	file:
+C_OUT	cmg/Source/Hierarchy/update_groups.c	17;"	d	file:
+C_OUT	lamg/main/mex/affinitymatrix.cpp	11;"	d	file:
+C_OUT	lamg/main/mex/filterSmallEntries.cpp	16;"	d	file:
+CheckDir	ufget/UFgui.java	/^    private File CheckDir (String directory_name)$/;"	m	class:UFgui	file:	access:private	signature:(String directory_name)
+CheckExistence	ufget/UFgui.java	/^    private boolean [ ] CheckExistence (int id)$/;"	m	class:UFgui	file:	access:private	signature:(int id)
+CheckExistence	ufget/UFgui.java	/^    private void CheckExistence ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+D	core/util/D.m	/^function b = D(a)$/;"	f
+DELTA_IN	lamg/main/mex/filterSmallEntries.cpp	13;"	d	file:
+D_IN	cmg/Source/Hierarchy/diagconjugate.c	17;"	d	file:
+D_IN	cmg/Source/Hierarchy/laplacian2.c	19;"	d	file:
+D_IN	lamg/main/mex/aggregationsweep.cpp	29;"	d	file:
+D_OUT	cmg/Source/Hierarchy/graphprofile.c	20;"	d	file:
+D_OUT	cmg/Source/Hierarchy/update_groups.c	18;"	d	file:
+DoWork	core/lightspeed/timing.cpp	/^void DoWork(double *outp, double *inp, int sz, int ntrials);$/;"	p	file:	signature:(double *outp, double *inp, int sz, int ntrials)
+DoubleArray	core/lightspeed/matfile.c	/^typedef struct DoubleArray {$/;"	s	file:
+DoubleArray	core/lightspeed/matfile.c	/^} DoubleArray;$/;"	t	typeref:struct:DoubleArray	file:
+DoubleArray::bufsize	core/lightspeed/matfile.c	/^  int len, bufsize;$/;"	m	struct:DoubleArray	file:	access:public
+DoubleArray::d	core/lightspeed/matfile.c	/^  double *d;$/;"	m	struct:DoubleArray	file:	access:public
+DoubleArray::len	core/lightspeed/matfile.c	/^  int len, bufsize;$/;"	m	struct:DoubleArray	file:	access:public
+DoubleArray_Create	core/lightspeed/matfile.c	/^DoubleArray *DoubleArray_Create(void) $/;"	f	signature:(void)
+DoubleArray_Free	core/lightspeed/matfile.c	/^void DoubleArray_Free(DoubleArray *a)$/;"	f	signature:(DoubleArray *a)
+DoubleArray_Set	core/lightspeed/matfile.c	/^void DoubleArray_Set(DoubleArray *a, int index, double value)$/;"	f	signature:(DoubleArray *a, int index, double value)
+FLOPS_DIV	core/lightspeed/flops.h	1;"	d
+FLOPS_EXP	core/lightspeed/flops.h	3;"	d
+FLOPS_LOG	core/lightspeed/flops.h	4;"	d
+FLOPS_SQRT	core/lightspeed/flops.h	2;"	d
+F_IN	lamg/main/mex/eliminationOperators.cpp	16;"	d	file:
+FindGroups	ufget/UFgui.java	/^    private String [ ] FindGroups ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+FindKinds	ufget/UFgui.java	/^    private String [ ] FindKinds ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+FullInfo	core/lightspeed/matfile.c	/^struct FullInfo {$/;"	s	file:
+FullInfo::a	core/lightspeed/matfile.c	/^  DoubleArray *a;$/;"	m	struct:FullInfo	file:	access:public
+FullInfo::index	core/lightspeed/matfile.c	/^  int index;$/;"	m	struct:FullInfo	file:	access:public
+GammaRand	core/lightspeed/random.c	/^double GammaRand(double a)$/;"	f	signature:(double a)
+GammaRand	core/lightspeed/util.h	/^double GammaRand(double a);$/;"	p	signature:(double a)
+Gauss_Seidel	Gauss_Seidel.m	/^function [x, GaussItr]=Gauss_Seidel(A, b, x,tol,maxiter)$/;"	f
+GetSeed	core/lightspeed/random.c	/^void GetSeed(long *ix_out, long *iy_out, long *iz_out)$/;"	f	signature:(long *ix_out, long *iy_out, long *iz_out)
+GetSeed	core/lightspeed/util.h	/^void GetSeed(long *ix_out, long *iy_out, long *iz_out);$/;"	p	signature:(long *ix_out, long *iy_out, long *iz_out)
+Group_List	ufget/UFgui.java	/^    private JList Group_List, Kind_List ;$/;"	f	class:UFgui	file:	access:private
+Groups	ufget/UFgui.java	/^    private String [ ] Kinds, Groups ;$/;"	f	class:UFgui	file:	access:private
+HIGH_DEGREE	lamg/main/mex/elimination.h	12;"	d
+H_IN	cmg/MATLAB/Solver/mx_d_preconditioner.c	15;"	d	file:
+H_IN	cmg/MATLAB/Solver/mx_s_preconditioner.c	15;"	d	file:
+H_in	score.c	6;"	d	file:
+Ht	Ht.m	/^function [ht, lambda]= Ht(L, Ls, t)$/;"	f
+Ht_nov7	Ht_nov7.m	/^function [ht,h0,lambda]= Ht_nov7(L, Ls, t)$/;"	f
+INDEX_IN	lamg/main/mex/galerkinElimination.cpp	22;"	d	file:
+INF	ufget/UFgui.java	/^    private static long INF = Long.MAX_VALUE ;$/;"	f	class:UFgui	file:	access:private
+INFINITY	core/lightspeed/util.c	32;"	d	file:
+ISOPEN_IN	lamg/main/mex/undecidedNodes.cpp	28;"	d	file:
+IntArray	core/lightspeed/matfile.c	/^typedef struct IntArray {$/;"	s	file:
+IntArray	core/lightspeed/matfile.c	/^} IntArray;$/;"	t	typeref:struct:IntArray	file:
+IntArray::bufsize	core/lightspeed/matfile.c	/^  int len, bufsize;$/;"	m	struct:IntArray	file:	access:public
+IntArray::d	core/lightspeed/matfile.c	/^  int *d;$/;"	m	struct:IntArray	file:	access:public
+IntArray::len	core/lightspeed/matfile.c	/^  int len, bufsize;$/;"	m	struct:IntArray	file:	access:public
+IntArray_Create	core/lightspeed/matfile.c	/^IntArray *IntArray_Create(void) $/;"	f	signature:(void)
+IntArray_Free	core/lightspeed/matfile.c	/^void IntArray_Free(IntArray *a)$/;"	f	signature:(IntArray *a)
+IntArray_Set	core/lightspeed/matfile.c	/^void IntArray_Set(IntArray *a, int index, int value)$/;"	f	signature:(IntArray *a, int index, int value)
+IterSeidel	Gauss_Seidel/IterSeidel.m	/^function x = IterSeidel(A,x0,b,iter)$/;"	f
+IterSeidel	IterSeidel.m	/^function x = IterSeidel(A,x0,b,iter)$/;"	f
+IterWeightedJacobi	IterWeightedJacobi.m	/^function x = IterWeightedJacobi(A, x0, r, iter)$/;"	f
+IterWeightedJacobi	examples/IterWeightedJacobi.m	/^function x = IterWeightedJacobi(A, x0, r, iter)$/;"	f
+IterWeightedJacobi	lamg/IterWeightedJacobi.m	/^function x = IterWeightedJacobi(A, x0, r, iter)$/;"	f
+K	ufget/UFgui.java	/^    private static final int K = 1024, M = K*K, BUFSIZE = K,$/;"	f	class:UFgui	file:	access:private
+Kind_List	ufget/UFgui.java	/^    private JList Group_List, Kind_List ;$/;"	f	class:UFgui	file:	access:private
+Kinds	ufget/UFgui.java	/^    private String [ ] Kinds, Groups ;$/;"	f	class:UFgui	file:	access:private
+LOW_DEGREE	lamg/main/mex/elimination.h	11;"	d
+M	core/lightspeed/tests/test_flops.c	33;"	d	file:
+M	ufget/UFgui.java	/^    private static final int K = 1024, M = K*K, BUFSIZE = K,$/;"	f	class:UFgui	file:	access:private
+MAX	cmg/MATLAB/Solver/mx_d_preconditioner.c	12;"	d	file:
+MAX	cmg/MATLAB/Solver/mx_read_hierarchy.c	11;"	d	file:
+MAX	cmg/MATLAB/Solver/mx_s_preconditioner.c	12;"	d	file:
+MAX	cmg/Source/Hierarchy/vpack.c	17;"	d	file:
+MAXCOARSENINGRATIO_IN	lamg/main/mex/aggregationsweep.cpp	32;"	d	file:
+MIN	cmg/MATLAB/Solver/mx_d_preconditioner.c	13;"	d	file:
+MIN	cmg/MATLAB/Solver/mx_read_hierarchy.c	12;"	d	file:
+MIN	cmg/MATLAB/Solver/mx_s_preconditioner.c	13;"	d	file:
+MIN	cmg/Source/Hierarchy/vpack.c	18;"	d	file:
+MM	ufget/UFgui.java	/^    private File mat, MM, RB, iconDir ;$/;"	f	class:UFgui	file:	access:private
+MSEC_PER_DAY	ufget/UFgui.java	/^        MSEC_PER_DAY = 86400000 ;$/;"	f	class:UFgui	file:	access:private
+M_OUT	cmg/Source/Hierarchy/graphprofile.c	21;"	d	file:
+M_PI	core/lightspeed/util.c	18;"	d	file:
+M_lnPI	core/lightspeed/util.c	205;"	d	file:
+M_lnSqrt2PI	core/lightspeed/util.c	218;"	d	file:
+Matrix	Gauss_Seidel/solver.h	/^} Matrix;$/;"	t	typeref:struct:matrix
+Matrix	solver.h	/^} Matrix;$/;"	t	typeref:struct:matrix
+MultiRand	core/lightspeed/sample_hist.c	/^void MultiRand(double *p, mwSize len, mwSize n, double *result)$/;"	f	signature:(double *p, mwSize len, mwSize n, double *result)
+N	core/lightspeed/tests/test_flops.c	34;"	d	file:
+NAME_IN	cmg/MATLAB/Solver/mx_read_hierarchy.c	14;"	d	file:
+NAN	core/lightspeed/util.c	33;"	d	file:
+NOT_ELIMINATED	lamg/main/mex/elimination.h	14;"	d
+NUMAGGREGATES_IN	lamg/main/mex/aggregationsweep.cpp	27;"	d	file:
+NUMAGGREGATES_OUT	lamg/main/mex/aggregationsweep.cpp	39;"	d	file:
+NUMBINS_IN	lamg/main/mex/undecidedNodes.cpp	29;"	d	file:
+NU_IN	lamg/main/mex/gsrelax.cpp	11;"	d	file:
+PCG	PCG.m	/^function [x,iter,flag]=PCG(L_G,L_S,b,maxIter, tol)$/;"	f
+P_IN	cmg/Source/Hierarchy/graphprofile.c	18;"	d	file:
+P_IN	lamg/main/mex/galerkinCaliber1.cpp	16;"	d	file:
+Q_OUT	lamg/main/mex/eliminationOperators.cpp	21;"	d	file:
+RATIOMAX_IN	lamg/main/mex/aggregationsweep.cpp	31;"	d	file:
+RB	ufget/UFgui.java	/^    private File mat, MM, RB, iconDir ;$/;"	f	class:UFgui	file:	access:private
+RYB_colors	core/lightspeed/graphics/RYB_colors.m	/^function colors = RYB_colors(n)$/;"	f
+R_IN	lamg/main/mex/galerkinCaliber1.cpp	14;"	d	file:
+R_IN	lamg/main/mex/galerkinElimination.cpp	19;"	d	file:
+R_IN	lamg/main/mex/gsrelax.cpp	10;"	d	file:
+R_OUT	lamg/main/mex/eliminationOperators.cpp	20;"	d	file:
+R_OUT	lamg/main/mex/gsrelax.cpp	13;"	d	file:
+Rand	core/lightspeed/random.c	/^double Rand(void)$/;"	f	signature:(void)
+Rand	core/lightspeed/util.h	/^double Rand(void);$/;"	p	signature:(void)
+RandN	core/lightspeed/random.c	/^double RandN(void)$/;"	f	signature:(void)
+RandN	core/lightspeed/util.h	/^double RandN(void);$/;"	p	signature:(void)
+RandN_previous	core/lightspeed/random.c	/^static double RandN_previous = 0;$/;"	v	file:
+RandN_usePrevious	core/lightspeed/random.c	/^static int RandN_usePrevious = 0;$/;"	v	file:
+Reallocate	core/lightspeed/matfile.c	17;"	d	file:
+Reff	lamg/main/util/Reff.m	/^function [r, X] = Reff(g, iValues, jValues)$/;"	f
+ResetSeed	core/lightspeed/random.c	/^void ResetSeed(void)$/;"	f	signature:(void)
+ResetSeed	core/lightspeed/util.h	/^void ResetSeed(void);$/;"	p	signature:(void)
+STANDALONE	core/lightspeed/tests/test_flops.c	23;"	d	file:
+STATUS_IN	lamg/main/mex/galerkinElimination.cpp	20;"	d	file:
+STATUS_IN	lamg/main/mex/lowdegreesweep.cpp	11;"	d	file:
+STATUS_OUT	lamg/main/mex/lowdegreesweep.cpp	17;"	d	file:
+STAT_IN	lamg/main/mex/aggregationsweep.cpp	25;"	d	file:
+STAT_OUT	lamg/main/mex/aggregationsweep.cpp	37;"	d	file:
+ScanFull	core/lightspeed/matfile.c	/^void ScanFull(int r, int c, double d, struct FullInfo *info)$/;"	f	signature:(int r, int c, double d, struct FullInfo *info)
+ScanFunc	core/lightspeed/matfile.c	/^typedef void ScanFunc(int r, int c, double d, void *info);$/;"	t	file:
+ScanSparse	core/lightspeed/matfile.c	/^void ScanSparse(int r, int c, double d, struct SparseInfo *info)$/;"	f	signature:(int r, int c, double d, struct SparseInfo *info)
+Score	Score.m	/^function s = Score(A, Ls, r_off, c_off, ht)$/;"	f
+SetSeed	core/lightspeed/random.c	/^void SetSeed(long new_ix, long new_iy, long new_iz)$/;"	f	signature:(long new_ix, long new_iy, long new_iz)
+SetSeed	core/lightspeed/util.h	/^void SetSeed(long new_ix, long new_iy, long new_iz);$/;"	p	signature:(long new_ix, long new_iy, long new_iz)
+SimplifyKind	ufget/UFgui.java	/^    private String SimplifyKind (String kind)$/;"	m	class:UFgui	file:	access:private	signature:(String kind)
+SparseInfo	core/lightspeed/matfile.c	/^struct SparseInfo {$/;"	s	file:
+SparseInfo::data	core/lightspeed/matfile.c	/^  DoubleArray *data;$/;"	m	struct:SparseInfo	file:	access:public
+SparseInfo::index	core/lightspeed/matfile.c	/^  int index;$/;"	m	struct:SparseInfo	file:	access:public
+SparseInfo::ir	core/lightspeed/matfile.c	/^  IntArray *ir, *jc;$/;"	m	struct:SparseInfo	file:	access:public
+SparseInfo::jc	core/lightspeed/matfile.c	/^  IntArray *ir, *jc;$/;"	m	struct:SparseInfo	file:	access:public
+SparseInfo::next_row	core/lightspeed/matfile.c	/^  int next_row;$/;"	m	struct:SparseInfo	file:	access:public
+Stats	ufget/UFgui.java	/^    private Object [ ][ ] Stats ;$/;"	f	class:UFgui	file:	access:private
+UFarchive	ufget/UFgui.java	/^    private static String UFsite, UFarchive, proxy_server, proxy_port ;$/;"	f	class:UFgui	file:	access:private
+UFdownload	ufget/UFgui.java	/^        public UFdownload ( )$/;"	m	class:UFgui.UFdownload	access:public	signature:( )
+UFdownload	ufget/UFgui.java	/^    private class UFdownload implements Runnable$/;"	c	class:UFgui	inherits:Runnable	access:private
+UFgui	ufget/UFgui.java	/^    private UFgui ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+UFgui	ufget/UFgui.java	/^public class UFgui extends JFrame$/;"	c	inherits:JFrame
+UFgui.BUFSIZE	ufget/UFgui.java	/^    private static final int K = 1024, M = K*K, BUFSIZE = K,$/;"	f	class:UFgui	file:	access:private
+UFgui.CheckDir	ufget/UFgui.java	/^    private File CheckDir (String directory_name)$/;"	m	class:UFgui	file:	access:private	signature:(String directory_name)
+UFgui.CheckExistence	ufget/UFgui.java	/^    private boolean [ ] CheckExistence (int id)$/;"	m	class:UFgui	file:	access:private	signature:(int id)
+UFgui.CheckExistence	ufget/UFgui.java	/^    private void CheckExistence ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+UFgui.FindGroups	ufget/UFgui.java	/^    private String [ ] FindGroups ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+UFgui.FindKinds	ufget/UFgui.java	/^    private String [ ] FindKinds ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+UFgui.Group_List	ufget/UFgui.java	/^    private JList Group_List, Kind_List ;$/;"	f	class:UFgui	file:	access:private
+UFgui.Groups	ufget/UFgui.java	/^    private String [ ] Kinds, Groups ;$/;"	f	class:UFgui	file:	access:private
+UFgui.INF	ufget/UFgui.java	/^    private static long INF = Long.MAX_VALUE ;$/;"	f	class:UFgui	file:	access:private
+UFgui.K	ufget/UFgui.java	/^    private static final int K = 1024, M = K*K, BUFSIZE = K,$/;"	f	class:UFgui	file:	access:private
+UFgui.Kind_List	ufget/UFgui.java	/^    private JList Group_List, Kind_List ;$/;"	f	class:UFgui	file:	access:private
+UFgui.Kinds	ufget/UFgui.java	/^    private String [ ] Kinds, Groups ;$/;"	f	class:UFgui	file:	access:private
+UFgui.M	ufget/UFgui.java	/^    private static final int K = 1024, M = K*K, BUFSIZE = K,$/;"	f	class:UFgui	file:	access:private
+UFgui.MM	ufget/UFgui.java	/^    private File mat, MM, RB, iconDir ;$/;"	f	class:UFgui	file:	access:private
+UFgui.MSEC_PER_DAY	ufget/UFgui.java	/^        MSEC_PER_DAY = 86400000 ;$/;"	f	class:UFgui	file:	access:private
+UFgui.RB	ufget/UFgui.java	/^    private File mat, MM, RB, iconDir ;$/;"	f	class:UFgui	file:	access:private
+UFgui.SimplifyKind	ufget/UFgui.java	/^    private String SimplifyKind (String kind)$/;"	m	class:UFgui	file:	access:private	signature:(String kind)
+UFgui.Stats	ufget/UFgui.java	/^    private Object [ ][ ] Stats ;$/;"	f	class:UFgui	file:	access:private
+UFgui.UFarchive	ufget/UFgui.java	/^    private static String UFsite, UFarchive, proxy_server, proxy_port ;$/;"	f	class:UFgui	file:	access:private
+UFgui.UFdownload	ufget/UFgui.java	/^    private class UFdownload implements Runnable$/;"	c	class:UFgui	inherits:Runnable	access:private
+UFgui.UFdownload.UFdownload	ufget/UFgui.java	/^        public UFdownload ( )$/;"	m	class:UFgui.UFdownload	access:public	signature:( )
+UFgui.UFdownload.run	ufget/UFgui.java	/^        public void run ( )$/;"	m	class:UFgui.UFdownload	access:public	signature:( )
+UFgui.UFgui	ufget/UFgui.java	/^    private UFgui ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+UFgui.UFindex	ufget/UFgui.java	/^        UFindex = "mat\/UF_Index.mat",$/;"	f	class:UFgui	file:	access:private
+UFgui.UFsite	ufget/UFgui.java	/^    private static String UFsite, UFarchive, proxy_server, proxy_port ;$/;"	f	class:UFgui	file:	access:private
+UFgui.UFstats	ufget/UFgui.java	/^    private static final String UFstats = "matrices\/UFstats.csv",$/;"	f	class:UFgui	file:	access:private
+UFgui.all_groups	ufget/UFgui.java	/^        all_kinds = "(all kinds)", all_groups = "(all groups)" ;$/;"	f	class:UFgui	file:	access:private
+UFgui.all_kinds	ufget/UFgui.java	/^        all_kinds = "(all kinds)", all_groups = "(all groups)" ;$/;"	f	class:UFgui	file:	access:private
+UFgui.cancel	ufget/UFgui.java	/^    private boolean gui_ready, downloading, cancel, get_icons,$/;"	f	class:UFgui	file:	access:private
+UFgui.cancel_Button	ufget/UFgui.java	/^    private JButton download_Button, cancel_Button ;$/;"	f	class:UFgui	file:	access:private
+UFgui.cancel_Button_action	ufget/UFgui.java	/^    private void cancel_Button_action (ActionEvent e)$/;"	m	class:UFgui	file:	access:private	signature:(ActionEvent e)
+UFgui.chooser	ufget/UFgui.java	/^    private JFileChooser chooser ;$/;"	f	class:UFgui	file:	access:private
+UFgui.cleanup	ufget/UFgui.java	/^    private static void cleanup (boolean delete)$/;"	m	class:UFgui	file:	access:private	signature:(boolean delete)
+UFgui.clear_Button_action	ufget/UFgui.java	/^    private void clear_Button_action (ActionEvent e)$/;"	m	class:UFgui	file:	access:private	signature:(ActionEvent e)
+UFgui.close_output	ufget/UFgui.java	/^    private static void close_output (OutputStream out)$/;"	m	class:UFgui	file:	access:private	signature:(OutputStream out)
+UFgui.close_printer_stream	ufget/UFgui.java	/^    private static void close_printer_stream (PrintWriter out)$/;"	m	class:UFgui	file:	access:private	signature:(PrintWriter out)
+UFgui.close_reader	ufget/UFgui.java	/^    private static void close_reader (Reader in)$/;"	m	class:UFgui	file:	access:private	signature:(Reader in)
+UFgui.debug	ufget/UFgui.java	/^        new_matrices = false, debug = false ;$/;"	f	class:UFgui	file:	access:private
+UFgui.delete_file	ufget/UFgui.java	/^    private static void delete_file (String filename)$/;"	m	class:UFgui	file:	access:private	signature:(String filename)
+UFgui.download_Button	ufget/UFgui.java	/^    private JButton download_Button, cancel_Button ;$/;"	f	class:UFgui	file:	access:private
+UFgui.download_Button_action	ufget/UFgui.java	/^    private void download_Button_action (ActionEvent e)$/;"	m	class:UFgui	file:	access:private	signature:(ActionEvent e)
+UFgui.download_file	ufget/UFgui.java	/^    private void download_file (String filename)$/;"	m	class:UFgui	file:	access:private	signature:(String filename)
+UFgui.download_ids	ufget/UFgui.java	/^    private int [ ] download_ids = null ;$/;"	f	class:UFgui	file:	access:private
+UFgui.download_matrix_stats	ufget/UFgui.java	/^    private Object [ ][ ] download_matrix_stats ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+UFgui.downloading	ufget/UFgui.java	/^    private boolean gui_ready, downloading, cancel, get_icons,$/;"	f	class:UFgui	file:	access:private
+UFgui.export_list_action	ufget/UFgui.java	/^    private void export_list_action (ActionEvent e, boolean csv)$/;"	m	class:UFgui	file:	access:private	signature:(ActionEvent e, boolean csv)
+UFgui.fire_status	ufget/UFgui.java	/^    public boolean fire_status = true ;$/;"	f	class:UFgui	access:public
+UFgui.fire_updates	ufget/UFgui.java	/^    public void fire_updates (boolean fire)$/;"	m	class:UFgui	access:public	signature:(boolean fire)
+UFgui.fix_name	ufget/UFgui.java	/^    private static String fix_name (String s)$/;"	m	class:UFgui	file:	access:private	signature:(String s)
+UFgui.format_mat_Button	ufget/UFgui.java	/^    private JCheckBox format_mat_Button, format_mm_Button, format_rb_Button ;$/;"	f	class:UFgui	file:	access:private
+UFgui.format_mm_Button	ufget/UFgui.java	/^    private JCheckBox format_mat_Button, format_mm_Button, format_rb_Button ;$/;"	f	class:UFgui	file:	access:private
+UFgui.format_rb_Button	ufget/UFgui.java	/^    private JCheckBox format_mat_Button, format_mm_Button, format_rb_Button ;$/;"	f	class:UFgui	file:	access:private
+UFgui.ftemp_name	ufget/UFgui.java	/^    private static String ftemp_name = null ;$/;"	f	class:UFgui	file:	access:private
+UFgui.ftemp_out	ufget/UFgui.java	/^    private static BufferedOutputStream ftemp_out = null ;$/;"	f	class:UFgui	file:	access:private
+UFgui.getDouble	ufget/UFgui.java	/^    private double getDouble (JTextField tfield, double Default)$/;"	m	class:UFgui	file:	access:private	signature:(JTextField tfield, double Default)
+UFgui.getLong	ufget/UFgui.java	/^    private long getLong (JTextField tfield, long Default)$/;"	m	class:UFgui	file:	access:private	signature:(JTextField tfield, long Default)
+UFgui.get_all_icons	ufget/UFgui.java	/^    private void get_all_icons ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+UFgui.get_download_ids	ufget/UFgui.java	/^    private int [ ] get_download_ids ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+UFgui.get_highlighted_ids	ufget/UFgui.java	/^    private int [ ] get_highlighted_ids ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+UFgui.get_icons	ufget/UFgui.java	/^    private boolean gui_ready, downloading, cancel, get_icons,$/;"	f	class:UFgui	file:	access:private
+UFgui.get_setting	ufget/UFgui.java	/^    private String get_setting (String default_setting)$/;"	m	class:UFgui	file:	access:private	signature:(String default_setting)
+UFgui.get_table_value	ufget/UFgui.java	/^    private Object get_table_value (int id, int j)$/;"	m	class:UFgui	file:	access:private	signature:(int id, int j)
+UFgui.get_url	ufget/UFgui.java	/^    private URL get_url (String urlstring)$/;"	m	class:UFgui	file:	access:private	signature:(String urlstring)
+UFgui.gui_ready	ufget/UFgui.java	/^    private boolean gui_ready, downloading, cancel, get_icons,$/;"	f	class:UFgui	file:	access:private
+UFgui.help_Button_action	ufget/UFgui.java	/^    private void help_Button_action (ActionEvent e)$/;"	m	class:UFgui	file:	access:private	signature:(ActionEvent e)
+UFgui.iconDir	ufget/UFgui.java	/^    private File mat, MM, RB, iconDir ;$/;"	f	class:UFgui	file:	access:private
+UFgui.icon_Label	ufget/UFgui.java	/^    private JLabel nselected_Label, progress_size_Label, icon_Label ;$/;"	f	class:UFgui	file:	access:private
+UFgui.icon_file	ufget/UFgui.java	/^    private String icon_file (String fullname)$/;"	m	class:UFgui	file:	access:private	signature:(String fullname)
+UFgui.in_reader	ufget/UFgui.java	/^    private static BufferedReader in_reader = null ;$/;"	f	class:UFgui	file:	access:private
+UFgui.last_download	ufget/UFgui.java	/^    private Date today, last_download ;$/;"	f	class:UFgui	file:	access:private
+UFgui.load_UFstats	ufget/UFgui.java	/^    private Object [ ][ ] load_UFstats ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+UFgui.main	ufget/UFgui.java	/^    public static void main (String args [ ])$/;"	m	class:UFgui	access:public	signature:(String args [ ])
+UFgui.make_selection	ufget/UFgui.java	/^    private void make_selection (boolean action)$/;"	m	class:UFgui	file:	access:private	signature:(boolean action)
+UFgui.mat	ufget/UFgui.java	/^    private File mat, MM, RB, iconDir ;$/;"	f	class:UFgui	file:	access:private
+UFgui.matrix_Table	ufget/UFgui.java	/^    private JTable matrix_Table ;$/;"	f	class:UFgui	file:	access:private
+UFgui.matrix_Table_Model	ufget/UFgui.java	/^    class matrix_Table_Model extends AbstractTableModel$/;"	c	class:UFgui	inherits:AbstractTableModel	access:default
+UFgui.matrix_Table_Model.columnNames	ufget/UFgui.java	/^        private String [ ] columnNames =$/;"	f	class:UFgui.matrix_Table_Model	file:	access:private
+UFgui.matrix_Table_Model.data	ufget/UFgui.java	/^        private Object [ ][ ] data = null ;$/;"	f	class:UFgui.matrix_Table_Model	file:	access:private
+UFgui.matrix_Table_Model.getColumnClass	ufget/UFgui.java	/^        public Class getColumnClass (int col)$/;"	m	class:UFgui.matrix_Table_Model	access:public	signature:(int col)
+UFgui.matrix_Table_Model.getColumnCount	ufget/UFgui.java	/^        public int getColumnCount ( )$/;"	m	class:UFgui.matrix_Table_Model	access:public	signature:( )
+UFgui.matrix_Table_Model.getColumnName	ufget/UFgui.java	/^        public String getColumnName (int col)$/;"	m	class:UFgui.matrix_Table_Model	access:public	signature:(int col)
+UFgui.matrix_Table_Model.getRowCount	ufget/UFgui.java	/^        public int getRowCount ( )$/;"	m	class:UFgui.matrix_Table_Model	access:public	signature:( )
+UFgui.matrix_Table_Model.getValueAt	ufget/UFgui.java	/^        public Object getValueAt (int row, int col)$/;"	m	class:UFgui.matrix_Table_Model	access:public	signature:(int row, int col)
+UFgui.matrix_Table_Model.isCellEditable	ufget/UFgui.java	/^        public boolean isCellEditable (int row, int col)$/;"	m	class:UFgui.matrix_Table_Model	access:public	signature:(int row, int col)
+UFgui.matrix_Table_Model.load_data	ufget/UFgui.java	/^        public void load_data (Object [ ][ ] newstats)$/;"	m	class:UFgui.matrix_Table_Model	access:public	signature:(Object [ ][ ] newstats)
+UFgui.matrix_Table_Model.setValueAt	ufget/UFgui.java	/^        public void setValueAt (Object value, int row, int col)$/;"	m	class:UFgui.matrix_Table_Model	access:public	signature:(Object value, int row, int col)
+UFgui.matrix_Table_PopupListener	ufget/UFgui.java	/^    private class matrix_Table_PopupListener extends MouseAdapter$/;"	c	class:UFgui	inherits:MouseAdapter	access:private
+UFgui.matrix_Table_PopupListener.matrix_Table_PopupListener	ufget/UFgui.java	/^        matrix_Table_PopupListener (JPopupMenu popupMenu)$/;"	m	class:UFgui.matrix_Table_PopupListener	access:default	signature:(JPopupMenu popupMenu)
+UFgui.matrix_Table_PopupListener.maybeShowPopup	ufget/UFgui.java	/^        private void maybeShowPopup (MouseEvent e)$/;"	m	class:UFgui.matrix_Table_PopupListener	file:	access:private	signature:(MouseEvent e)
+UFgui.matrix_Table_PopupListener.mousePressed	ufget/UFgui.java	/^        public void mousePressed (MouseEvent e)$/;"	m	class:UFgui.matrix_Table_PopupListener	access:public	signature:(MouseEvent e)
+UFgui.matrix_Table_PopupListener.mouseReleased	ufget/UFgui.java	/^        public void mouseReleased (MouseEvent e)$/;"	m	class:UFgui.matrix_Table_PopupListener	access:public	signature:(MouseEvent e)
+UFgui.matrix_Table_PopupListener.pop	ufget/UFgui.java	/^        JPopupMenu pop ;$/;"	f	class:UFgui.matrix_Table_PopupListener	access:default
+UFgui.matrix_Table_RowListener	ufget/UFgui.java	/^    private class matrix_Table_RowListener implements ListSelectionListener$/;"	c	class:UFgui	inherits:ListSelectionListener	access:private
+UFgui.matrix_Table_RowListener.valueChanged	ufget/UFgui.java	/^        public void valueChanged (ListSelectionEvent event)$/;"	m	class:UFgui.matrix_Table_RowListener	access:public	signature:(ListSelectionEvent event)
+UFgui.matrix_column_tooltips	ufget/UFgui.java	/^    protected String [ ] matrix_column_tooltips =$/;"	f	class:UFgui	access:protected
+UFgui.matrix_model	ufget/UFgui.java	/^    private matrix_Table_Model matrix_model = null ;$/;"	f	class:UFgui	file:	access:private
+UFgui.maxcol_Field	ufget/UFgui.java	/^    private JTextField minrow_Field, maxrow_Field, mincol_Field, maxcol_Field,$/;"	f	class:UFgui	file:	access:private
+UFgui.maxnsym_Field	ufget/UFgui.java	/^        maxnsym_Field ;$/;"	f	class:UFgui	file:	access:private
+UFgui.maxnz_Field	ufget/UFgui.java	/^        minnz_Field, maxnz_Field, minpsym_Field, maxpsym_Field, minnsym_Field,$/;"	f	class:UFgui	file:	access:private
+UFgui.maxpsym_Field	ufget/UFgui.java	/^        minnz_Field, maxnz_Field, minpsym_Field, maxpsym_Field, minnsym_Field,$/;"	f	class:UFgui	file:	access:private
+UFgui.maxrow_Field	ufget/UFgui.java	/^    private JTextField minrow_Field, maxrow_Field, mincol_Field, maxcol_Field,$/;"	f	class:UFgui	file:	access:private
+UFgui.mincol_Field	ufget/UFgui.java	/^    private JTextField minrow_Field, maxrow_Field, mincol_Field, maxcol_Field,$/;"	f	class:UFgui	file:	access:private
+UFgui.minnsym_Field	ufget/UFgui.java	/^        minnz_Field, maxnz_Field, minpsym_Field, maxpsym_Field, minnsym_Field,$/;"	f	class:UFgui	file:	access:private
+UFgui.minnz_Field	ufget/UFgui.java	/^        minnz_Field, maxnz_Field, minpsym_Field, maxpsym_Field, minnsym_Field,$/;"	f	class:UFgui	file:	access:private
+UFgui.minpsym_Field	ufget/UFgui.java	/^        minnz_Field, maxnz_Field, minpsym_Field, maxpsym_Field, minnsym_Field,$/;"	f	class:UFgui	file:	access:private
+UFgui.minrow_Field	ufget/UFgui.java	/^    private JTextField minrow_Field, maxrow_Field, mincol_Field, maxcol_Field,$/;"	f	class:UFgui	file:	access:private
+UFgui.nd_either_Button	ufget/UFgui.java	/^        posdef_either_Button, nd_yes_Button, nd_no_Button, nd_either_Button,$/;"	f	class:UFgui	file:	access:private
+UFgui.nd_no_Button	ufget/UFgui.java	/^        posdef_either_Button, nd_yes_Button, nd_no_Button, nd_either_Button,$/;"	f	class:UFgui	file:	access:private
+UFgui.nd_yes_Button	ufget/UFgui.java	/^        posdef_either_Button, nd_yes_Button, nd_no_Button, nd_either_Button,$/;"	f	class:UFgui	file:	access:private
+UFgui.new_matrices	ufget/UFgui.java	/^        new_matrices = false, debug = false ;$/;"	f	class:UFgui	file:	access:private
+UFgui.nselected	ufget/UFgui.java	/^    private int nselected ;$/;"	f	class:UFgui	file:	access:private
+UFgui.nselected_Label	ufget/UFgui.java	/^    private JLabel nselected_Label, progress_size_Label, icon_Label ;$/;"	f	class:UFgui	file:	access:private
+UFgui.please_wait	ufget/UFgui.java	/^    private void please_wait ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+UFgui.popup_action	ufget/UFgui.java	/^    private void popup_action (ActionEvent e, boolean action)$/;"	m	class:UFgui	file:	access:private	signature:(ActionEvent e, boolean action)
+UFgui.posdef_either_Button	ufget/UFgui.java	/^        posdef_either_Button, nd_yes_Button, nd_no_Button, nd_either_Button,$/;"	f	class:UFgui	file:	access:private
+UFgui.posdef_no_Button	ufget/UFgui.java	/^    private JRadioButton posdef_yes_Button, posdef_no_Button,$/;"	f	class:UFgui	file:	access:private
+UFgui.posdef_yes_Button	ufget/UFgui.java	/^    private JRadioButton posdef_yes_Button, posdef_no_Button,$/;"	f	class:UFgui	file:	access:private
+UFgui.print_out	ufget/UFgui.java	/^    private static PrintWriter print_out = null ;$/;"	f	class:UFgui	file:	access:private
+UFgui.progress1_Bar	ufget/UFgui.java	/^    private JProgressBar progress1_Bar, progress2_Bar ;$/;"	f	class:UFgui	file:	access:private
+UFgui.progress2_Bar	ufget/UFgui.java	/^    private JProgressBar progress1_Bar, progress2_Bar ;$/;"	f	class:UFgui	file:	access:private
+UFgui.progress_size_Label	ufget/UFgui.java	/^    private JLabel nselected_Label, progress_size_Label, icon_Label ;$/;"	f	class:UFgui	file:	access:private
+UFgui.proxy_port	ufget/UFgui.java	/^    private static String UFsite, UFarchive, proxy_server, proxy_port ;$/;"	f	class:UFgui	file:	access:private
+UFgui.proxy_server	ufget/UFgui.java	/^    private static String UFsite, UFarchive, proxy_server, proxy_port ;$/;"	f	class:UFgui	file:	access:private
+UFgui.real_either_Button	ufget/UFgui.java	/^        real_yes_Button, real_no_Button, real_either_Button,$/;"	f	class:UFgui	file:	access:private
+UFgui.real_no_Button	ufget/UFgui.java	/^        real_yes_Button, real_no_Button, real_either_Button,$/;"	f	class:UFgui	file:	access:private
+UFgui.real_yes_Button	ufget/UFgui.java	/^        real_yes_Button, real_no_Button, real_either_Button,$/;"	f	class:UFgui	file:	access:private
+UFgui.refresh	ufget/UFgui.java	/^    private long refresh = 90 ;$/;"	f	class:UFgui	file:	access:private
+UFgui.reset_Button_action	ufget/UFgui.java	/^    private void reset_Button_action (ActionEvent e)$/;"	m	class:UFgui	file:	access:private	signature:(ActionEvent e)
+UFgui.set_selected_label	ufget/UFgui.java	/^    private void set_selected_label (boolean enabled)$/;"	m	class:UFgui	file:	access:private	signature:(boolean enabled)
+UFgui.set_table_value	ufget/UFgui.java	/^    private void set_table_value (Object value, int id, int j)$/;"	m	class:UFgui	file:	access:private	signature:(Object value, int id, int j)
+UFgui.shape_either_Button	ufget/UFgui.java	/^        shape_square_Button, shape_rect_Button, shape_either_Button ;$/;"	f	class:UFgui	file:	access:private
+UFgui.shape_rect_Button	ufget/UFgui.java	/^        shape_square_Button, shape_rect_Button, shape_either_Button ;$/;"	f	class:UFgui	file:	access:private
+UFgui.shape_square_Button	ufget/UFgui.java	/^        shape_square_Button, shape_rect_Button, shape_either_Button ;$/;"	f	class:UFgui	file:	access:private
+UFgui.show_highlighted_icon	ufget/UFgui.java	/^    private void show_highlighted_icon ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+UFgui.start_download_thread	ufget/UFgui.java	/^    private void start_download_thread (int what)$/;"	m	class:UFgui	file:	access:private	signature:(int what)
+UFgui.ternary	ufget/UFgui.java	/^    private int ternary (String s)$/;"	m	class:UFgui	file:	access:private	signature:(String s)
+UFgui.the_long_wait_is_over	ufget/UFgui.java	/^    private void the_long_wait_is_over ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+UFgui.today	ufget/UFgui.java	/^    private Date today, last_download ;$/;"	f	class:UFgui	file:	access:private
+UFgui.update_icon	ufget/UFgui.java	/^    private void update_icon (String fullname)$/;"	m	class:UFgui	file:	access:private	signature:(String fullname)
+UFgui.url_in	ufget/UFgui.java	/^    private static BufferedInputStream url_in = null ;$/;"	f	class:UFgui	file:	access:private
+UFgui.yes_no	ufget/UFgui.java	/^    private String yes_no (int k)$/;"	m	class:UFgui	file:	access:private	signature:(int k)
+UFindex	ufget/UFgui.java	/^        UFindex = "mat\/UF_Index.mat",$/;"	f	class:UFgui	file:	access:private
+UFsite	ufget/UFgui.java	/^    private static String UFsite, UFarchive, proxy_server, proxy_port ;$/;"	f	class:UFgui	file:	access:private
+UFstats	ufget/UFgui.java	/^    private static final String UFstats = "matrices\/UFstats.csv",$/;"	f	class:UFgui	file:	access:private
+VCVARSOPTS	core/lightspeed/install_random.bat	/^@set VCVARSOPTS=%2$/;"	v
+VSINSTALLDIR	core/lightspeed/install_random.bat	/^@set VSINSTALLDIR=%1$/;"	v
+W_IN	lamg/main/mex/affinitymatrix.cpp	9;"	d	file:
+W_IN	lamg/main/mex/aggregationsweep.cpp	30;"	d	file:
+X2_IN	lamg/main/mex/aggregationsweep.cpp	24;"	d	file:
+X2_OUT	lamg/main/mex/aggregationsweep.cpp	36;"	d	file:
+X_IN	lamg/main/mex/affinitymatrix.cpp	10;"	d	file:
+X_IN	lamg/main/mex/aggregationsweep.cpp	23;"	d	file:
+X_IN	lamg/main/mex/gsrelax.cpp	9;"	d	file:
+X_IN	lamg/main/mex/medianCol.cpp	16;"	d	file:
+X_OUT	lamg/main/mex/aggregationsweep.cpp	35;"	d	file:
+X_OUT	lamg/main/mex/gsrelax.cpp	12;"	d	file:
+YR_colors	core/lightspeed/graphics/YR_colors.m	/^function colors = YR_colors(n)$/;"	f
+Y_OUT	lamg/main/mex/medianCol.cpp	19;"	d	file:
+YlGnBu_colors	core/lightspeed/graphics/YlGnBu_colors.m	/^function colors = YlGnBu_colors(n)$/;"	f
+ZERO_DEGREE	lamg/main/mex/elimination.h	13;"	d
+_ELIMINATION_H	lamg/main/mex/elimination.h	7;"	d
+_USE_MATH_DEFINES	core/lightspeed/random.c	1;"	d	file:
+_USE_MATH_DEFINES	core/lightspeed/util.c	5;"	d	file:
+a	cmg.h	/^    double    *a;$/;"	m	struct:dmatrix	access:public
+a	cmg.h	/^    float    *a;$/;"	m	struct:smatrix	access:public
+a	cmg/Include/cmg.h	/^    double    *a;$/;"	m	struct:dmatrix	access:public
+a	cmg/Include/cmg.h	/^    float    *a;$/;"	m	struct:smatrix	access:public
+a	core/lightspeed/matfile.c	/^  DoubleArray *a;$/;"	m	struct:FullInfo	file:	access:public
+absFlagFunction	lamg/main/mex/filterSmallEntries.cpp	/^typedef double (*absFlagFunction)(double);$/;"	t	file:
+absValue	lamg/main/mex/filterSmallEntries.cpp	/^static double               absValue(double x);$/;"	p	file:	signature:(double x)
+absValue	lamg/main/mex/filterSmallEntries.cpp	/^static double absValue(double x)$/;"	f	file:	signature:(double x)
+acf	core/util/acf.m	/^function mu = acf(history, a, b)$/;"	f
+addFlopsProfile	core/util/addFlopsProfile.m	/^function addFlopsProfile(logger, message, fl)$/;"	f
+addRandNoise	core/util/addRandNoise.m	/^function y = addRandNoise(x, a, varargin)$/;"	f
+addflops	core/lightspeed/addflops.m	/^function addflops(fl)$/;"	f
+addflops	core/lightspeed/flops.c	/^void addflops(unsigned fl)$/;"	f	signature:(unsigned fl)
+addflops	core/lightspeed/flops.h	/^void addflops(unsigned fl);$/;"	p	signature:(unsigned fl)
+addtosystempath	graphViz4Matlab/util/addtosystempath.m	/^function addtosystempath(p)$/;"	f
+adj2pajek2	graphViz4Matlab/util/adj2pajek2.m	/^function adj2pajek2(adj,filename, varargin)$/;"	f
+affinity2connection	lamg/main/util/affinity2connection.m	/^function w = affinity2connection(c)$/;"	f
+affinityCross	lamg/main/util/affinityCross.m	/^function c = affinityCross(input, i, j)$/;"	f
+affinityInOut	lamg/main/util/affinityInOut.m	/^function [in, out, cin, cout] = affinityInOut(setup, l, i)$/;"	f
+affinityMatrix_matlab	lamg/main/util/affinityMatrix_matlab.m	/^function C = affinityMatrix_matlab(W, x)$/;"	f
+affinity_l2	lamg/main/util/affinity_l2.m	/^function d = affinity_l2(x, y)$/;"	f
+all_groups	ufget/UFgui.java	/^        all_kinds = "(all kinds)", all_groups = "(all groups)" ;$/;"	f	class:UFgui	file:	access:private
+all_kinds	ufget/UFgui.java	/^        all_kinds = "(all kinds)", all_groups = "(all groups)" ;$/;"	f	class:UFgui	file:	access:private
+analyze_dominance	cmg/MATLAB/analyze_dominance.m	/^function [not_dominant M] = analyze_dominance(A)$/;"	f
+argfilter	core/lightspeed/argfilter.m	/^function args = argfilter(args,keep)$/;"	f
+argmax	core/lightspeed/argmax.m	/^function index = argmax(x)$/;"	f
+argmax2	core/lightspeed/argmax2.m	/^function [i,j] = argmax2(x)$/;"	f
+argmin	core/lightspeed/argmin.m	/^function index = argmin(x)$/;"	f
+argmin2	core/lightspeed/argmin2.m	/^function [i,j] = argmin2(x)$/;"	f
+arrayToString	core/matlab_xunit/xunit/+xunit/+utils/arrayToString.m	/^function s = arrayToString(A)$/;"	f
+arrowvec	core/util/arrowvec.m	/^function arrowvec(v,w,c)$/;"	f
+assertAlmostEqual	core/matlab_xunit/obsolete/assertAlmostEqual.m	/^function assertAlmostEqual(A, B, reltol, message)$/;"	f
+assertElementsAlmostEqual	core/matlab_xunit/xunit/assertElementsAlmostEqual.m	/^function assertElementsAlmostEqual(varargin)$/;"	f
+assertEqual	core/matlab_xunit/xunit/assertEqual.m	/^function assertEqual(A, B, custom_message)$/;"	f
+assertExceptionThrown	core/matlab_xunit/xunit/assertExceptionThrown.m	/^function assertExceptionThrown(f, expectedId, custom_message)$/;"	f
+assertFalse	core/matlab_xunit/xunit/assertFalse.m	/^function assertFalse(condition, message)$/;"	f
+assertFilesEqual	core/matlab_xunit/xunit/assertFilesEqual.m	/^function assertFilesEqual(filename1, filename2, user_message)$/;"	f
+assertTrue	core/matlab_xunit/xunit/assertTrue.m	/^function assertTrue(condition, message)$/;"	f
+assertVectorsAlmostEqual	core/matlab_xunit/xunit/assertVectorsAlmostEqual.m	/^function assertVectorsAlmostEqual(varargin)$/;"	f
+assignRow	lamg/test/util/testMatrixAssignment.m	/^function x = assignRow(x, i, y)$/;"	f
+augmentedLaplacian	core/util/augmentedLaplacian.m	/^function B = augmentedLaplacian(A)$/;"	f
+axis_pct	core/lightspeed/graphics/axis_pct.m	/^function ax = axis_pct(pct)$/;"	f
+b_IN	cmg/MATLAB/Solver/mx_d_preconditioner.c	16;"	d	file:
+b_IN	cmg/MATLAB/Solver/mx_s_preconditioner.c	16;"	d	file:
+b_in	Gauss_Seidel/iterseidel.c	16;"	d	file:
+b_in	iterseidel.c	16;"	d	file:
+ball_list	core/old_util/ball_list.m	/^function f = ball_list(c,r)$/;"	f
+base2ind	core/util/base2ind.m	/^function d = base2ind(baseRepresentation, b)$/;"	f
+bestAcfIndex	lamg/test/util/testRelaxAcfComparison.m	/^function index = bestAcfIndex(dummy1, data, dummy2) %#ok$/;"	f
+bestIndex	lamg/test/util/testRelaxAcfWof.m	/^function worst = bestIndex(dummy1, data, dummy2) %#ok$/;"	f
+biharmonicLaplacian	lamg/test/util/testAugmentedSdd.m	/^function A = biharmonicLaplacian()$/;"	f
+bin	core/util/bin.m	/^function [C,f,avg_c] = bin(A,p,max_iter,verbose,x)$/;"	f
+binsort	core/util/binsort.m	/^function bins = binsort(x, n)$/;"	f
+bisect	core/util/bisect.m	/^function r = bisect(f,int,tol)$/;"	f
+boolean	cmg.h	/^typedef unsigned int boolean;$/;"	t
+boolean	cmg/Include/cmg.h	/^typedef unsigned int boolean;$/;"	t
+bothNaN	core/matlab_xunit/xunit/+xunit/+utils/compareFloats.m	/^function out = bothNaN(A, B)$/;"	f
+boundTypeFunction	lamg/main/mex/filterSmallEntries.cpp	/^typedef double (*boundTypeFunction)(double, double);$/;"	t	file:
+box_bin	core/test/box_bin.m	/^function b = box_bin(dim,base)$/;"	f
+box_efficiency	core/test/box_efficiency.m	/^function efficiency = box_efficiency(points,rect)$/;"	f
+box_list	core/test/box_list.m	/^function f = box_list(start,finish)$/;"	f
+box_size	core/test/box_size.m	/^function sz = box_size(r)$/;"	f
+box_volume	core/test/box_volume.m	/^function vol = box_volume(r)$/;"	f
+bufsize	core/lightspeed/matfile.c	/^  int len, bufsize;$/;"	m	struct:DoubleArray	file:	access:public
+bufsize	core/lightspeed/matfile.c	/^  int len, bufsize;$/;"	m	struct:IntArray	file:	access:public
+buildParametricValues	core/util/buildParametricValues.m	/^function p = buildParametricValues(varargin)$/;"	f
+bytes4	core/util/rgb.m	/^function out=bytes4(in)$/;"	f
+cI	cmg.h	/^    mIndex    *cI;            \/* cluster index *\/ $/;"	m	struct:shlevel	access:public
+cI	cmg/Include/cmg.h	/^    mIndex    *cI;            \/* cluster index *\/ $/;"	m	struct:shlevel	access:public
+cI_OUT	cmg/Source/Hierarchy/forest_components.c	17;"	d	file:
+c_off_in	score.c	8;"	d	file:
+callMexFunction	batch/callMexFunction.m	/^function result = callMexFunction()$/;"	f
+cancel	ufget/UFgui.java	/^    private boolean gui_ready, downloading, cancel, get_icons,$/;"	f	class:UFgui	file:	access:private
+cancel_Button	ufget/UFgui.java	/^    private JButton download_Button, cancel_Button ;$/;"	f	class:UFgui	file:	access:private
+cancel_Button_action	ufget/UFgui.java	/^    private void cancel_Button_action (ActionEvent e)$/;"	m	class:UFgui	file:	access:private	signature:(ActionEvent e)
+cascade	core/old_util/cascade.m	/^function b = cascade(a,filter)$/;"	f
+catString	graphViz4Matlab/util/processArgs.m	/^function s = catString(c,delim)$/;"	f
+category_colors	core/lightspeed/graphics/category_colors.m	/^function colors = category_colors(n)$/;"	f
+catstruct	core/util/catstruct.m	/^function A = catstruct(varargin)$/;"	f
+ccs	Gauss_Seidel/ccs.m	/^function [irow pcol val] = ccs(A)$/;"	f
+ccs	ccs.m	/^function [irow pcol val] = ccs(A)$/;"	f
+ceildiv	core/util/ceildiv.m	/^function n = ceildiv(x, y)$/;"	f
+cellcat	core/lightspeed/glob.m	/^function c = cellcat(c,c2)$/;"	f
+cellfuncell	graphViz4Matlab/util/processArgs.m	/^function out = cellfuncell(fun, C, varargin)$/;"	f
+cellmatrix2matrix	core/old_util/cellmatrix2matrix.m	/^function u = cellmatrix2matrix(ucell)$/;"	f
+chebpts	core/old_util/chebpts.m	/^function x = chebpts(a,b,n)$/;"	f
+checkAB	core/matlab_xunit/obsolete/+mtest/+utils/parseFloatAssertInputs.m	/^function checkAB(A, B)$/;"	f
+checkArguments	lamg/main/mex/affinitymatrix.cpp	/^        checkArguments(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+checkArguments	lamg/main/mex/affinitymatrix.cpp	/^static void            checkArguments(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]);$/;"	p	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+checkArguments	lamg/main/mex/aggregationsweep.cpp	/^        checkArguments(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+checkArguments	lamg/main/mex/aggregationsweep.cpp	/^static void             checkArguments(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]);$/;"	p	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+checkArguments	lamg/main/mex/eliminationOperators.cpp	/^        checkArguments(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+checkArguments	lamg/main/mex/eliminationOperators.cpp	/^static void            checkArguments(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]);$/;"	p	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+checkArguments	lamg/main/mex/filterSmallEntries.cpp	/^static void                 checkArguments(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]);$/;"	p	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+checkArguments	lamg/main/mex/filterSmallEntries.cpp	/^static void checkArguments(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+checkArguments	lamg/main/mex/galerkinCaliber1.cpp	/^static void     checkArguments(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]);$/;"	p	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+checkArguments	lamg/main/mex/galerkinCaliber1.cpp	/^static void checkArguments(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+checkArguments	lamg/main/mex/galerkinElimination.cpp	/^static void     checkArguments(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]);$/;"	p	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+checkArguments	lamg/main/mex/galerkinElimination.cpp	/^static void checkArguments(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+checkArguments	lamg/main/mex/gsrelax.cpp	/^        checkArguments(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+checkArguments	lamg/main/mex/gsrelax.cpp	/^static void            checkArguments(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]);$/;"	p	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+checkArguments	lamg/main/mex/lowdegreesweep.cpp	/^        checkArguments(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+checkArguments	lamg/main/mex/lowdegreesweep.cpp	/^static void            checkArguments(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]);$/;"	p	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+checkArguments	lamg/main/mex/medianCol.cpp	/^        checkArguments(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+checkArguments	lamg/main/mex/medianCol.cpp	/^static void     checkArguments(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]);$/;"	p	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+checkArguments	lamg/main/mex/undecidedNodes.cpp	/^        checkArguments(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+checkArguments	lamg/main/mex/undecidedNodes.cpp	/^static void checkArguments(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]);$/;"	p	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+check_argument	score.c	/^void check_argument(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]);$/;"	p	file:	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+check_argument	score.c	/^void check_argument(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]){$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+check_range	core/old_util/check_range.m	/^function b = check_range(a,start,finish)$/;"	f
+chol	cmg.h	/^    ldl_p         chol;       \/* cholesky factorization   - last level only *\/$/;"	m	struct:shlevel	access:public
+chol	cmg/Include/cmg.h	/^    ldl_p         chol;       \/* cholesky factorization   - last level only *\/$/;"	m	struct:shlevel	access:public
+cholG	cmg/MATLAB/cholGsparse.m	/^function [Q,D,L] = cholG(A,r)$/;"	f
+cholesky	cmg.h	/^typedef struct cholesky {$/;"	s
+cholesky	cmg/Include/cmg.h	/^typedef struct cholesky {$/;"	s
+cholesky::invp	cmg.h	/^    mSize    *invp;$/;"	m	struct:cholesky	access:public
+cholesky::invp	cmg/Include/cmg.h	/^    mSize    *invp;$/;"	m	struct:cholesky	access:public
+cholesky::ld	cmg.h	/^    d_matrix ld;$/;"	m	struct:cholesky	access:public
+cholesky::ld	cmg/Include/cmg.h	/^    d_matrix ld;$/;"	m	struct:cholesky	access:public
+cholesky::ldT	cmg.h	/^    d_matrix ldT;$/;"	m	struct:cholesky	access:public
+cholesky::ldT	cmg/Include/cmg.h	/^    d_matrix ldT;$/;"	m	struct:cholesky	access:public
+cholesky::p	cmg.h	/^    mSize    *p;$/;"	m	struct:cholesky	access:public
+cholesky::p	cmg/Include/cmg.h	/^    mSize    *p;$/;"	m	struct:cholesky	access:public
+cholproj	core/lightspeed/cholproj.m	/^function [U,isPosDef] = cholproj(A)$/;"	f
+chooser	ufget/UFgui.java	/^    private JFileChooser chooser ;$/;"	f	class:UFgui	file:	access:private
+circle	core/util/circle.m	/^function h = circle(v,r,c,n)$/;"	f
+cleanup	ufget/UFgui.java	/^    private static void cleanup (boolean delete)$/;"	m	class:UFgui	file:	access:private	signature:(boolean delete)
+clear_Button_action	ufget/UFgui.java	/^    private void clear_Button_action (ActionEvent e)$/;"	m	class:UFgui	file:	access:private	signature:(ActionEvent e)
+closeFile	core/util/closeFile.m	/^function closeFile(f)$/;"	f
+close_output	ufget/UFgui.java	/^    private static void close_output (OutputStream out)$/;"	m	class:UFgui	file:	access:private	signature:(OutputStream out)
+close_printer_stream	ufget/UFgui.java	/^    private static void close_printer_stream (PrintWriter out)$/;"	m	class:UFgui	file:	access:private	signature:(PrintWriter out)
+close_reader	ufget/UFgui.java	/^    private static void close_reader (Reader in)$/;"	m	class:UFgui	file:	access:private	signature:(Reader in)
+cmg_dd	cmg/MATLAB/cmg_dd.m	/^function [pfun H] = cmg_dd(A,opts) %#ok<STOUT,FNDEF>$/;"	f
+cmg_sdd	cmg/MATLAB/cmg_sdd.m	/^function [pfun H] = cmg_sdd(A,opts) %#ok<STOUT,FNDEF>$/;"	f
+col_sum	core/lightspeed/col_sum.m	/^function s = col_sum(x)$/;"	f
+color_plot	core/lightspeed/graphics/color_plot.m	/^function color_plot(x,colors,varargin)$/;"	f
+cols	core/lightspeed/cols.m	/^function c = cols(x)$/;"	f
+columnNames	ufget/UFgui.java	/^        private String [ ] columnNames =$/;"	f	class:UFgui.matrix_Table_Model	file:	access:private
+colvec	graphViz4Matlab/util/processArgs.m	/^function x = colvec(x)$/;"	f
+compareFloats	core/matlab_xunit/obsolete/+mtest/+utils/compareFloats.m	/^function result = compareFloats(varargin)$/;"	f
+compareFloats	core/matlab_xunit/xunit/+xunit/+utils/compareFloats.m	/^function result = compareFloats(varargin)$/;"	f
+comparisonMessage	core/matlab_xunit/xunit/+xunit/+utils/comparisonMessage.m	/^function msg = comparisonMessage(user_message, assertion_message, A, B)$/;"	f
+componentSpan	core/util/componentSpan.m	/^function y = componentSpan(A)$/;"	f
+components	core/util/components.m	/^function [blocks,sizes] = components(A)$/;"	f
+config	core/main/config.m	/^function config(fileName)$/;"	f
+connectionCross	lamg/main/util/connectionCross.m	/^function d = connectionCross(level, i, j)$/;"	f
+connectionStrength	lamg/main/util/connectionStrength.m	/^function alpha = connectionStrength(C)$/;"	f
+containsRegexp	core/matlab_xunit/obsolete/+mtest/+utils/containsRegexp.m	/^function tf = containsRegexp(str, exp)$/;"	f
+containsRegexp	core/matlab_xunit/xunit/+xunit/+utils/containsRegexp.m	/^function tf = containsRegexp(str, exp)$/;"	f
+count	core/main/+core/+hashtable/@hashtable/count.m	/^function n = count(this)$/;"	f
+createIndex	graph/main/createIndex.m	/^function r = createIndex(dir, outputFile)$/;"	f
+createObject	lamg/test/sparseops/testListSparse.m	/^function A = createObject(n, z, clazz)$/;"	f
+create_dir	core/util/create_dir.m	/^function create_dir(path, type, verbose)$/;"	f
+currentPath	make.m	/^function path = currentPath()$/;"	f
+cut_diverging	core/lightspeed/graphics/cut_diverging.m	/^function c = cut_diverging(x,n)$/;"	f
+cut_quantile	core/lightspeed/graphics/cut_quantile.m	/^function [c,b] = cut_quantile(x,n)$/;"	f
+d	core/lightspeed/matfile.c	/^  double *d;$/;"	m	struct:DoubleArray	file:	access:public
+d	core/lightspeed/matfile.c	/^  int *d;$/;"	m	struct:IntArray	file:	access:public
+d_matrix	cmg.h	/^} d_matrix ;$/;"	t	typeref:struct:dmatrix
+d_matrix	cmg/Include/cmg.h	/^} d_matrix ;$/;"	t	typeref:struct:dmatrix
+data	core/lightspeed/matfile.c	/^  DoubleArray *data;$/;"	m	struct:SparseInfo	file:	access:public
+data	ufget/UFgui.java	/^        private Object [ ][ ] data = null ;$/;"	f	class:UFgui.matrix_Table_Model	file:	access:private
+dc	cmg.h	/^    boolean   dc;             \/* true if diagonal correction occurs *\/$/;"	m	struct:shlevel	access:public
+dc	cmg/Include/cmg.h	/^    boolean   dc;             \/* true if diagonal correction occurs *\/$/;"	m	struct:shlevel	access:public
+debug	ufget/UFgui.java	/^        new_matrices = false, debug = false ;$/;"	f	class:UFgui	file:	access:private
+defaultOptions	lamg/test/util/testCycleAtLevel.m	/^function mlOptions = defaultOptions()$/;"	f
+default_equals	core/main/+core/+hashtable/@hashtable/private/default_equals.m	/^function b = default_equals(x, y)$/;"	f
+default_hash	core/main/+core/+hashtable/@hashtable/private/default_hash.m	/^function k = default_hash(obj)$/;"	f
+delete	core/lightspeed/matfile.c	/^void delete(MATFile *pmat, char *var)$/;"	f	signature:(MATFile *pmat, char *var)
+delete_file	ufget/UFgui.java	/^    private static void delete_file (String filename)$/;"	m	class:UFgui	file:	access:private	signature:(String filename)
+deltaModel	lamg/main/+amg/+coarse/deltaModel.m	/^function delta = deltaModel(stage, options)$/;"	f
+detachLevelNode	lamg/test/util/detachLevelNode.m	/^function level = detachLevelNode(level, s)$/;"	f
+di_pochhammer	core/lightspeed/util.c	/^double di_pochhammer(double x, int n)$/;"	f	signature:(double x, int n)
+di_pochhammer	core/lightspeed/util.h	/^double di_pochhammer(double x, int n);$/;"	p	signature:(double x, int n)
+diag	Gauss_Seidel/solver.h	/^    double *val, *diag;$/;"	m	struct:matrix	access:public
+diag	solver.h	/^    double *val, *diag;$/;"	m	struct:matrix	access:public
+digamma	core/lightspeed/digamma.m	/^function y = digamma(x)$/;"	f
+digamma	core/lightspeed/util.c	/^double digamma(double x)$/;"	f	signature:(double x)
+digamma	core/lightspeed/util.h	/^double digamma(double x);$/;"	p	signature:(double x)
+dilate	core/old_util/dilate.m	/^function b = dilate(a,n)$/;"	f
+dilate_list	core/old_util/dilate_list.m	/^function b = dilate_list(siz,a,n,filter)$/;"	f
+directed_partitioning	directed_partitioning.m	/^function [flagG, flagS] = directed_partitioning(G, P, k)$/;"	f
+directed_partitioning	examples/directed_partitioning.m	/^function [flagG, flagP] = directed_partitioning(G, P, k)$/;"	f
+directed_partitioning	lamg/directed_partitioning.m	/^function [flagG, flagP] = directed_partitioning(G, P, k)$/;"	f
+directed_partitioningFEB_21	directed_partitioningFEB_21.m	/^function [flagG, flagS] = directed_partitioningFEB_21(G, S, k,tol)$/;"	f
+directory	core/lightspeed/matfile.c	/^void directory(MATFile *pmat)$/;"	f	signature:(MATFile *pmat)
+dispAsArray	core/matlab_xunit/xunit/+xunit/+utils/arrayToString.m	/^function s = dispAsArray(A)$/;"	f
+dispAsStructField	core/matlab_xunit/xunit/+xunit/+utils/arrayToString.m	/^function s = dispAsStructField(A)$/;"	f
+display	core/lightspeed/@mutable/display.m	/^function display(mut)$/;"	f
+displayStack	core/matlab_xunit/xunit/CommandWindowTestRunDisplay.m	/^function displayStack(stack)$/;"	f
+divdif	core/old_util/ninterp.m	/^function y = divdif(x,y)$/;"	f
+divide	core/util/divide.m	/^function c = divide(a,b)$/;"	f
+dmatrix	cmg.h	/^typedef struct dmatrix {$/;"	s
+dmatrix	cmg/Include/cmg.h	/^typedef struct dmatrix {$/;"	s
+dmatrix::a	cmg.h	/^    double    *a;$/;"	m	struct:dmatrix	access:public
+dmatrix::a	cmg/Include/cmg.h	/^    double    *a;$/;"	m	struct:dmatrix	access:public
+dmatrix::ia	cmg.h	/^    mIndex   *ia; $/;"	m	struct:dmatrix	access:public
+dmatrix::ia	cmg/Include/cmg.h	/^    mIndex   *ia; $/;"	m	struct:dmatrix	access:public
+dmatrix::issym	cmg.h	/^    boolean  issym;       \/* true if matrix is symmetric *\/$/;"	m	struct:dmatrix	access:public
+dmatrix::issym	cmg/Include/cmg.h	/^    boolean  issym;       \/* true if matrix is symmetric *\/$/;"	m	struct:dmatrix	access:public
+dmatrix::ja	cmg.h	/^    mIndex   *ja;$/;"	m	struct:dmatrix	access:public
+dmatrix::ja	cmg/Include/cmg.h	/^    mIndex   *ja;$/;"	m	struct:dmatrix	access:public
+dmatrix::n	cmg.h	/^    mSize    n;$/;"	m	struct:dmatrix	access:public
+dmatrix::n	cmg/Include/cmg.h	/^    mSize    n;$/;"	m	struct:dmatrix	access:public
+download_Button	ufget/UFgui.java	/^    private JButton download_Button, cancel_Button ;$/;"	f	class:UFgui	file:	access:private
+download_Button_action	ufget/UFgui.java	/^    private void download_Button_action (ActionEvent e)$/;"	m	class:UFgui	file:	access:private	signature:(ActionEvent e)
+download_file	ufget/UFgui.java	/^    private void download_file (String filename)$/;"	m	class:UFgui	file:	access:private	signature:(String filename)
+download_ids	ufget/UFgui.java	/^    private int [ ] download_ids = null ;$/;"	f	class:UFgui	file:	access:private
+download_matrix_stats	ufget/UFgui.java	/^    private Object [ ][ ] download_matrix_stats ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+downloading	ufget/UFgui.java	/^    private boolean gui_ready, downloading, cancel, get_icons,$/;"	f	class:UFgui	file:	access:private
+drawNetwork	graphViz4Matlab/drawNetwork.m	/^function g = drawNetwork(varargin)$/;"	f
+draw_circle	core/lightspeed/graphics/draw_circle.m	/^function h = draw_circle(x, r, outline_color, fill_color)$/;"	f
+draw_ellipse	core/lightspeed/graphics/draw_ellipse.m	/^function h = draw_ellipse(x, c, outline_color, fill_color)$/;"	f
+draw_ellipse_axes	core/lightspeed/graphics/draw_ellipse_axes.m	/^function h = draw_ellipse_axes(x, c, linespec)$/;"	f
+draw_line_clip	core/lightspeed/graphics/draw_line_clip.m	/^function h = draw_line_clip(m,b,a, linespec, varargin)$/;"	f
+dtrsm	core/lightspeed/solve_tril.c	/^extern int dtrsm(char *side, char *uplo, char *transa, char *diag, $/;"	p	file:	signature:(char *side, char *uplo, char *transa, char *diag, int *m, int *n, double *alpha, double *a, int *lda, double *b, int *ldb)
+dtrsm	core/lightspeed/solve_triu.c	/^extern int dtrsm(char *side, char *uplo, char *transa, char *diag, $/;"	p	file:	signature:(char *side, char *uplo, char *transa, char *diag, int *m, int *n, double *alpha, double *a, int *lda, double *b, int *ldb)
+dtrsm_	core/lightspeed/dtrsm.c	/^int dtrsm_(char *side, char *uplo, char *transa, char *diag, $/;"	f	signature:(char *side, char *uplo, char *transa, char *diag, int *m, int *n, double *alpha, double *a, int *lda, double *b, int *ldb)
+dtrsm_	core/lightspeed/solve_tril.c	/^extern int dtrsm_(char *side, char *uplo, char *transa, char *diag, $/;"	p	file:	signature:(char *side, char *uplo, char *transa, char *diag, int *m, int *n, double *alpha, double *a, int *lda, double *b, int *ldb)
+dtrsm_	core/lightspeed/solve_triu.c	/^extern int dtrsm_(char *side, char *uplo, char *transa, char *diag, $/;"	p	file:	signature:(char *side, char *uplo, char *transa, char *diag, int *m, int *n, double *alpha, double *a, int *lda, double *b, int *ldb)
+dump	core/main/+core/+hashtable/@hashtable/dump.m	/^function [keys, vals] = dump(this)$/;"	f
+duplicated	core/lightspeed/duplicated.m	/^function d = duplicated(x)$/;"	f
+duplicated1	core/lightspeed/duplicated.m	/^function d = duplicated1(x)$/;"	f
+effective_degrees	cmg/MATLAB/Hierarchy/effective_degrees.m	/^function deg = effective_degrees(A)$/;"	f
+eigsort	core/util/eigsort.m	/^function [v, lam, d] = eigsort(A, mode)$/;"	f
+eigval	core/util/eigval.m	/^function [evalues, repeats] = eigval(A)$/;"	f
+eigvec	core/util/eigvec.m	/^function [S, D] = eigvec(A)$/;"	f
+elapsedTime	graph/test/+graph/+printer/elapsedTime.m	/^function s = elapsedTime(dummy1, dummy2, details)$/;"	f
+email_config	core/main/email_config.m	/^function email_config()$/;"	f
+energy	lamg/main/util/energy.m	/^function e = energy(problem, x)$/;"	f
+eprod	core/old_util/eprod.m	/^function y = eprod(x,t)$/;"	f
+eq	core/test/+core/+hashtable/@pumpkin/eq.m	/^function b = eq(this, obj)$/;"	f
+errorNormL2	lin-api/util/errorNormL2.m	/^function e = errorNormL2(dummy1, x, dummy2, dummy3, dummy4) %#ok$/;"	f
+errorNormL2Difference	lin-api/util/errorNormL2Difference.m	/^function e = errorNormL2Difference(dummy, x, xOld) %#ok$/;"	f
+errorNormL2MinusMean	lin-api/util/errorNormL2MinusMean.m	/^function e = errorNormL2MinusMean(dummy1, x, dummy2) %#ok$/;"	f
+errorNormResidual	lin-api/util/errorNormResidual.m	/^function e = errorNormResidual(dummy1, dummy2, r, dummy3, dummy4) %#ok$/;"	f
+errorNormResidualEig	lin-api/util/errorNormResidualEig.m	/^function e = errorNormResidualEig(problem, y, dummy) %#ok$/;"	f
+errorNormResidualRelative	lin-api/util/errorNormResidualRelative.m	/^function e = errorNormResidualRelative(problem, x, dummy) %#ok$/;"	f
+errorNormResidualUnscaled	lin-api/util/errorNormResidualUnscaled.m	/^function e = errorNormResidualUnscaled(dummy1, dummy2, r, dummy3, dummy4) %#ok$/;"	f
+exactSolution	lamg/test/util/exactSolution.m	/^function x = exactSolution(problem, setup) %#ok$/;"	f
+export_list_action	ufget/UFgui.java	/^    private void export_list_action (ActionEvent e, boolean csv)$/;"	m	class:UFgui	file:	access:private	signature:(ActionEvent e, boolean csv)
+extract	core/lightspeed/matfile.c	/^void extract(MATFile *pmat, char *var)$/;"	f	signature:(MATFile *pmat, char *var)
+fac	core/util/fac.m	/^function res = fac(a)$/;"	f
+fieldnames	core/lightspeed/@mutable/fieldnames.m	/^function names = fieldnames(s)$/;"	f
+filterSmallEntriesSym	core/util/filterSmallEntriesSym.m	/^function A = filterSmallEntriesSym(A, b, delta, absFlag, boundType)$/;"	f
+filterStack	core/matlab_xunit/xunit/CommandWindowTestRunDisplay.m	/^function new_stack = filterStack(stack)$/;"	f
+findClasses	core/matlab_xunit/xunit/findClasses.m	/^function classes = findClasses(packageName, varargin)$/;"	f
+findString	graphViz4Matlab/util/findString.m	/^function idx = findString(str, cellArray,ignoreCase)$/;"	f
+find_key	core/main/+core/+hashtable/@hashtable/private/find_key.m	/^function [i,j,val] = find_key(this, key)$/;"	f
+find_label	core/old_util/find_label.m	/^function i = find_label(s,label)$/;"	f
+find_sameobject	core/lightspeed/find_sameobject.m	/^function i = find_sameobject(x,v)$/;"	f
+find_var	core/util/find_var.m	/^function i = find_var(ind,lower,upper,start,sz)$/;"	f
+finddiag	core/lightspeed/finddiag.m	/^function i = finddiag(A,k)$/;"	f
+finite	core/lightspeed/random.c	8;"	d	file:
+finite	core/lightspeed/util.c	13;"	d	file:
+finiteAndInfinite	core/matlab_xunit/xunit/+xunit/+utils/compareFloats.m	/^function out = finiteAndInfinite(A, B)$/;"	f
+finiteDiff	core/util/finitediff.m	/^function J = finiteDiff(f,x,delta)$/;"	f
+fire_status	ufget/UFgui.java	/^    public boolean fire_status = true ;$/;"	f	class:UFgui	access:public
+fire_updates	ufget/UFgui.java	/^    public void fire_updates (boolean fire)$/;"	m	class:UFgui	access:public	signature:(boolean fire)
+fitLinearCurve	core/util/fitLinearCurve.m	/^function [yFit, p, fit] = fitLinearCurve(x, y, w, constantTerm)$/;"	f
+fit_linear_curve	core/util/fit_linear_curve.m	/^function [yFit, p, fit] = fit_linear_curve(x, y, n, xTitles, yTitle, nTitle, constantTerm)$/;"	f
+fix_name	ufget/UFgui.java	/^    private static String fix_name (String s)$/;"	m	class:UFgui	file:	access:private	signature:(String s)
+floordiv	core/util/floordiv.m	/^function n = floordiv(x, y)$/;"	f
+flops	core/lightspeed/flops.m	/^function f = flops(fl)$/;"	f
+flops_abs	core/lightspeed/flops_abs.m	/^function f = flops_abs$/;"	f
+flops_chol	core/lightspeed/flops_chol.m	/^function f = flops_chol(n)$/;"	f
+flops_col_sum	core/lightspeed/flops_col_sum.m	/^function f = flops_col_sum(n,m)$/;"	f
+flops_det	core/lightspeed/flops_det.m	/^function f = flops_det(n)$/;"	f
+flops_digamma	core/lightspeed/flops_digamma.m	/^function fl = flops_digamma$/;"	f
+flops_div	core/lightspeed/flops_div.m	/^function f = flops_div$/;"	f
+flops_exp	core/lightspeed/flops_exp.m	/^function f = flops_exp$/;"	f
+flops_inv	core/lightspeed/flops_inv.m	/^function f = flops_inv(n)$/;"	f
+flops_log	core/lightspeed/flops_log.m	/^function f = flops_log$/;"	f
+flops_lu	core/lightspeed/flops_lu.m	/^function f = flops_lu(n)$/;"	f
+flops_mul	core/lightspeed/flops_mul.m	/^function f = flops_mul(n,m,c)$/;"	f
+flops_normpdfln	core/lightspeed/flops_normpdfln.m	/^function f = flops_normpdfln(x, m, S, V)$/;"	f
+flops_pow	core/lightspeed/flops_pow.m	/^function f = flops_pow(a)$/;"	f
+flops_randnorm	core/lightspeed/flops_randnorm.m	/^function f = flops_randnorm(n, m, S, V)$/;"	f
+flops_row_sum	core/lightspeed/flops_row_sum.m	/^function f = flops_row_sum(n,m)$/;"	f
+flops_sample	core/lightspeed/flops_sample.m	/^function f = flops_sample(p,n)$/;"	f
+flops_solve	core/lightspeed/flops_solve.m	/^function f = flops_solve(n,m,c)$/;"	f
+flops_solve_tri	core/lightspeed/flops_solve_tri.m	/^function f = flops_solve_tri(n,m,k)$/;"	f
+flops_spadd	core/lightspeed/flops_spadd.m	/^function f = flops_spadd(a,b)$/;"	f
+flops_spmul	core/lightspeed/flops_spmul.m	/^function f = flops_spmul(a,b)$/;"	f
+flops_sqrt	core/lightspeed/flops_sqrt.m	/^function f = flops_sqrt$/;"	f
+formatAcf	core/util/formatAcf.m	/^function s = formatAcf(x, precision)$/;"	f
+formatLatex	core/util/formatLatex.m	/^function s = formatLatex(x, precision)$/;"	f
+format_mat_Button	ufget/UFgui.java	/^    private JCheckBox format_mat_Button, format_mm_Button, format_rb_Button ;$/;"	f	class:UFgui	file:	access:private
+format_mm_Button	ufget/UFgui.java	/^    private JCheckBox format_mat_Button, format_mm_Button, format_rb_Button ;$/;"	f	class:UFgui	file:	access:private
+format_rb_Button	ufget/UFgui.java	/^    private JCheckBox format_mat_Button, format_mm_Button, format_rb_Button ;$/;"	f	class:UFgui	file:	access:private
+fpval	core/util/fpval.m	/^function p = fpval(x,df1,df2)$/;"	f
+fromJava	core/lightspeed/fromJava.m	/^function v = fromJava(jv)$/;"	f
+ftemp_name	ufget/UFgui.java	/^    private static String ftemp_name = null ;$/;"	f	class:UFgui	file:	access:private
+ftemp_out	ufget/UFgui.java	/^    private static BufferedOutputStream ftemp_out = null ;$/;"	f	class:UFgui	file:	access:private
+gammaln	core/lightspeed/util.c	/^double gammaln(double x)$/;"	f	signature:(double x)
+gammaln	core/lightspeed/util.h	/^double gammaln(double x);$/;"	p	signature:(double x)
+gammaln2	core/lightspeed/util.c	/^double gammaln2(double x, double d)$/;"	f	signature:(double x, double d)
+gammaln2	core/lightspeed/util.h	/^double gammaln2(double x, double d);$/;"	p	signature:(double x, double d)
+generateDoc	core/matlab_xunit/obsolete/+mtest/+utils/generateDoc.m	/^function generateDoc$/;"	f
+generateDoc	core/matlab_xunit/xunit/+xunit/+utils/generateDoc.m	/^function generateDoc$/;"	f
+generatePlots	lamg/test/misc/testAcfStopping.m	/^function generatePlots(e1, e2, c, n, r, rChange, stop, acfEstimate)$/;"	f
+generated_direct	generated_direct.m	/^function [AG,AS]=generated_direct(n)$/;"	f
+get	core/main/+core/+hashtable/@hashtable/get.m	/^function val = get(this, key)$/;"	f
+getAbsFlagFunction	lamg/main/mex/filterSmallEntries.cpp	/^static absFlagFunction      getAbsFlagFunction(char *absFlag);$/;"	p	file:	signature:(char *absFlag)
+getAbsFlagFunction	lamg/main/mex/filterSmallEntries.cpp	/^static absFlagFunction getAbsFlagFunction(char *absFlag)$/;"	f	file:	signature:(char *absFlag)
+getBoundTypeFunction	lamg/main/mex/filterSmallEntries.cpp	/^static boundTypeFunction    getBoundTypeFunction(char *boundType);$/;"	p	file:	signature:(char *boundType)
+getBoundTypeFunction	lamg/main/mex/filterSmallEntries.cpp	/^static boundTypeFunction getBoundTypeFunction(char *boundType)$/;"	f	file:	signature:(char *boundType)
+getClassMethods	core/matlab_xunit/xunit/TestSuite.m	/^function methods = getClassMethods(class_name)$/;"	f
+getColumnClass	ufget/UFgui.java	/^        public Class getColumnClass (int col)$/;"	m	class:UFgui.matrix_Table_Model	access:public	signature:(int col)
+getColumnCount	ufget/UFgui.java	/^        public int getColumnCount ( )$/;"	m	class:UFgui.matrix_Table_Model	access:public	signature:( )
+getColumnName	ufget/UFgui.java	/^        public String getColumnName (int col)$/;"	m	class:UFgui.matrix_Table_Model	access:public	signature:(int col)
+getDouble	ufget/UFgui.java	/^    private double getDouble (JTextField tfield, double Default)$/;"	m	class:UFgui	file:	access:private	signature:(JTextField tfield, double Default)
+getFontSize	lin-api/util/plotResultBundle.m	/^function fontSize = getFontSize(printType)$/;"	f
+getInputNames	core/matlab_xunit/xunit/runtests.m	/^function name_list = getInputNames(varargin)$/;"	f
+getInputNames	core/util/getInputNames.m	/^function name_list = getInputNames(varargin)$/;"	f
+getLong	ufget/UFgui.java	/^    private long getLong (JTextField tfield, long Default)$/;"	m	class:UFgui	file:	access:private	signature:(JTextField tfield, long Default)
+getOutputFile	batch/reduceResults.m	/^function file = getOutputFile(jobName, runId)$/;"	f
+getRowCount	ufget/UFgui.java	/^        public int getRowCount ( )$/;"	m	class:UFgui.matrix_Table_Model	access:public	signature:( )
+getValueAt	ufget/UFgui.java	/^        public Object getValueAt (int row, int col)$/;"	m	class:UFgui.matrix_Table_Model	access:public	signature:(int row, int col)
+get_all_icons	ufget/UFgui.java	/^    private void get_all_icons ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+get_as_double	lamg/main/mex/aggregationsweep.cpp	/^        get_as_double(const mxArray *x)$/;"	f	file:	signature:(const mxArray *x)
+get_as_double	lamg/main/mex/aggregationsweep.cpp	/^static double           get_as_double(const mxArray *x);$/;"	p	file:	signature:(const mxArray *x)
+get_as_double	lamg/main/mex/filterSmallEntries.cpp	/^        get_as_double(const mxArray *x)$/;"	f	file:	signature:(const mxArray *x)
+get_as_double	lamg/main/mex/filterSmallEntries.cpp	/^static double               get_as_double(const mxArray *x);$/;"	p	file:	signature:(const mxArray *x)
+get_as_uint32	lamg/main/mex/aggregationsweep.cpp	/^        get_as_uint32(const mxArray *x)$/;"	f	file:	signature:(const mxArray *x)
+get_as_uint32	lamg/main/mex/aggregationsweep.cpp	/^static unsigned int     get_as_uint32(const mxArray *x);$/;"	p	file:	signature:(const mxArray *x)
+get_as_uint32	lamg/main/mex/gsrelax.cpp	/^        get_as_uint32(const mxArray *x)$/;"	f	file:	signature:(const mxArray *x)
+get_as_uint32	lamg/main/mex/gsrelax.cpp	/^static unsigned int    get_as_uint32(const mxArray *x);$/;"	p	file:	signature:(const mxArray *x)
+get_cols	core/util/rgb.m	/^function cols=get_cols$/;"	f
+get_download_ids	ufget/UFgui.java	/^    private int [ ] get_download_ids ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+get_hash_value	core/main/+core/+hashtable/@hashtable/get_hash_value.m	/^function k = get_hash_value(this, obj)$/;"	f
+get_highlighted_ids	ufget/UFgui.java	/^    private int [ ] get_highlighted_ids ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+get_icons	ufget/UFgui.java	/^    private boolean gui_ready, downloading, cancel, get_icons,$/;"	f	class:UFgui	file:	access:private
+get_setting	ufget/UFgui.java	/^    private String get_setting (String default_setting)$/;"	m	class:UFgui	file:	access:private	signature:(String default_setting)
+get_table_value	ufget/UFgui.java	/^    private Object get_table_value (int id, int j)$/;"	m	class:UFgui	file:	access:private	signature:(int id, int j)
+get_url	ufget/UFgui.java	/^    private URL get_url (String urlstring)$/;"	m	class:UFgui	file:	access:private	signature:(String urlstring)
+getfield	core/lightspeed/@mutable/getfield.m	/^function v = getfield(s,field)$/;"	f
+ginterp	core/old_util/ginterp.m	/^function ginterp(action)$/;"	f
+glob	core/lightspeed/glob.m	/^function [names,isdirs] = glob(pattern,prefix)$/;"	f
+glob2regexp	core/lightspeed/glob2regexp.m	/^function pattern = glob2regexp(pattern)$/;"	f
+globstrings	core/lightspeed/globstrings.m	/^function results = globstrings(patterns, strs);$/;"	f
+gplotGetRightLineStyle	core/util/mygplot.m	/^function [lsty, csty, msty] = gplotGetRightLineStyle(ax, lc)$/;"	f
+gram_schmidt	gram_schmidt.m	/^function V1 = gram_schmidt(V0)$/;"	f
+gramschmidt	gramschmidt.m	/^function U=gramschmidt(V)    $/;"	f
+graphComponents	graph/main/graphComponents.m	/^function [s,c,y] = graphComponents(A)$/;"	f
+graphConvert	graph/main/graphConvert.m	/^function results = graphConvert(minEdges, maxEdges, inputDirs, outputDir, varargin)$/;"	f
+graphCoord	graph/main/graphCoord.m	/^function coord = graphCoord(g, nodes)$/;"	f
+graphPlot	graph/main/graphPlot.m	/^function a = graphPlot(g, outputFile, varargin)$/;"	f
+graphRemoveOldMetadata	graph/main/graphRemoveOldMetadata.m	/^function results = graphRemoveOldMetadata(minEdges, maxEdges, inputDirs, outputDir, varargin)$/;"	f
+graphStats	graph/main/graphStats.m	/^function [stats, batchReader] = graphStats(dir, varargin)$/;"	f
+graphViz4MatlabRoot	graphViz4Matlab/graphViz4MatlabRoot.m	/^function r = graphViz4MatlabRoot()$/;"	f
+graphWrite	graph/main/graphWrite.m	/^function results = graphWrite(g, group, name)$/;"	f
+graphreduction	graphreduction.m	/^function [Gs, H, setup] = graphreduction(A, ratio)$/;"	f
+gsSpectrum	lamg/test/misc/testDisconnectedGs.m	/^function [A, v, d, lambda, acf] = gsSpectrum(n, e)$/;"	f
+gui_ready	ufget/UFgui.java	/^    private boolean gui_ready, downloading, cancel, get_icons,$/;"	f	class:UFgui	file:	access:private
+harmonics	core/util/harmonics.m	/^function h = harmonics(dim, varargin)$/;"	f
+has_key	core/main/+core/+hashtable/@hashtable/has_key.m	/^function b = has_key(this, key)$/;"	f
+help_Button_action	ufget/UFgui.java	/^    private void help_Button_action (ActionEvent e)$/;"	m	class:UFgui	file:	access:private	signature:(ActionEvent e)
+helper	core/lightspeed/tests/test_sameobject.m	/^function x = helper(a,b)$/;"	f
+hhist	core/lightspeed/graphics/hhist.m	/^function [density,test] = hhist(data, resolution)$/;"	f
+hierarchy	cmg/MATLAB/Hierarchy/hierarchy.m	/^function H = hierarchy(A,opts,excD) %#ok<FNDEF>$/;"	f
+hierarchy_stat_analysis	cmg/MATLAB/Solver/hierarchy_stat_analysis.m	/^function stats =  hierarchy_stat_analysis(H)$/;"	f
+ht_in	score.c	9;"	d	file:
+ia	cmg.h	/^    mIndex   *ia; $/;"	m	struct:dmatrix	access:public
+ia	cmg.h	/^    mIndex   *ia; $/;"	m	struct:smatrix	access:public
+ia	cmg/Include/cmg.h	/^    mIndex   *ia; $/;"	m	struct:dmatrix	access:public
+ia	cmg/Include/cmg.h	/^    mIndex   *ia; $/;"	m	struct:smatrix	access:public
+iconDir	ufget/UFgui.java	/^    private File mat, MM, RB, iconDir ;$/;"	f	class:UFgui	file:	access:private
+icon_Label	ufget/UFgui.java	/^    private JLabel nselected_Label, progress_size_Label, icon_Label ;$/;"	f	class:UFgui	file:	access:private
+icon_file	ufget/UFgui.java	/^    private String icon_file (String fullname)$/;"	m	class:UFgui	file:	access:private	signature:(String fullname)
+identityValue	lamg/main/mex/filterSmallEntries.cpp	/^static double               identityValue(double x);$/;"	p	file:	signature:(double x)
+identityValue	lamg/main/mex/filterSmallEntries.cpp	/^static double identityValue(double x)$/;"	f	file:	signature:(double x)
+imageMatrix2Graph	lamg/test/util/imageMatrix2Graph.m	/^function g = imageMatrix2Graph(W)$/;"	f
+immutable	core/lightspeed/@mutable/immutable.m	/^function v = immutable(mut)$/;"	f
+in_reader	ufget/UFgui.java	/^    private static BufferedReader in_reader = null ;$/;"	f	class:UFgui	file:	access:private
+incr_first	lamg/test/util/testIncrementArray.m	/^function a=incr_first(a)$/;"	f
+increase_size	core/main/+core/+hashtable/@hashtable/private/increase_size.m	/^function this = increase_size(this)$/;"	f
+ind2base	core/util/ind2base.m	/^function baseRepresentation = ind2base(d, b, n)$/;"	f
+ind2subm	core/util/ind2subm.m	/^function f = ind2subm(siz,a)$/;"	f
+ind2subv	core/lightspeed/ind2subv.m	/^function sub = ind2subv(siz,index)$/;"	f
+independentUndecided	lamg/main/util/independentUndecided.m	/^function s = independentUndecided(A, candidate, stat)$/;"	f
+index	core/lightspeed/matfile.c	/^  int index;$/;"	m	struct:FullInfo	file:	access:public
+index	core/lightspeed/matfile.c	/^  int index;$/;"	m	struct:SparseInfo	file:	access:public
+indexArrays	core/util/indexArrays.m	/^function [i, a, colSize, first, last] = indexArrays(A)$/;"	f
+info	core/main/+core/+hashtable/@hashtable/info.m	/^function info(this)$/;"	f
+int_hist	core/lightspeed/int_hist.m	/^function h = int_hist(x, n)$/;"	f
+intersect_sorted	core/lightspeed/intersect_sorted.m	/^function c = intersect_sorted(a,b)$/;"	f
+interweave	graphViz4Matlab/util/processArgs.m	/^function C = interweave(A,B)$/;"	f
+invD	cmg.h	/^    precision *invD;          \/* inverse of diagonal  *\/$/;"	m	struct:shlevel	access:public
+invD	cmg/Include/cmg.h	/^    precision *invD;          \/* inverse of diagonal  *\/$/;"	m	struct:shlevel	access:public
+inv_permutation	cmg/MATLAB/Hierarchy/inv_permutation.m	/^function invP = inv_permutation(P)$/;"	f
+inv_posdef	core/lightspeed/inv_posdef.m	/^function x = inv_posdef(A)$/;"	f
+inv_triu	core/lightspeed/inv_triu.m	/^function x = inv_triu(U)$/;"	f
+invp	cmg.h	/^    mSize    *invp;$/;"	m	struct:cholesky	access:public
+invp	cmg/Include/cmg.h	/^    mSize    *invp;$/;"	m	struct:cholesky	access:public
+ir	core/lightspeed/matfile.c	/^  IntArray *ir, *jc;$/;"	m	struct:SparseInfo	file:	access:public
+irow	Gauss_Seidel/solver.h	/^    int *irow, *pcol;$/;"	m	struct:matrix	access:public
+irow	solver.h	/^    int *irow, *pcol;$/;"	m	struct:matrix	access:public
+isAlmostEqual	core/matlab_xunit/obsolete/+mtest/+utils/isAlmostEqual.m	/^function same = isAlmostEqual(A, B, reltol)$/;"	f
+isAlmostEqual	core/matlab_xunit/xunit/+xunit/+utils/isAlmostEqual.m	/^function same = isAlmostEqual(A, B, reltol)$/;"	f
+isBlankLine	core/matlab_xunit/xunit/+xunit/+utils/arrayToString.m	/^function tf = isBlankLine(line)$/;"	f
+isCellEditable	ufget/UFgui.java	/^        public boolean isCellEditable (int row, int col)$/;"	m	class:UFgui.matrix_Table_Model	access:public	signature:(int row, int col)
+isInRange	core/util/isInRange.m	/^function result = isInRange(a, low, high, border)$/;"	f
+isIntegral	core/util/isIntegral.m	/^function result = isIntegral(a)$/;"	f
+isLamgComparison	lin-api/util/plotResultBundle.m	/^function flag = isLamgComparison(solvers)$/;"	f
+isLamgPresent	lin-api/util/plotResultBundle.m	/^function flag = isLamgPresent(solvers)$/;"	f
+isMetaTestCaseSubclass	core/matlab_xunit/obsolete/+mtest/+utils/isTestCaseSubclass.m	/^function tf = isMetaTestCaseSubclass(class_meta)$/;"	f
+isMetaTestCaseSubclass	core/matlab_xunit/xunit/+xunit/+utils/isTestCaseSubclass.m	/^function tf = isMetaTestCaseSubclass(class_meta)$/;"	f
+isNonnegativeIntegral	core/util/isNonnegativeIntegral.m	/^function result = isNonnegativeIntegral(a)$/;"	f
+isPositive	core/util/isPositive.m	/^function result = isPositive(a)$/;"	f
+isPositiveIntegral	core/util/isPositiveIntegral.m	/^function result = isPositiveIntegral(a)$/;"	f
+isSetUpString	core/matlab_xunit/obsolete/+mtest/+utils/isSetUpString.m	/^function tf = isSetUpString(str)$/;"	f
+isSetUpString	core/matlab_xunit/xunit/+xunit/+utils/isSetUpString.m	/^function tf = isSetUpString(str)$/;"	f
+isTearDownString	core/matlab_xunit/obsolete/+mtest/+utils/isTearDownString.m	/^function tf = isTearDownString(str)$/;"	f
+isTearDownString	core/matlab_xunit/xunit/+xunit/+utils/isTearDownString.m	/^function tf = isTearDownString(str)$/;"	f
+isTestCaseSubclass	core/matlab_xunit/obsolete/+mtest/+utils/isTestCaseSubclass.m	/^function tf = isTestCaseSubclass(name)$/;"	f
+isTestCaseSubclass	core/matlab_xunit/xunit/+xunit/+utils/isTestCaseSubclass.m	/^function tf = isTestCaseSubclass(name)$/;"	f
+isTestString	core/matlab_xunit/obsolete/+mtest/+utils/isTestString.m	/^function tf = isTestString(str)$/;"	f
+isTestString	core/matlab_xunit/xunit/+xunit/+utils/isTestString.m	/^function tf = isTestString(str)$/;"	f
+isTooBigToDisp	core/matlab_xunit/xunit/+xunit/+utils/arrayToString.m	/^function tf = isTooBigToDisp(A)$/;"	f
+isfield	core/lightspeed/@mutable/isfield.m	/^function tf = isfield(s,f)$/;"	f
+islast	cmg.h	/^    boolean       islast;     \/* true for last level *\/$/;"	m	struct:shlevel	access:public
+islast	cmg/Include/cmg.h	/^    boolean       islast;     \/* true for last level *\/$/;"	m	struct:shlevel	access:public
+ismember_sorted	core/lightspeed/ismember_sorted.m	/^function [tf,loc] = ismember_sorted(a,s)$/;"	f
+ismember_sorted	core/lightspeed/util.c	/^unsigned *ismember_sorted(double *a, unsigned a_len, double *s, unsigned s_len)$/;"	f	signature:(double *a, unsigned a_len, double *s, unsigned s_len)
+ismember_sorted	core/lightspeed/util.h	/^unsigned *ismember_sorted(double *a, unsigned a_len, double *s, unsigned s_len);$/;"	p	signature:(double *a, unsigned a_len, double *s, unsigned s_len)
+ismember_sorted_rows	core/lightspeed/ismember_sorted_rows.m	/^function [tf,loc] = ismember_sorted_rows(a,s)$/;"	f
+isnan	core/lightspeed/random.c	9;"	d	file:
+isnan	core/lightspeed/util.c	14;"	d	file:
+isposdef	core/lightspeed/isposdef.m	/^function b = isposdef(a)$/;"	f
+isprefix	graphViz4Matlab/util/processArgs.m	/^function p = isprefix(short,long)$/;"	f
+issym	cmg.h	/^    boolean  issym;       \/* true if matrix is symmetric *\/$/;"	m	struct:dmatrix	access:public
+issym	cmg.h	/^    boolean  issym;       \/* true if matrix is symmetric *\/$/;"	m	struct:smatrix	access:public
+issym	cmg/Include/cmg.h	/^    boolean  issym;       \/* true if matrix is symmetric *\/$/;"	m	struct:dmatrix	access:public
+issym	cmg/Include/cmg.h	/^    boolean  issym;       \/* true if matrix is symmetric *\/$/;"	m	struct:smatrix	access:public
+iswild	core/lightspeed/glob.m	/^function tf = iswild(pattern)$/;"	f
+iter_in	Gauss_Seidel/iterseidel.c	17;"	d	file:
+iter_in	examples/iterweightedjacobi.c	17;"	d	file:
+iter_in	iterseidel.c	17;"	d	file:
+iter_in	iterweightedjacobi.c	17;"	d	file:
+iter_in	lamg/iterweightedjacobi.c	17;"	d	file:
+iterative	cmg.h	/^    boolean       iterative;  \/* true if an iterative method is used *\/$/;"	m	struct:shlevel	access:public
+iterative	cmg/Include/cmg.h	/^    boolean       iterative;  \/* true if an iterative method is used *\/$/;"	m	struct:shlevel	access:public
+ix	core/lightspeed/random.c	/^static long ix = 101;$/;"	v	file:
+iy	core/lightspeed/random.c	/^static long iy = 1001;$/;"	v	file:
+iz	core/lightspeed/random.c	/^static long iz = 10001;$/;"	v	file:
+ja	cmg.h	/^    mIndex   *ja;$/;"	m	struct:dmatrix	access:public
+ja	cmg.h	/^    mIndex   *ja;$/;"	m	struct:smatrix	access:public
+ja	cmg/Include/cmg.h	/^    mIndex   *ja;$/;"	m	struct:dmatrix	access:public
+ja	cmg/Include/cmg.h	/^    mIndex   *ja;$/;"	m	struct:smatrix	access:public
+jc	core/lightspeed/matfile.c	/^  IntArray *ir, *jc;$/;"	m	struct:SparseInfo	file:	access:public
+kernelCentering	lamg/test/util/kernelCentering.m	/^function A = kernelCentering(K)$/;"	f
+labeled_curves	core/lightspeed/graphics/labeled_curves.m	/^function h = labeled_curves(x,y,varargin)$/;"	f
+lacunary	core/util/lacunary.m	/^function y = lacunary(x,nu)$/;"	f
+lamgsolver	lamgsolver.m	/^function x=lamgsolver(A, b)$/;"	f
+laplacian	cmg.h	/^    boolean       laplacian;  \/* true if system is laplacian (1st level only) *\/$/;"	m	struct:shlevel	access:public
+laplacian	cmg/Include/cmg.h	/^    boolean       laplacian;  \/* true if system is laplacian (1st level only) *\/$/;"	m	struct:shlevel	access:public
+laplacian	cmg/MATLAB/Hierarchy/laplacian.m	/^function L = laplacian(A)$/;"	f
+laplacian	cmg/MATLAB/Hierarchy/laplacian_cmg.m	/^function L = laplacian(A)$/;"	f
+largestComponent	graph/main/largestComponent.m	/^function h = largestComponent(g)$/;"	f
+last_download	ufget/UFgui.java	/^    private Date today, last_download ;$/;"	f	class:UFgui	file:	access:private
+latexPrinter	graph/main/latexPrinter.m	/^function printer = latexPrinter(result, f)$/;"	f
+lb_IN	cmg/Source/Hierarchy/perturbtril.c	18;"	d	file:
+ld	cmg.h	/^    d_matrix ld;$/;"	m	struct:cholesky	access:public
+ld	cmg/Include/cmg.h	/^    d_matrix ld;$/;"	m	struct:cholesky	access:public
+ldT	cmg.h	/^    d_matrix ldT;$/;"	m	struct:cholesky	access:public
+ldT	cmg/Include/cmg.h	/^    d_matrix ldT;$/;"	m	struct:cholesky	access:public
+ldl_p	cmg.h	/^} ldl_p ;$/;"	t	typeref:struct:cholesky
+ldl_p	cmg/Include/cmg.h	/^} ldl_p ;$/;"	t	typeref:struct:cholesky
+ldl_solve	cmg.h	/^void ldl_solve (ldl_p *, precision *, precision *);$/;"	p	signature:(ldl_p *, precision *, precision *)
+ldl_solve	cmg/Include/cmg.h	/^void ldl_solve (ldl_p *, precision *, precision *);$/;"	p	signature:(ldl_p *, precision *, precision *)
+ldl_solve	cmg/Source/Solver/ldl_solve.c	/^void ldl_solve (ldl_p *chol, precision *b, precision *x)$/;"	f	signature:(ldl_p *chol, precision *b, precision *x)
+ldl_solve	ldl_solve.c	/^void ldl_solve (ldl_p *chol, precision *b, precision *x)$/;"	f	signature:(ldl_p *chol, precision *b, precision *x)
+ldlchol	cmg/MATLAB/Auxiliary/ldlchol.m	/^function [LD,p,q] = ldlchol (A,beta)					    %#ok$/;"	f
+len	core/lightspeed/matfile.c	/^  int len, bufsize;$/;"	m	struct:DoubleArray	file:	access:public
+len	core/lightspeed/matfile.c	/^  int len, bufsize;$/;"	m	struct:IntArray	file:	access:public
+linearSolve	lamg/test/util/umfpackTiming.m	/^function t = linearSolve(A)$/;"	f
+linearSolvers	batch/linearSolvers.m	/^function result = linearSolvers(jobName, numRuns, runId, action, keyRegexp, minEdges, maxEdges, solvers)$/;"	f
+linechart	core/lightspeed/graphics/linechart.m	/^function linechart(y,color,varargin)$/;"	f
+linevec	core/util/linevec.m	/^function l = linevec(v,w,c)$/;"	f
+linfmin	core/util/linfmin.m	/^function [x, fval, exitflag] = linfmin(A, b, options)$/;"	f
+load_UFstats	ufget/UFgui.java	/^    private Object [ ][ ] load_UFstats ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+load_config	core/main/load_config.m	/^function vars = load_config(fileName)$/;"	f
+load_data	ufget/UFgui.java	/^        public void load_data (Object [ ][ ] newstats)$/;"	m	class:UFgui.matrix_Table_Model	access:public	signature:(Object [ ][ ] newstats)
+logBase	core/util/logBase.m	/^function y = logBase(x, b)$/;"	f
+logSum	core/lightspeed/util.c	/^double logSum(double a, double b)$/;"	f	signature:(double a, double b)
+logSum	core/lightspeed/util.h	/^double logSum(double a, double b);$/;"	p	signature:(double a, double b)
+logdet	core/lightspeed/logdet.m	/^function y = logdet(A)$/;"	f
+logging_config	lamg/test/logging_config.m	/^function [root, logger] = logging_config$/;"	f
+logical	core/lightspeed/dtrsm.c	/^typedef int logical;$/;"	t	file:
+logmulexp	core/lightspeed/logmulexp.m	/^function s = logmulexp(a,b)$/;"	f
+logsumexp	core/lightspeed/logsumexp.m	/^function s = logsumexp(a, dim)$/;"	f
+lowDegreeNodes	lamg/main/util/lowDegreeNodes.m	/^function [f, c, status] = lowDegreeNodes(A, d, maxDegree)$/;"	f
+lowDegreeNodesMultiConnected	lamg/main/util/lowDegreeNodesMultiConnected.m	/^function [z,f,c] = lowDegreeNodesMultiConnected(A, d, maxDegree)$/;"	f
+lowDegreeNodes_matlab	lamg/main/util/lowDegreeNodes_matlab.m	/^function [z,f,c] = lowDegreeNodes_matlab(A, d, maxDegree)$/;"	f
+lpnorm	core/util/lpnorm.m	/^function res = lpnorm(x,p)$/;"	f
+lpnormcol	core/util/lpnormcol.m	/^function res = lpnormcol(x,p)$/;"	f
+lsame_	core/lightspeed/dtrsm.c	/^logical lsame_(char *ca, char *cb)$/;"	f	signature:(char *ca, char *cb)
+lws1	cmg.h	/^    precision     *lws1,*lws2,*sws1,*sws2, *sws3;   \/* working space for the solver *\/$/;"	m	struct:shlevel	access:public
+lws1	cmg/Include/cmg.h	/^    precision     *lws1,*lws2,*sws1,*sws2, *sws3;   \/* working space for the solver *\/$/;"	m	struct:shlevel	access:public
+lws2	cmg.h	/^    precision     *lws1,*lws2,*sws1,*sws2, *sws3;   \/* working space for the solver *\/$/;"	m	struct:shlevel	access:public
+lws2	cmg/Include/cmg.h	/^    precision     *lws1,*lws2,*sws1,*sws2, *sws3;   \/* working space for the solver *\/$/;"	m	struct:shlevel	access:public
+mIndex	cmg.h	/^typedef unsigned int mIndex;$/;"	t
+mIndex	cmg/Include/cmg.h	/^typedef unsigned int mIndex;$/;"	t
+mSize	cmg.h	/^typedef unsigned int mSize;$/;"	t
+mSize	cmg/Include/cmg.h	/^typedef unsigned int mSize;$/;"	t
+main	core/lightspeed/matfile.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	core/lightspeed/tests/test_flops.c	/^int main()$/;"	f
+main	ufget/UFgui.java	/^    public static void main (String args [ ])$/;"	m	class:UFgui	access:public	signature:(String args [ ])
+make	make.m	/^function make(varargin)$/;"	f
+makeHtmlTable	core/util/makeHtmlTable.m	/^function sOut = makeHtmlTable(M, T, rowNames, colHeaders, colors, strPrecision)$/;"	f
+makeInPath	make.m	/^function makeInPath(dirConfig, home, goals)$/;"	f
+make_selection	ufget/UFgui.java	/^    private void make_selection (boolean action)$/;"	m	class:UFgui	file:	access:private	signature:(boolean action)
+makestruct	core/lightspeed/makestruct.m	/^function s = makestruct(varargin)$/;"	f
+mat	ufget/UFgui.java	/^    private File mat, MM, RB, iconDir ;$/;"	f	class:UFgui	file:	access:private
+match	core/lightspeed/match.m	/^function loc = match(x,tab)$/;"	f
+match_sorted	core/lightspeed/match_sorted.m	/^function loc = match_sorted(a,s)$/;"	f
+match_sorted_rows	core/lightspeed/match_sorted_rows.m	/^function loc = match_sorted_rows(a,s)$/;"	f
+matches	core/util/matches.m	/^function result = matches(str, regex)$/;"	f
+matrix	Gauss_Seidel/solver.h	/^typedef struct matrix{$/;"	s
+matrix	cmg.h	/^typedef d_matrix matrix;$/;"	t
+matrix	cmg.h	/^typedef s_matrix matrix;$/;"	t
+matrix	cmg/Include/cmg.h	/^typedef d_matrix matrix;$/;"	t
+matrix	cmg/Include/cmg.h	/^typedef s_matrix matrix;$/;"	t
+matrix	solver.h	/^typedef struct matrix{$/;"	s
+matrix::diag	Gauss_Seidel/solver.h	/^    double *val, *diag;$/;"	m	struct:matrix	access:public
+matrix::diag	solver.h	/^    double *val, *diag;$/;"	m	struct:matrix	access:public
+matrix::irow	Gauss_Seidel/solver.h	/^    int *irow, *pcol;$/;"	m	struct:matrix	access:public
+matrix::irow	solver.h	/^    int *irow, *pcol;$/;"	m	struct:matrix	access:public
+matrix::pcol	Gauss_Seidel/solver.h	/^    int *irow, *pcol;$/;"	m	struct:matrix	access:public
+matrix::pcol	solver.h	/^    int *irow, *pcol;$/;"	m	struct:matrix	access:public
+matrix::val	Gauss_Seidel/solver.h	/^    double *val, *diag;$/;"	m	struct:matrix	access:public
+matrix::val	solver.h	/^    double *val, *diag;$/;"	m	struct:matrix	access:public
+matrix_Table	ufget/UFgui.java	/^    private JTable matrix_Table ;$/;"	f	class:UFgui	file:	access:private
+matrix_Table_Model	ufget/UFgui.java	/^    class matrix_Table_Model extends AbstractTableModel$/;"	c	class:UFgui	inherits:AbstractTableModel	access:default
+matrix_Table_PopupListener	ufget/UFgui.java	/^        matrix_Table_PopupListener (JPopupMenu popupMenu)$/;"	m	class:UFgui.matrix_Table_PopupListener	access:default	signature:(JPopupMenu popupMenu)
+matrix_Table_PopupListener	ufget/UFgui.java	/^    private class matrix_Table_PopupListener extends MouseAdapter$/;"	c	class:UFgui	inherits:MouseAdapter	access:private
+matrix_Table_RowListener	ufget/UFgui.java	/^    private class matrix_Table_RowListener implements ListSelectionListener$/;"	c	class:UFgui	inherits:ListSelectionListener	access:private
+matrix_column_tooltips	ufget/UFgui.java	/^    protected String [ ] matrix_column_tooltips =$/;"	f	class:UFgui	access:protected
+matrix_model	ufget/UFgui.java	/^    private matrix_Table_Model matrix_model = null ;$/;"	f	class:UFgui	file:	access:private
+maxBound	lamg/main/mex/filterSmallEntries.cpp	/^static double               maxBound(double x, double y);$/;"	p	file:	signature:(double x, double y)
+maxBound	lamg/main/mex/filterSmallEntries.cpp	/^static double maxBound(double x, double y)$/;"	f	file:	signature:(double x, double y)
+maxcol_Field	ufget/UFgui.java	/^    private JTextField minrow_Field, maxrow_Field, mincol_Field, maxcol_Field,$/;"	f	class:UFgui	file:	access:private
+maxdiff	core/lightspeed/maxdiff.m	/^function e = maxdiff(a,b,rel)$/;"	f
+maxnsym_Field	ufget/UFgui.java	/^        maxnsym_Field ;$/;"	f	class:UFgui	file:	access:private
+maxnz_Field	ufget/UFgui.java	/^        minnz_Field, maxnz_Field, minpsym_Field, maxpsym_Field, minnsym_Field,$/;"	f	class:UFgui	file:	access:private
+maxpsym_Field	ufget/UFgui.java	/^        minnz_Field, maxnz_Field, minpsym_Field, maxpsym_Field, minnsym_Field,$/;"	f	class:UFgui	file:	access:private
+maxrow_Field	ufget/UFgui.java	/^    private JTextField minrow_Field, maxrow_Field, mincol_Field, maxcol_Field,$/;"	f	class:UFgui	file:	access:private
+maybeShowPopup	ufget/UFgui.java	/^        private void maybeShowPopup (MouseEvent e)$/;"	m	class:UFgui.matrix_Table_PopupListener	file:	access:private	signature:(MouseEvent e)
+mccCompile	batch/mccCompile.m	/^function mccCompile(f)$/;"	f
+median	lamg/main/mex/medianCol.cpp	/^double median(vector<double> &v)$/;"	f	signature:(vector<double> &v)
+median	lamg/main/mex/medianCol.cpp	/^static double   median(vector<double> &v);$/;"	p	file:	signature:(vector<double> &v)
+memrep	core/lightspeed/repmat.c	/^void memrep(char *dest, mwSize chunk, mwSize rep)$/;"	f	signature:(char *dest, mwSize chunk, mwSize rep)
+methodIsConstructor	core/matlab_xunit/xunit/TestSuite.m	/^function result = methodIsConstructor(method)$/;"	f
+mexFunction	Gauss_Seidel/iterseidel.c	/^void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]){$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	cmg/MATLAB/Solver/mx_d_preconditioner.c	/^void mexFunction (int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	cmg/MATLAB/Solver/mx_read_hierarchy.c	/^void mexFunction (int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	cmg/MATLAB/Solver/mx_s_preconditioner.c	/^void mexFunction (int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	cmg/Source/Hierarchy/adjacency.c	/^void mexFunction (int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	cmg/Source/Hierarchy/adjacency_cmg.c	/^void mexFunction (int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	cmg/Source/Hierarchy/diagconjugate.c	/^void mexFunction (int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	cmg/Source/Hierarchy/forest_components.c	/^void mexFunction (int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	cmg/Source/Hierarchy/graphprofile.c	/^void mexFunction (int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	cmg/Source/Hierarchy/laplacian2.c	/^void mexFunction (int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	cmg/Source/Hierarchy/perturbtril.c	/^void mexFunction (int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	cmg/Source/Hierarchy/splitforest.c	/^void mexFunction (int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	cmg/Source/Hierarchy/update_groups.c	/^void mexFunction (int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	cmg/Source/Hierarchy/vpack.c	/^void mexFunction (int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	core/lightspeed/addflops.c	/^void mexFunction(int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	core/lightspeed/digamma.c	/^void mexFunction(int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	core/lightspeed/gammaln.c	/^void mexFunction(int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	core/lightspeed/getaddress.c	/^void mexFunction(int nlhs, mxArray *plhs[], $/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	core/lightspeed/int_hist.c	/^void mexFunction(int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	core/lightspeed/ndsumC.c	/^void mexFunction(int nlhs, mxArray *plhs[], $/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	core/lightspeed/randbinom.c	/^void mexFunction(int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	core/lightspeed/randgamma.c	/^void mexFunction(int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	core/lightspeed/randomseed.c	/^void mexFunction(int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	core/lightspeed/repmat.c	/^void mexFunction(int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	core/lightspeed/sameobject.c	/^void mexFunction(int nlhs, mxArray *plhs[], $/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	core/lightspeed/sample_hist.c	/^void mexFunction(int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	core/lightspeed/setnonzeros.c	/^void mexFunction(int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	core/lightspeed/solve_tril.c	/^void mexFunction(int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	core/lightspeed/solve_triu.c	/^void mexFunction(int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	core/lightspeed/table1.c	/^void mexFunction(int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	core/lightspeed/tetragamma.c	/^void mexFunction(int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	core/lightspeed/timing.cpp	/^void mexFunction(int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	core/lightspeed/trigamma.c	/^void mexFunction(int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	core/lightspeed/xones.c	/^void mexFunction(int nlhs, mxArray *plhs[],$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	examples/iterweightedjacobi.c	/^void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]){$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	examples/mxgetnzmax.c	/^mexFunction(int nlhs,mxArray *plhs[],int nrhs,const mxArray *prhs[])$/;"	f	signature:(int nlhs,mxArray *plhs[],int nrhs,const mxArray *prhs[])
+mexFunction	iterseidel.c	/^void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]){$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	iterweightedjacobi.c	/^void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]){$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	lamg/iterweightedjacobi.c	/^void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]){$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	lamg/main/mex/affinitymatrix.cpp	/^        mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	lamg/main/mex/aggregationsweep.cpp	/^        mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	lamg/main/mex/eliminationOperators.cpp	/^void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	lamg/main/mex/filterSmallEntries.cpp	/^void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	lamg/main/mex/galerkinCaliber1.cpp	/^void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	lamg/main/mex/galerkinElimination.cpp	/^void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	lamg/main/mex/gsrelax.cpp	/^        mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	lamg/main/mex/lowdegreesweep.cpp	/^        mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	lamg/main/mex/medianCol.cpp	/^        mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	lamg/main/mex/undecidedNodes.cpp	/^void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexFunction	score.c	/^void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]){$/;"	f	signature:(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+mexcompiler	core/lightspeed/mexcompiler.m	/^function [compiler,libloc,vsinstalldir,vcvarsopts] = mexcompiler$/;"	f
+minBound	lamg/main/mex/filterSmallEntries.cpp	/^static double               minBound(double x, double y);$/;"	p	file:	signature:(double x, double y)
+minBound	lamg/main/mex/filterSmallEntries.cpp	/^static double minBound(double x, double y)$/;"	f	file:	signature:(double x, double y)
+min_errorbar_scale	core/lightspeed/graphics/min_errorbar_scale.m	/^function c = min_errorbar_scale(stderrs,significance)$/;"	f
+mincol_Field	ufget/UFgui.java	/^    private JTextField minrow_Field, maxrow_Field, mincol_Field, maxcol_Field,$/;"	f	class:UFgui	file:	access:private
+minnsym_Field	ufget/UFgui.java	/^        minnz_Field, maxnz_Field, minpsym_Field, maxpsym_Field, minnsym_Field,$/;"	f	class:UFgui	file:	access:private
+minnz_Field	ufget/UFgui.java	/^        minnz_Field, maxnz_Field, minpsym_Field, maxpsym_Field, minnsym_Field,$/;"	f	class:UFgui	file:	access:private
+minpsym_Field	ufget/UFgui.java	/^        minnz_Field, maxnz_Field, minpsym_Field, maxpsym_Field, minnsym_Field,$/;"	f	class:UFgui	file:	access:private
+minrow_Field	ufget/UFgui.java	/^    private JTextField minrow_Field, maxrow_Field, mincol_Field, maxcol_Field,$/;"	f	class:UFgui	file:	access:private
+mobile_points	core/lightspeed/graphics/mobile_points.m	/^function h = mobile_points(n, linespec)$/;"	f
+mobile_text	core/lightspeed/graphics/mobile_text.m	/^function h = mobile_text(varargin)$/;"	f
+mousePressed	ufget/UFgui.java	/^        public void mousePressed (MouseEvent e)$/;"	m	class:UFgui.matrix_Table_PopupListener	access:public	signature:(MouseEvent e)
+mouseReleased	ufget/UFgui.java	/^        public void mouseReleased (MouseEvent e)$/;"	m	class:UFgui.matrix_Table_PopupListener	access:public	signature:(MouseEvent e)
+move_obj	core/lightspeed/graphics/move_obj.m	/^function move_obj(arg)$/;"	f
+mtest	core/matlab_xunit/obsolete/mtest.m	/^function out = mtest(name)$/;"	f
+mutable	core/lightspeed/@mutable/mutable.m	/^function mut = mutable(v)$/;"	f
+mvmTime	lin-api/util/mvmTime.m	/^function [t, s] = mvmTime(A, n)$/;"	f
+mvmTimeParametric	lamg/test/util/mvmTimeParametric.m	/^function [tRandom, tBanded, n] = mvmTimeParametric(m, d, numExperiments)$/;"	f
+mxCopy	core/lightspeed/util.h	1;"	d
+mxCreateDoubleMatrixE	core/lightspeed/mexutil.c	/^mxArray *mxCreateDoubleMatrixE(mwSize m, mwSize n, $/;"	f	signature:(mwSize m, mwSize n, mxComplexity ComplexFlag)
+mxCreateDoubleMatrixE	core/lightspeed/mexutil.h	/^mxArray *mxCreateDoubleMatrixE(mwSize m, mwSize n, $/;"	p	signature:(mwSize m, mwSize n, mxComplexity ComplexFlag)
+mxCreateNumericArrayE	core/lightspeed/mexutil.c	/^mxArray *mxCreateNumericArrayE(mwSize ndim, const mwSize *dims, $/;"	f	signature:(mwSize ndim, const mwSize *dims, mxClassID classid, mxComplexity ComplexFlag)
+mxCreateNumericArrayE	core/lightspeed/mexutil.h	/^mxArray *mxCreateNumericArrayE(mwSize ndim, const mwSize *dims, $/;"	p	signature:(mwSize ndim, const mwSize *dims, mxClassID classid, mxComplexity ComplexFlag)
+mxCreateNumericMatrixE	core/lightspeed/mexutil.c	/^mxArray *mxCreateNumericMatrixE(mwSize m, mwSize n, mxClassID classid, $/;"	f	signature:(mwSize m, mwSize n, mxClassID classid, mxComplexity ComplexFlag)
+mxCreateNumericMatrixE	core/lightspeed/mexutil.h	/^mxArray *mxCreateNumericMatrixE(mwSize m, mwSize n, mxClassID classid, $/;"	p	signature:(mwSize m, mwSize n, mxClassID classid, mxComplexity ComplexFlag)
+my_infinity	core/lightspeed/util.c	/^double my_infinity(void) {$/;"	f	signature:(void)
+my_nan	core/lightspeed/util.c	/^double my_nan(void) {$/;"	f	signature:(void)
+mygplot	core/util/mygplot.m	/^function h=mygplot(A,xy,lc)$/;"	f
+mysqueeze	core/lightspeed/mysqueeze.m	/^function x = mysqueeze(x)$/;"	f
+n	cmg.h	/^    mSize    n;$/;"	m	struct:dmatrix	access:public
+n	cmg.h	/^    mSize    n;$/;"	m	struct:smatrix	access:public
+n	cmg/Include/cmg.h	/^    mSize    n;$/;"	m	struct:dmatrix	access:public
+n	cmg/Include/cmg.h	/^    mSize    n;$/;"	m	struct:smatrix	access:public
+nc	cmg.h	/^    mSize     nc;             \/* number of clusters *\/$/;"	m	struct:shlevel	access:public
+nc	cmg/Include/cmg.h	/^    mSize     nc;             \/* number of clusters *\/$/;"	m	struct:shlevel	access:public
+nc_OUT	cmg/Source/Hierarchy/forest_components.c	18;"	d	file:
+nchoose	core/util/nchoose.m	/^function W = nchoose(S)$/;"	f
+nd_either_Button	ufget/UFgui.java	/^        posdef_either_Button, nd_yes_Button, nd_no_Button, nd_either_Button,$/;"	f	class:UFgui	file:	access:private
+nd_no_Button	ufget/UFgui.java	/^        posdef_either_Button, nd_yes_Button, nd_no_Button, nd_either_Button,$/;"	f	class:UFgui	file:	access:private
+nd_yes_Button	ufget/UFgui.java	/^        posdef_either_Button, nd_yes_Button, nd_no_Button, nd_either_Button,$/;"	f	class:UFgui	file:	access:private
+ndgridmat	core/lightspeed/ndgridmat.m	/^function x = ndgridmat(varargin)$/;"	f
+ndlogsumexp	core/lightspeed/ndlogsumexp.m	/^function x = ndlogsumexp(x,dim)$/;"	f
+ndmax	core/lightspeed/ndmax.m	/^function x = ndmax(x,dim)$/;"	f
+ndsum	core/lightspeed/ndsum.m	/^function x = ndsum(x,dim)$/;"	f
+ndsum	core/lightspeed/ndsumC.c	/^void ndsum(double *dest, double *src, mwSize ndim, mwSize *size,$/;"	f	signature:(double *dest, double *src, mwSize ndim, mwSize *size, mwSize total, mwSize *mask)
+newIndexComputer	lamg/main/util/relaxIndex.m	/^function instance = newIndexComputer(indexType, varargin)$/;"	f
+newWriter	graph/main/graphConvert.m	/^function writer = newWriter(args)$/;"	f
+newWriter	graph/main/graphRemoveOldMetadata.m	/^function writer = newWriter(args)$/;"	f
+new_matrices	ufget/UFgui.java	/^        new_matrices = false, debug = false ;$/;"	f	class:UFgui	file:	access:private
+newton	core/old_util/newton.m	/^function r = newton(f,df,x,niter,tol)$/;"	f
+next_row	core/lightspeed/matfile.c	/^  int next_row;$/;"	m	struct:SparseInfo	file:	access:public
+ninterp	core/old_util/ninterp.m	/^function val = ninterp(x,y,t)$/;"	f
+normOfColumns	lamg/test/misc/testDisconnectedGs.m	/^function y = normOfColumns(x)$/;"	f
+normalizedSolveTime	lin-api/util/normalizedSolveTime.m	/^function t = normalizedSolveTime(tTotal, e, isIterative)$/;"	f
+normcdf	core/lightspeed/normcdf.m	/^function p = normcdf(x,m,s)$/;"	f
+normcdfln	core/lightspeed/normcdfln.m	/^function e = normcdfln(x)$/;"	f
+normcdflogit	core/lightspeed/normcdflogit.m	/^function e = normcdflogit(x)$/;"	f
+normpdf	core/lightspeed/normpdf.m	/^function p = normpdf(varargin)$/;"	f
+normpdfln	core/lightspeed/normpdfln.m	/^function p = normpdfln(x, m, S, V)$/;"	f
+notTestString	core/matlab_xunit/tests/helper_classes/notTestString.m	/^function suite = notTestString$/;"	f
+nselected	ufget/UFgui.java	/^    private int nselected ;$/;"	f	class:UFgui	file:	access:private
+nselected_Label	ufget/UFgui.java	/^    private JLabel nselected_Label, progress_size_Label, icon_Label ;$/;"	f	class:UFgui	file:	access:private
+nulbasis	core/util/nulbasis.m	/^function N = nulbasis(A)$/;"	f
+numDigits	core/util/numDigits.m	/^function numDigits = numDigits(x)$/;"	f
+numEntities	graph/main/+graph/+reader/numEntities.m	/^function n = numEntities(s)$/;"	f
+numTrue	core/util/numTrue.m	/^function num = numTrue(array)$/;"	f
+num_bits	core/lightspeed/flops_pow.m	/^function b = num_bits(x)$/;"	f
+oppositeSignInfs	core/matlab_xunit/xunit/+xunit/+utils/compareFloats.m	/^function out = oppositeSignInfs(A, B)$/;"	f
+optionsOverride	core/util/optionsOverride.m	/^function result = optionsOverride(default_options, options)$/;"	f
+p	cmg.h	/^    mSize    *p;$/;"	m	struct:cholesky	access:public
+p	cmg/Include/cmg.h	/^    mSize    *p;$/;"	m	struct:cholesky	access:public
+parseArgs	graph/main/graphConvert.m	/^function args = parseArgs(minEdges, maxEdges, inputDirs, outputDir, varargin)$/;"	f
+parseArgs	graph/main/graphRemoveOldMetadata.m	/^function args = parseArgs(minEdges, maxEdges, inputDirs, outputDir, varargin)$/;"	f
+parseArgs	graph/main/graphStats.m	/^function args = parseArgs(varargin)$/;"	f
+parseArgs	lamg/main/util/plotCoarsening.m	/^function args = parseArgs(varargin)$/;"	f
+parseArgs	lamg/main/util/plotGraph.m	/^function args = parseArgs(varargin)$/;"	f
+parseArgs	lamg/main/util/plotLevel.m	/^function args = parseArgs(varargin)$/;"	f
+parseArgs	lamg/main/util/relaxIndex.m	/^function args = parseArgs(relaxType, indexType, varargin)$/;"	f
+parseArgs	lamg/test/util/testCycleAtLevel.m	/^function args = parseArgs(varargin)$/;"	f
+parseArgs	lamg/test/util/testRelaxAcfComparison.m	/^function args = parseArgs(varargin)$/;"	f
+parseArgs	lamg/test/util/testRelaxAcfWof.m	/^function args = parseArgs(varargin)$/;"	f
+parseFloatAssertInputs	core/matlab_xunit/obsolete/+mtest/+utils/parseFloatAssertInputs.m	/^function params = parseFloatAssertInputs(varargin)$/;"	f
+parseFloatAssertInputs	core/matlab_xunit/xunit/+xunit/+utils/parseFloatAssertInputs.m	/^function params = parseFloatAssertInputs(varargin)$/;"	f
+pathdef	pathdef_beagle.m	/^function p = pathdef$/;"	f
+pchol	core/util/pchol.m	/^function [Q,D,L] = pchol(A,k)$/;"	f
+pcol	Gauss_Seidel/solver.h	/^    int *irow, *pcol;$/;"	m	struct:matrix	access:public
+pcol	solver.h	/^    int *irow, *pcol;$/;"	m	struct:matrix	access:public
+per	core/util/per.m	/^function x = per(x, n)$/;"	f
+please_wait	ufget/UFgui.java	/^    private void please_wait ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+plotAcfResults	lamg/test/util/plotAcfResults.m	/^function plotAcfResults(result, fig)$/;"	f
+plotBadNode	lamg/main/util/plotBadNode.m	/^function [in,out,cin,cout] = plotBadNode(s,k,u)$/;"	f
+plotCoarsening	lamg/main/util/plotCoarsening.m	/^function h = plotCoarsening(W, status, varargin)$/;"	f
+plotGraph	lamg/main/util/plotGraph.m	/^function coord = plotGraph(g, varargin)$/;"	f
+plotLevel	lamg/main/util/plotLevel.m	/^function coord = plotLevel(setup, l, varargin)$/;"	f
+plotResultBundle	lin-api/util/plotResultBundle.m	/^function d = plotResultBundle(result, minEdges, outputDir, verbose, solvers, printType, fig, minLevels, threshold)$/;"	f
+plotResultLevelBreakdown	lamg/test/util/plotResultLevelBreakdown.m	/^function s = plotResultLevelBreakdown(r, index)$/;"	f
+plotResultTrends	lamg/test/util/plotResultTrends.m	/^function [r, data] = plotResultTrends(r)$/;"	f
+plotTimeBreakdown	lin-api/util/plotResultBundle.m	/^function plotTimeBreakdown(data, printType)$/;"	f
+plotTotalTimes	lin-api/util/plotResultBundle.m	/^function plotTotalTimes(d, printType)$/;"	f
+plot_errorbars	core/lightspeed/graphics/plot_errorbars.m	/^function plot_errorbars(means,stderrs,rownames)$/;"	f
+plot_func	core/util/plot_func.m	/^function plot_func(func,fignum,t)$/;"	f
+pochhammer	core/lightspeed/util.c	/^double pochhammer(double x, int n)$/;"	f	signature:(double x, int n)
+pochhammer	core/lightspeed/util.h	/^double pochhammer(double x, int n);$/;"	p	signature:(double x, int n)
+poissonNoise	core/util/poissonNoise.m	/^function b = poissonNoise(a)$/;"	f
+pop	ufget/UFgui.java	/^        JPopupMenu pop ;$/;"	f	class:UFgui.matrix_Table_PopupListener	access:default
+popup_action	ufget/UFgui.java	/^    private void popup_action (ActionEvent e, boolean action)$/;"	m	class:UFgui	file:	access:private	signature:(ActionEvent e, boolean action)
+posdef_either_Button	ufget/UFgui.java	/^        posdef_either_Button, nd_yes_Button, nd_no_Button, nd_either_Button,$/;"	f	class:UFgui	file:	access:private
+posdef_no_Button	ufget/UFgui.java	/^    private JRadioButton posdef_yes_Button, posdef_no_Button,$/;"	f	class:UFgui	file:	access:private
+posdef_yes_Button	ufget/UFgui.java	/^    private JRadioButton posdef_yes_Button, posdef_no_Button,$/;"	f	class:UFgui	file:	access:private
+postprocessDisp	core/matlab_xunit/xunit/+xunit/+utils/arrayToString.m	/^function out = postprocessDisp(in)$/;"	f
+postprocessStructDisp	core/matlab_xunit/xunit/+xunit/+utils/arrayToString.m	/^function out = postprocessStructDisp(in)$/;"	f
+precision	cmg.h	/^typedef double precision;$/;"	t
+precision	cmg.h	/^typedef float precision;$/;"	t
+precision	cmg/Include/cmg.h	/^typedef double precision;$/;"	t
+precision	cmg/Include/cmg.h	/^typedef float precision;$/;"	t
+preconditioner	cmg.h	/^void preconditioner ( s_hlevel *, precision *, int , int, precision *);$/;"	p	signature:( s_hlevel *, precision *, int , int, precision *)
+preconditioner	cmg/Include/cmg.h	/^void preconditioner ( s_hlevel *, precision *, int , int, precision *);$/;"	p	signature:( s_hlevel *, precision *, int , int, precision *)
+preconditioner	cmg/Source/Solver/preconditioner.c	/^void preconditioner(s_hlevel *H, precision *b, int level, int iter, precision *x)$/;"	f	signature:(s_hlevel *H, precision *b, int level, int iter, precision *x)
+preconditioner	preconditioner.c	/^void preconditioner(s_hlevel *H, precision *b, int level, int iter, precision *x)$/;"	f	signature:(s_hlevel *H, precision *b, int level, int iter, precision *x)
+preparePlotData	lin-api/util/plotResultBundle.m	/^function d = preparePlotData(result, minEdges, minLevels, solvers)$/;"	f
+preprocessNanInf	core/matlab_xunit/obsolete/+mtest/+utils/compareFloats.m	/^function [A, B] = preprocessNanInf(A, B)$/;"	f
+printData	core/util/printData.m	/^function s = printData(data, title, format)$/;"	f
+printSolverStats	lin-api/util/plotResultBundle.m	/^function printSolverStats(f, d)$/;"	f
+printStats	lin-api/util/plotResultBundle.m	/^function printStats(f, d, threshold)$/;"	f
+printUsage	core/lightspeed/matfile.c	/^void printUsage(void)$/;"	f	signature:(void)
+print_out	ufget/UFgui.java	/^    private static PrintWriter print_out = null ;$/;"	f	class:UFgui	file:	access:private
+print_vector	core/util/print_vector.m	/^function print_vector(a, c, type)$/;"	f
+private_hash	core/main/+core/+hashtable/@hashtable/private/private_hash.m	/^function k = private_hash(this, d)$/;"	f
+processArgs	graphViz4Matlab/util/processArgs.m	/^function varargout = processArgs(userArgs, varargin)    $/;"	f
+processBin	lamg/main/mex/aggregationsweep.cpp	/^        processBin(double *bin, mwSize binSize, double *x, double *x2, $/;"	f	file:	signature:(double *bin, mwSize binSize, double *x, double *x2, double *stat, double *aggregateSize, unsigned int *numAggregates, const mxArray *prhs[])
+processBin	lamg/main/mex/aggregationsweep.cpp	/^static void             processBin(double *bin, mwSize binSize, double *x, double *x2, $/;"	p	file:	signature:(double *bin, mwSize binSize, double *x, double *x2, double *stat, double *aggregateSize, unsigned int *numAggregates, const mxArray *prhs[])
+process_hierarchy	cmg/MATLAB/Hierarchy/process_hierarchy.m	/^function H = process_hierarchy(H,sym,pre)$/;"	f
+process_sparse_matrix	cmg/MATLAB/Hierarchy/process_sparse_matrix.m	/^function sa = process_sparse_matrix(A,sym,pre)$/;"	f
+progress1_Bar	ufget/UFgui.java	/^    private JProgressBar progress1_Bar, progress2_Bar ;$/;"	f	class:UFgui	file:	access:private
+progress2_Bar	ufget/UFgui.java	/^    private JProgressBar progress1_Bar, progress2_Bar ;$/;"	f	class:UFgui	file:	access:private
+progress_size_Label	ufget/UFgui.java	/^    private JLabel nselected_Label, progress_size_Label, icon_Label ;$/;"	f	class:UFgui	file:	access:private
+proxy_port	ufget/UFgui.java	/^    private static String UFsite, UFarchive, proxy_server, proxy_port ;$/;"	f	class:UFgui	file:	access:private
+proxy_server	ufget/UFgui.java	/^    private static String UFsite, UFarchive, proxy_server, proxy_port ;$/;"	f	class:UFgui	file:	access:private
+put	core/main/+core/+hashtable/@hashtable/put.m	/^function this = put(this, key, val)$/;"	f
+qbcolor	core/util/rgb.m	/^function out=qbcolor(in)$/;"	f
+quantile	core/lightspeed/graphics/quantile.m	/^function b = quantile(x,probs)$/;"	f
+r_in	examples/iterweightedjacobi.c	16;"	d	file:
+r_in	iterweightedjacobi.c	16;"	d	file:
+r_in	lamg/iterweightedjacobi.c	16;"	d	file:
+r_off_in	score.c	7;"	d	file:
+randInRange	core/util/randInRange.m	/^function x = randInRange(a, b, varargin)$/;"	f
+randbeta	core/lightspeed/randbeta.m	/^function x = randbeta(a,b)$/;"	f
+randbinom	core/lightspeed/randbinom.m	/^function r = randbinom(p, n)$/;"	f
+randgamma	core/lightspeed/randgamma.m	/^function x = randgamma(a)$/;"	f
+randnorm	core/lightspeed/randnorm.m	/^function x = randnorm(n, m, S, V)$/;"	f
+randomLaplacian	lamg/test/sparseops/testSparseAggregation.m	/^function L = randomLaplacian(n, nz)$/;"	f
+randomLaplacian	lamg/test/util/randomLaplacian.m	/^function L = randomLaplacian(lam)$/;"	f
+randomSparseVector	lamg/test/sparseops/testSparseSetting.m	/^function A = randomSparseVector(n, nz)$/;"	f
+randomseed	core/lightspeed/randomseed.m	/^function seed = randomseed(seed)$/;"	f
+randwishart	core/lightspeed/randwishart.m	/^function cholX = randwishart(a,d)$/;"	f
+rayleighQuotient	core/util/rayleighQuotient.m	/^function e = rayleighQuotient(problem, x)$/;"	f
+rayleighQuotientGeneralized	core/util/rayleighQuotientGeneralized.m	/^function e = rayleighQuotientGeneralized(problem, x)$/;"	f
+rayleighRitz	core/util/rayleighRitz.m	/^function [x, lam, alpha, indeterminate, r] = rayleighRitz(A, B, x, K)$/;"	f
+rdir	core/old_util/rdir.m	/^function [varargout] = rdir(rootdir, varargin)$/;"	f
+readGraphCoord	graph/main/readGraphCoord.m	/^function coord = readGraphCoord(file)$/;"	f
+real_either_Button	ufget/UFgui.java	/^        real_yes_Button, real_no_Button, real_either_Button,$/;"	f	class:UFgui	file:	access:private
+real_no_Button	ufget/UFgui.java	/^        real_yes_Button, real_no_Button, real_either_Button,$/;"	f	class:UFgui	file:	access:private
+real_yes_Button	ufget/UFgui.java	/^        real_yes_Button, real_no_Button, real_either_Button,$/;"	f	class:UFgui	file:	access:private
+rect	core/util/rgb.m	/^function rect(x,y,col)$/;"	f
+reduceResults	batch/reduceResults.m	/^function r = reduceResults(jobName, numRuns, varargin)$/;"	f
+reduceResultsBatch	batch/reduceResultsBatch.m	/^function r = reduceResultsBatch(jobName, numRuns)$/;"	f
+reductionPerIter	core/util/reductionPerIter.m	/^function mu = reductionPerIter(history, n)$/;"	f
+refresh	ufget/UFgui.java	/^    private long refresh = 90 ;$/;"	f	class:UFgui	file:	access:private
+regexp_quote	core/lightspeed/glob.m	/^function s = regexp_quote(s)$/;"	f
+relaxIndex	lamg/main/util/relaxIndex.m	/^function [acf, details] = relaxIndex(g, relaxType, indexType, varargin)$/;"	f
+removeLeadingBlankLines	core/matlab_xunit/xunit/+xunit/+utils/arrayToString.m	/^function out = removeLeadingBlankLines(in)$/;"	f
+removeZeroModes	lin-api/util/removeZeroModes.m	/^function x = removeZeroModes(x, componentIndex)$/;"	f
+repeat	cmg.h	/^    int       repeat;         \/* number of recursive calls to next level *\/$/;"	m	struct:shlevel	access:public
+repeat	cmg/Include/cmg.h	/^    int       repeat;         \/* number of recursive calls to next level *\/$/;"	m	struct:shlevel	access:public
+repmat	core/lightspeed/repmat.c	/^void repmat(char *dest, const char *src, int ndim, mwSize *destdimsize, $/;"	f	signature:(char *dest, const char *src, int ndim, mwSize *destdimsize, mwSize *dimsize, const mwSize *dims, mwSize *rep)
+repmat	core/lightspeed/xrepmat.m	/^function B = repmat(A,M,N)$/;"	f
+reset_Button_action	ufget/UFgui.java	/^    private void reset_Button_action (ActionEvent e)$/;"	m	class:UFgui	file:	access:private	signature:(ActionEvent e)
+rgb	core/util/rgb.m	/^function out=rgb(in)$/;"	f
+rgb2hexStr	core/util/makeHtmlTable.m	/^function hexStr = rgb2hexStr(color)$/;"	f
+rgb_demo	core/util/rgb.m	/^function rgb_demo$/;"	f
+rgb_list	core/util/rgb.m	/^function rgb_list$/;"	f
+rgb_parse	core/util/rgb.m	/^function tokens=rgb_parse(str)$/;"	f
+rmfield	core/lightspeed/@mutable/rmfield.m	/^function s = rmfield(s,field)$/;"	f
+rmpathsub	rmpathsub.m	/^function p = rmpathsub(dir)$/;"	f
+rmvecmul	cmg.h	/^void rmvecmul (mIndex *, precision *, mSize ,  precision *, mSize , boolean);$/;"	p	signature:(mIndex *, precision *, mSize , precision *, mSize , boolean)
+rmvecmul	cmg/Include/cmg.h	/^void rmvecmul (mIndex *, precision *, mSize ,  precision *, mSize , boolean);$/;"	p	signature:(mIndex *, precision *, mSize , precision *, mSize , boolean)
+rmvecmul	cmg/Source/Solver/rmvec.c	/^void rmvecmul (mIndex *CI, precision *x, mSize  n, precision *y, mSize m, boolean dc)$/;"	f	signature:(mIndex *CI, precision *x, mSize n, precision *y, mSize m, boolean dc)
+rmvecmul	rmvec.c	/^void rmvecmul (mIndex *CI, precision *x, mSize  n, precision *y, mSize m, boolean dc)$/;"	f	signature:(mIndex *CI, precision *x, mSize n, precision *y, mSize m, boolean dc)
+root	core/old_util/root.m	/^function r = root(f,int,tol)$/;"	f
+row_sum	core/lightspeed/row_sum.m	/^function s = row_sum(x)$/;"	f
+rows	core/lightspeed/rows.m	/^function r = rows(x)$/;"	f
+rowvec	graphViz4Matlab/util/processArgs.m	/^function x = rowvec(x)$/;"	f
+run	ufget/UFgui.java	/^        public void run ( )$/;"	m	class:UFgui.UFdownload	access:public	signature:( )
+runSuite	lamg/test/suite_lamg.m	/^function runSuite(testClasses)$/;"	f
+runTests	lamg/test/suite_lamg.m	/^function did_pass = runTests(testClasses)$/;"	f
+run_solver	examples/run_solver.m	/^function [x, setup] = run_solver(dataType, solver, A, b, coord)$/;"	f
+runtests	core/matlab_xunit/xunit/runtests.m	/^function out = runtests(varargin)$/;"	f
+runtestspackage	core/matlab_xunit/xunit/runtestspackage.m	/^function out = runtestspackage(packageName, varargin)$/;"	f
+s_hlevel	cmg.h	/^} s_hlevel ; $/;"	t	typeref:struct:shlevel
+s_hlevel	cmg/Include/cmg.h	/^} s_hlevel ; $/;"	t	typeref:struct:shlevel
+s_matrix	cmg.h	/^} s_matrix ;$/;"	t	typeref:struct:smatrix
+s_matrix	cmg/Include/cmg.h	/^} s_matrix ;$/;"	t	typeref:struct:smatrix
+sameSignInfs	core/matlab_xunit/xunit/+xunit/+utils/compareFloats.m	/^function out = sameSignInfs(A, B)$/;"	f
+sample	core/lightspeed/sample.m	/^function x = sample(p, n)$/;"	f
+sample_hist	core/lightspeed/sample_hist.m	/^function h = sample_hist(p, n)$/;"	f
+sample_vector	core/lightspeed/sample_vector.m	/^function x = sample_vector(p,col)$/;"	f
+saveCurrentFigure	lamg/test/util/testDiffusionVsAffinity.m	/^function saveCurrentFigure(outputDir, figureTitle)$/;"	f
+saveCurrentFigure	lin-api/util/plotResultBundle.m	/^function saveCurrentFigure(savePlots, outputDir, figureTitle)$/;"	f
+save_figure	core/util/save_figure.m	/^function save_figure(type, relativeFileName, varargin)$/;"	f
+save_variable	core/util/save_variable.m	/^function save_variable(var, type, relativeFileName, varargin)$/;"	f
+scale_cols	core/lightspeed/scale_cols.m	/^function y = scale_cols(x, s)$/;"	f
+scale_rows	core/lightspeed/scale_rows.m	/^function y = scale_rows(x,s)$/;"	f
+scan	core/lightspeed/matfile.c	/^void scan(int *rows_return, int *cols_return, ScanFunc *f, void *info)$/;"	f	signature:(int *rows_return, int *cols_return, ScanFunc *f, void *info)
+score_out	score.c	10;"	d	file:
+secant	core/util/secant.m	/^function x1 = secant(func,x0,x1,max_iter,verbose)$/;"	f
+send_to_back	core/lightspeed/graphics/send_to_back.m	/^function send_to_back(handles)$/;"	f
+setElements	lamg/test/sparseops/testSparseSetting.m	/^function A = setElements(A, numRuns)$/;"	f
+setElementsOfCellArray	lamg/test/sparseops/testSparseSetting.m	/^function A = setElementsOfCellArray(A, numRuns)$/;"	f
+setRandomSeed	core/util/setRandomSeed.m	/^function setRandomSeed(s)$/;"	f
+setUpFcn	core/matlab_xunit/tests/helper_classes/testFunctionHandlesB.m	/^function testData = setUpFcn$/;"	f
+setUpFcn	core/matlab_xunit/tests/helper_classes/testFunctionHandlesC.m	/^function testData = setUpFcn$/;"	f
+setUpFcn	core/matlab_xunit/tests/helper_classes/testFunctionHandlesD.m	/^function setUpFcn$/;"	f
+setValueAt	ufget/UFgui.java	/^        public void setValueAt (Object value, int row, int col)$/;"	m	class:UFgui.matrix_Table_Model	access:public	signature:(Object value, int row, int col)
+set_linespec	core/lightspeed/graphics/set_linespec.m	/^function set_linespec(h,linespec)$/;"	f
+set_selected_label	ufget/UFgui.java	/^    private void set_selected_label (boolean enabled)$/;"	m	class:UFgui	file:	access:private	signature:(boolean enabled)
+set_table_value	ufget/UFgui.java	/^    private void set_table_value (Object value, int id, int j)$/;"	m	class:UFgui	file:	access:private	signature:(Object value, int id, int j)
+setdiag	core/lightspeed/setdiag.m	/^function A = setdiag(A,v,k)$/;"	f
+setdiff_sorted	core/lightspeed/setdiff_sorted.m	/^function c = setdiff_sorted(a,b)$/;"	f
+setfield	core/lightspeed/@mutable/setfield.m	/^function s = setfield(s,field,v)$/;"	f
+setfields	core/lightspeed/setfields.m	/^function ab = setfields(a, b, newfield_flag)$/;"	f
+setup	core/matlab_xunit/doc/examples_general/testSetupExample.m	/^function fh = setup$/;"	f
+setup	core/matlab_xunit/doc/examples_general/testWithSetupError.m	/^function testData = setup$/;"	f
+setupPath	graphViz4Matlab/util/setupPath.m	/^function gvizPath = setupPath()$/;"	f
+shape_either_Button	ufget/UFgui.java	/^        shape_square_Button, shape_rect_Button, shape_either_Button ;$/;"	f	class:UFgui	file:	access:private
+shape_rect_Button	ufget/UFgui.java	/^        shape_square_Button, shape_rect_Button, shape_either_Button ;$/;"	f	class:UFgui	file:	access:private
+shape_square_Button	ufget/UFgui.java	/^        shape_square_Button, shape_rect_Button, shape_either_Button ;$/;"	f	class:UFgui	file:	access:private
+shlevel	cmg.h	/^typedef struct shlevel {$/;"	s
+shlevel	cmg/Include/cmg.h	/^typedef struct shlevel {$/;"	s
+shlevel::A	cmg.h	/^    matrix    A;              \/* single precision symmetric matrix *\/$/;"	m	struct:shlevel	access:public
+shlevel::A	cmg/Include/cmg.h	/^    matrix    A;              \/* single precision symmetric matrix *\/$/;"	m	struct:shlevel	access:public
+shlevel::cI	cmg.h	/^    mIndex    *cI;            \/* cluster index *\/ $/;"	m	struct:shlevel	access:public
+shlevel::cI	cmg/Include/cmg.h	/^    mIndex    *cI;            \/* cluster index *\/ $/;"	m	struct:shlevel	access:public
+shlevel::chol	cmg.h	/^    ldl_p         chol;       \/* cholesky factorization   - last level only *\/$/;"	m	struct:shlevel	access:public
+shlevel::chol	cmg/Include/cmg.h	/^    ldl_p         chol;       \/* cholesky factorization   - last level only *\/$/;"	m	struct:shlevel	access:public
+shlevel::dc	cmg.h	/^    boolean   dc;             \/* true if diagonal correction occurs *\/$/;"	m	struct:shlevel	access:public
+shlevel::dc	cmg/Include/cmg.h	/^    boolean   dc;             \/* true if diagonal correction occurs *\/$/;"	m	struct:shlevel	access:public
+shlevel::invD	cmg.h	/^    precision *invD;          \/* inverse of diagonal  *\/$/;"	m	struct:shlevel	access:public
+shlevel::invD	cmg/Include/cmg.h	/^    precision *invD;          \/* inverse of diagonal  *\/$/;"	m	struct:shlevel	access:public
+shlevel::islast	cmg.h	/^    boolean       islast;     \/* true for last level *\/$/;"	m	struct:shlevel	access:public
+shlevel::islast	cmg/Include/cmg.h	/^    boolean       islast;     \/* true for last level *\/$/;"	m	struct:shlevel	access:public
+shlevel::iterative	cmg.h	/^    boolean       iterative;  \/* true if an iterative method is used *\/$/;"	m	struct:shlevel	access:public
+shlevel::iterative	cmg/Include/cmg.h	/^    boolean       iterative;  \/* true if an iterative method is used *\/$/;"	m	struct:shlevel	access:public
+shlevel::laplacian	cmg.h	/^    boolean       laplacian;  \/* true if system is laplacian (1st level only) *\/$/;"	m	struct:shlevel	access:public
+shlevel::laplacian	cmg/Include/cmg.h	/^    boolean       laplacian;  \/* true if system is laplacian (1st level only) *\/$/;"	m	struct:shlevel	access:public
+shlevel::lws1	cmg.h	/^    precision     *lws1,*lws2,*sws1,*sws2, *sws3;   \/* working space for the solver *\/$/;"	m	struct:shlevel	access:public
+shlevel::lws1	cmg/Include/cmg.h	/^    precision     *lws1,*lws2,*sws1,*sws2, *sws3;   \/* working space for the solver *\/$/;"	m	struct:shlevel	access:public
+shlevel::lws2	cmg.h	/^    precision     *lws1,*lws2,*sws1,*sws2, *sws3;   \/* working space for the solver *\/$/;"	m	struct:shlevel	access:public
+shlevel::lws2	cmg/Include/cmg.h	/^    precision     *lws1,*lws2,*sws1,*sws2, *sws3;   \/* working space for the solver *\/$/;"	m	struct:shlevel	access:public
+shlevel::nc	cmg.h	/^    mSize     nc;             \/* number of clusters *\/$/;"	m	struct:shlevel	access:public
+shlevel::nc	cmg/Include/cmg.h	/^    mSize     nc;             \/* number of clusters *\/$/;"	m	struct:shlevel	access:public
+shlevel::repeat	cmg.h	/^    int       repeat;         \/* number of recursive calls to next level *\/$/;"	m	struct:shlevel	access:public
+shlevel::repeat	cmg/Include/cmg.h	/^    int       repeat;         \/* number of recursive calls to next level *\/$/;"	m	struct:shlevel	access:public
+shlevel::sws1	cmg.h	/^    precision     *lws1,*lws2,*sws1,*sws2, *sws3;   \/* working space for the solver *\/$/;"	m	struct:shlevel	access:public
+shlevel::sws1	cmg/Include/cmg.h	/^    precision     *lws1,*lws2,*sws1,*sws2, *sws3;   \/* working space for the solver *\/$/;"	m	struct:shlevel	access:public
+shlevel::sws2	cmg.h	/^    precision     *lws1,*lws2,*sws1,*sws2, *sws3;   \/* working space for the solver *\/$/;"	m	struct:shlevel	access:public
+shlevel::sws2	cmg/Include/cmg.h	/^    precision     *lws1,*lws2,*sws1,*sws2, *sws3;   \/* working space for the solver *\/$/;"	m	struct:shlevel	access:public
+shlevel::sws3	cmg.h	/^    precision     *lws1,*lws2,*sws1,*sws2, *sws3;   \/* working space for the solver *\/$/;"	m	struct:shlevel	access:public
+shlevel::sws3	cmg/Include/cmg.h	/^    precision     *lws1,*lws2,*sws1,*sws2, *sws3;   \/* working space for the solver *\/$/;"	m	struct:shlevel	access:public
+shortsize	core/lightspeed/shortsize.m	/^function s = shortsize(x)$/;"	f
+show_highlighted_icon	ufget/UFgui.java	/^    private void show_highlighted_icon ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+signString	core/util/fit_linear_curve.m	/^function sign = signString(x)$/;"	f
+signedPrint	core/util/fit_linear_curve.m	/^function s = signedPrint(format, x)$/;"	f
+simpson	core/old_util/simpson.m	/^function y = simpson(f,a,b,n)$/;"	f
+simulateAggregation	lamg/test/sparseops/testSparseAggregation.m	/^function simulateAggregation(A)$/;"	f
+sinc	core/util/sinc.m	/^function g = sinc(r)$/;"	f
+sizeJava	core/lightspeed/sizeJava.m	/^function sz = sizeJava(jv)$/;"	f
+sizeString	graph/test/+graph/+printer/sizeString.m	/^function s = sizeString(dummy1, data, dummy2) %#ok$/;"	f
+sizes_OUT	cmg/Source/Hierarchy/forest_components.c	19;"	d	file:
+slow_di_pochhammer	core/lightspeed/util.c	/^double slow_di_pochhammer(double x, int n)$/;"	f	signature:(double x, int n)
+slow_pochhammer	core/lightspeed/util.c	/^double slow_pochhammer(double x, int n)$/;"	f	signature:(double x, int n)
+slow_tri_pochhammer	core/lightspeed/util.c	/^double slow_tri_pochhammer(double x, int n)$/;"	f	signature:(double x, int n)
+smatrix	cmg.h	/^typedef struct smatrix {$/;"	s
+smatrix	cmg/Include/cmg.h	/^typedef struct smatrix {$/;"	s
+smatrix::a	cmg.h	/^    float    *a;$/;"	m	struct:smatrix	access:public
+smatrix::a	cmg/Include/cmg.h	/^    float    *a;$/;"	m	struct:smatrix	access:public
+smatrix::ia	cmg.h	/^    mIndex   *ia; $/;"	m	struct:smatrix	access:public
+smatrix::ia	cmg/Include/cmg.h	/^    mIndex   *ia; $/;"	m	struct:smatrix	access:public
+smatrix::issym	cmg.h	/^    boolean  issym;       \/* true if matrix is symmetric *\/$/;"	m	struct:smatrix	access:public
+smatrix::issym	cmg/Include/cmg.h	/^    boolean  issym;       \/* true if matrix is symmetric *\/$/;"	m	struct:smatrix	access:public
+smatrix::ja	cmg.h	/^    mIndex   *ja;$/;"	m	struct:smatrix	access:public
+smatrix::ja	cmg/Include/cmg.h	/^    mIndex   *ja;$/;"	m	struct:smatrix	access:public
+smatrix::n	cmg.h	/^    mSize    n;$/;"	m	struct:smatrix	access:public
+smatrix::n	cmg/Include/cmg.h	/^    mSize    n;$/;"	m	struct:smatrix	access:public
+smoothVector	examples/smoothVector.m	/^function eigvector = smoothVector(G, M ,r, iter)$/;"	f
+smoothVector	lamg/smoothVector.m	/^function eigvector = smoothVector(G, M ,r, iter)$/;"	f
+smoothVector	smoothVector.m	/^function eigvector = smoothVector(G, M ,r, iter)$/;"	f
+smoothcauchy	core/util/smoothcauchy.m	/^function f = smoothcauchy(x)$/;"	f
+smoothhump	core/util/smoothhump.m	/^function f = smoothhump(x,a,b)$/;"	f
+smoothstep	core/util/smoothstep.m	/^function f = smoothstep(x,a,b,k)$/;"	f
+smv	Gauss_Seidel/smv.c	/^void smv(int *irow, int *pcol, double *val, double *x, double *b, int n){$/;"	f	signature:(int *irow, int *pcol, double *val, double *x, double *b, int n)
+smv	Gauss_Seidel/solver.h	/^void smv(int *irow, int *pcol, double *val, double *x, double *b, int n);$/;"	p	signature:(int *irow, int *pcol, double *val, double *x, double *b, int n)
+smv	smv.c	/^void smv(int *irow, int *pcol, double *val, double *x, double *b, int n){$/;"	f	signature:(int *irow, int *pcol, double *val, double *x, double *b, int n)
+smv	solver.h	/^void smv(int *irow, int *pcol, double *val, double *x, double *b, int n);$/;"	p	signature:(int *irow, int *pcol, double *val, double *x, double *b, int n)
+smv_diag	Gauss_Seidel/smv_diag.c	/^void smv_diag(int *irow, int *pcol, double *val, double *x, double *b, int n){$/;"	f	signature:(int *irow, int *pcol, double *val, double *x, double *b, int n)
+smv_diag	Gauss_Seidel/solver.h	/^void smv_diag(int *irow, int *pcol, double *val, double *x, double *b, int n);$/;"	p	signature:(int *irow, int *pcol, double *val, double *x, double *b, int n)
+smv_diag	smv_diag.c	/^void smv_diag(int *irow, int *pcol, double *val, double *x, double *b, int n){$/;"	f	signature:(int *irow, int *pcol, double *val, double *x, double *b, int n)
+smv_diag	solver.h	/^void smv_diag(int *irow, int *pcol, double *val, double *x, double *b, int n);$/;"	p	signature:(int *irow, int *pcol, double *val, double *x, double *b, int n)
+solveG0	lamg/test/util/testDefectCorrection.m	/^function solveG0(lamg, setup)$/;"	f
+solveG1	lamg/test/util/testDefectCorrection.m	/^function x = solveG1(lamg, setup, g1)$/;"	f
+solve_tril	core/lightspeed/solve_tril.m	/^function x = solve_tril(T,b)$/;"	f
+solve_triu	core/lightspeed/solve_triu.m	/^function x = solve_triu(T,b)$/;"	f
+sortAcfResults	lamg/test/util/sortAcfResults.m	/^function [data,key,i] = sortAcfResults(r)$/;"	f
+sparse2struct	core/util/sparse2struct.m	/^function s = sparse2struct(A)$/;"	f
+sparseFun	lamg/test/sparseops/sparseFun.m	/^function mem = sparseFun(A)$/;"	f
+sparsification	sparsification.m	/^function[A_S,rate,lambda_ratio,lambda_record]=sparsification(A_G,A_S,times,outdegree,lambda_limit)$/;"	f
+splitNu	lamg/main/util/splitNu.m	/^function [nuPre, nuPost] = splitNu(nu, nuDesign)$/;"	f
+splitString	graphViz4Matlab/util/graphViz4MatlabNode.m	/^function S = splitString(varargin)$/;"	f
+spmv	cmg.h	/^void spmv (mSize, precision *, mIndex *, mIndex *, precision *, precision *);$/;"	p	signature:(mSize, precision *, mIndex *, mIndex *, precision *, precision *)
+spmv	cmg/Include/cmg.h	/^void spmv (mSize, precision *, mIndex *, mIndex *, precision *, precision *);$/;"	p	signature:(mSize, precision *, mIndex *, mIndex *, precision *, precision *)
+spmv	cmg/Source/Solver/spmv.c	/^void spmv (mSize n, precision *a, mIndex *ia, mIndex *ja, precision *x, precision *y)$/;"	f	signature:(mSize n, precision *a, mIndex *ia, mIndex *ja, precision *x, precision *y)
+spmv	spmv.c	/^void spmv (mSize n, precision *a, mIndex *ia, mIndex *ja, precision *x, precision *y)$/;"	f	signature:(mSize n, precision *a, mIndex *ia, mIndex *ja, precision *x, precision *y)
+sqdist	core/lightspeed/sqdist.m	/^function m = sqdist(p, q, A)$/;"	f
+sspmv	cmg.h	/^void sspmv (mSize, precision *, mIndex *, mIndex *, precision *, precision *);$/;"	p	signature:(mSize, precision *, mIndex *, mIndex *, precision *, precision *)
+sspmv	cmg/Include/cmg.h	/^void sspmv (mSize, precision *, mIndex *, mIndex *, precision *, precision *);$/;"	p	signature:(mSize, precision *, mIndex *, mIndex *, precision *, precision *)
+sspmv	cmg/Source/Solver/sspmv.c	/^void sspmv (mSize n, precision *a, mIndex *ia, mIndex *ja, precision *x, precision *y)$/;"	f	signature:(mSize n, precision *a, mIndex *ia, mIndex *ja, precision *x, precision *y)
+sspmv	sspmv.c	/^void sspmv (mSize n, precision *a, mIndex *ia, mIndex *ja, precision *x, precision *y)$/;"	f	signature:(mSize n, precision *a, mIndex *ia, mIndex *ja, precision *x, precision *y)
+start_download_thread	ufget/UFgui.java	/^    private void start_download_thread (int what)$/;"	m	class:UFgui	file:	access:private	signature:(int what)
+steiner_group	cmg/MATLAB/Hierarchy/steiner_group.m	/^function [cIout, nc, D, C] = steiner_group(A,B)$/;"	f
+stoppingCriterion	lamg/test/misc/testAcfStopping.m	/^function [stop, n, r, rChange, acfEstimate] = stoppingCriterion(N, e1, e2, c)$/;"	f
+strconcatdelim	core/util/strconcatdelim.m	/^function s = strconcatdelim(delimiter, varargin)$/;"	f
+strfindall	core/util/strfindall.m	/^function found = strfindall(text, varargin)$/;"	f
+strfindany	core/util/strfindany.m	/^function found = strfindany(text, varargin)$/;"	f
+stringToCellArray	core/matlab_xunit/xunit/+xunit/+utils/stringToCellArray.m	/^function c = stringToCellArray(s)$/;"	f
+stripdots	core/lightspeed/glob.m	/^function files = stripdots(files)$/;"	f
+struct2arglist	core/lightspeed/struct2arglist.m	/^function c = struct2arglist(s)$/;"	f
+sub2indm	core/util/sub2indm.m	/^function f = sub2indm(siz,a)$/;"	f
+sub2indunchecked	core/util/sub2indunchecked.m	/^function ndx = sub2indunchecked(siz,varargin)$/;"	f
+subsasgn	core/lightspeed/@mutable/subsasgn.m	/^function mut = subsasgn(mut,index,v)$/;"	f
+subsasgnJava	core/lightspeed/@mutable/subsasgn.m	/^function subsasgnJava(jv,index,v,cl)$/;"	f
+subsref	core/lightspeed/@mutable/subsref.m	/^function v = subsref(mut,index)$/;"	f
+subsrefJava	core/lightspeed/@mutable/subsref.m	/^function v = subsrefJava(jv,index,cl)$/;"	f
+subv2ind	core/lightspeed/subv2ind.m	/^function index = subv2ind(siz,sub)$/;"	f
+suite_lamg	lamg/test/suite_lamg.m	/^function suite_lamg$/;"	f
+sws1	cmg.h	/^    precision     *lws1,*lws2,*sws1,*sws2, *sws3;   \/* working space for the solver *\/$/;"	m	struct:shlevel	access:public
+sws1	cmg/Include/cmg.h	/^    precision     *lws1,*lws2,*sws1,*sws2, *sws3;   \/* working space for the solver *\/$/;"	m	struct:shlevel	access:public
+sws2	cmg.h	/^    precision     *lws1,*lws2,*sws1,*sws2, *sws3;   \/* working space for the solver *\/$/;"	m	struct:shlevel	access:public
+sws2	cmg/Include/cmg.h	/^    precision     *lws1,*lws2,*sws1,*sws2, *sws3;   \/* working space for the solver *\/$/;"	m	struct:shlevel	access:public
+sws3	cmg.h	/^    precision     *lws1,*lws2,*sws1,*sws2, *sws3;   \/* working space for the solver *\/$/;"	m	struct:shlevel	access:public
+sws3	cmg/Include/cmg.h	/^    precision     *lws1,*lws2,*sws1,*sws2, *sws3;   \/* working space for the solver *\/$/;"	m	struct:shlevel	access:public
+symmetrization_ht	symmetrization_ht.m	/^function [ht, lambda]= symmetrization_ht(LG, LS, t)$/;"	f
+table1	core/lightspeed/table1.c	/^void table1(double *inp, double *outp, mwSize length, double index,$/;"	f	signature:(double *inp, double *outp, mwSize length, double index, mwSize output_length, double *value_return, mwSize stride)
+tearDownFcn	core/matlab_xunit/tests/helper_classes/testFunctionHandlesB.m	/^function tearDownFcn(testData)$/;"	f
+tearDownFcn	core/matlab_xunit/tests/helper_classes/testFunctionHandlesC.m	/^function tearDownFcn(testData)$/;"	f
+tearDownFcn	core/matlab_xunit/tests/helper_classes/testFunctionHandlesD.m	/^function tearDownFcn(varargin)$/;"	f
+teardown	core/matlab_xunit/doc/examples_general/testSetupExample.m	/^function teardown(fh)$/;"	f
+teardown	core/matlab_xunit/doc/examples_general/testWithSetupError.m	/^function teardown(testData)$/;"	f
+teardown	core/matlab_xunit/doc/html/exTestFixtures.html	/^function teardown(fh)$/;"	f
+teardown	core/matlab_xunit/tests/helper_classes/testFunctionHandlesTeardownNoSetup.m	/^function teardown$/;"	f
+tempFileName	ufget/ufget.m	/^function file= tempFileName()$/;"	f
+ternary	ufget/UFgui.java	/^    private int ternary (String s)$/;"	m	class:UFgui	file:	access:private	signature:(String s)
+testA	core/matlab_xunit/tests/helper_classes/notTestString.m	/^function testA$/;"	f
+testA	core/matlab_xunit/tests/helper_classes/testFunctionHandlesA.m	/^function testA$/;"	f
+testA	core/matlab_xunit/tests/helper_classes/testFunctionHandlesB.m	/^function testA(testData)$/;"	f
+testA	core/matlab_xunit/tests/helper_classes/testFunctionHandlesC.m	/^function testA(testData)$/;"	f
+testA	core/matlab_xunit/tests/helper_classes/testFunctionHandlesD.m	/^function testA(varargin)$/;"	f
+testA	core/matlab_xunit/tests/helper_classes/testFunctionHandlesE.m	/^function testA$/;"	f
+testAcfStopping	lamg/test/misc/testAcfStopping.m	/^function testAcfStopping(e1, e2, c)$/;"	f
+testAddEntries	lamg/test/sparseops/testListSparse.m	/^function t = testAddEntries(n, z, clazz, columnTitles)$/;"	f
+testAddEntriesToClass	lamg/test/sparseops/testListSparse.m	/^function testAddEntriesToClass(N, Z, clazz, columnTitles)$/;"	f
+testAssertAlmostEqual	core/matlab_xunit/obsolete/tests/testAssertAlmostEqual.m	/^function test_suite = testAssertAlmostEqual$/;"	f
+testAssertEqual	core/matlab_xunit/tests/testAssertEqual.m	/^function test_suite = testAssertEqual$/;"	f
+testAssertEqualClass	core/matlab_xunit/tests/testAssertEqual.m	/^function testAssertEqualClass$/;"	f
+testAssertEqualHappyCase	core/matlab_xunit/tests/testAssertEqual.m	/^function testAssertEqualHappyCase$/;"	f
+testAssertEqualHappyCaseMatrix	core/matlab_xunit/tests/testAssertEqual.m	/^function testAssertEqualHappyCaseMatrix$/;"	f
+testAssertEqualHappyCaseString	core/matlab_xunit/tests/testAssertEqual.m	/^function testAssertEqualHappyCaseString$/;"	f
+testAssertEqualNans	core/matlab_xunit/tests/testAssertEqual.m	/^function testAssertEqualNans$/;"	f
+testAssertEqualNotEqual	core/matlab_xunit/tests/testAssertEqual.m	/^function testAssertEqualNotEqual$/;"	f
+testAssertEqualSparsity	core/matlab_xunit/tests/testAssertEqual.m	/^function testAssertEqualSparsity$/;"	f
+testAssertEqualWithThreeInputs	core/matlab_xunit/tests/testAssertEqual.m	/^function testAssertEqualWithThreeInputs$/;"	f
+testAssertExceptionThrown	core/matlab_xunit/tests/testAssertExceptionThrown.m	/^function test_suite = testAssertExceptionThrown$/;"	f
+testAssertFalse	core/matlab_xunit/tests/testAssertFalse.m	/^function test_suite = testAssertFalse$/;"	f
+testAssertFalseFailed	core/matlab_xunit/tests/testAssertFalse.m	/^function testAssertFalseFailed$/;"	f
+testAssertFalseHappyCase	core/matlab_xunit/tests/testAssertFalse.m	/^function testAssertFalseHappyCase$/;"	f
+testAssertFalseHappyCaseWithTwoArgs	core/matlab_xunit/tests/testAssertFalse.m	/^function testAssertFalseHappyCaseWithTwoArgs$/;"	f
+testAssertFalseNonlogical	core/matlab_xunit/tests/testAssertFalse.m	/^function testAssertFalseNonlogical$/;"	f
+testAssertFalseNonscalar	core/matlab_xunit/tests/testAssertFalse.m	/^function testAssertFalseNonscalar$/;"	f
+testAssertTrue	core/matlab_xunit/tests/testAssertTrue.m	/^function test_suite = testAssertTrue$/;"	f
+testAssertTrueFailed	core/matlab_xunit/tests/testAssertTrue.m	/^function testAssertTrueFailed$/;"	f
+testAssertTrueHappyCase	core/matlab_xunit/tests/testAssertTrue.m	/^function testAssertTrueHappyCase$/;"	f
+testAssertTrueHappyCaseWithTwoArgs	core/matlab_xunit/tests/testAssertTrue.m	/^function testAssertTrueHappyCaseWithTwoArgs$/;"	f
+testAssertTrueNonlogical	core/matlab_xunit/tests/testAssertTrue.m	/^function testAssertTrueNonlogical$/;"	f
+testAssertTrueNonscalar	core/matlab_xunit/tests/testAssertTrue.m	/^function testAssertTrueNonscalar$/;"	f
+testAugmentedSdd	lamg/test/util/testAugmentedSdd.m	/^function [B, A] = testAugmentedSdd(input)$/;"	f
+testB	core/matlab_xunit/tests/helper_classes/notTestString.m	/^function testB$/;"	f
+testB	core/matlab_xunit/tests/helper_classes/testFunctionHandlesA.m	/^function testB$/;"	f
+testB	core/matlab_xunit/tests/helper_classes/testFunctionHandlesB.m	/^function testB(testData)$/;"	f
+testB	core/matlab_xunit/tests/helper_classes/testFunctionHandlesC.m	/^function testB(testData)$/;"	f
+testB	core/matlab_xunit/tests/helper_classes/testFunctionHandlesD.m	/^function testB(varargin)$/;"	f
+testBadSinTest	core/matlab_xunit/doc/examples_general/testBadSinTest.m	/^function test_suite = testBadSinTest$/;"	f
+testCellArray	core/matlab_xunit/tests/testContainsRegexp.m	/^function testCellArray$/;"	f
+testCellArray	core/matlab_xunit/tests/testIsSetUpString.m	/^function testCellArray$/;"	f
+testCellArray	core/matlab_xunit/tests/testIsTearDownString.m	/^function testCellArray$/;"	f
+testCellArray	core/matlab_xunit/tests/testIsTestString.m	/^function testCellArray$/;"	f
+testCellArray	lamg/test/sparseops/testCellArrayAccess.m	/^function testCellArray(n, m)$/;"	f
+testCellArrayAccess	lamg/test/sparseops/testCellArrayAccess.m	/^function testCellArrayAccess()$/;"	f
+testChar	core/matlab_xunit/obsolete/tests/testIsAlmostEqual.m	/^function testChar$/;"	f
+testColormapColumns	core/matlab_xunit/doc/examples_general/testSetupExample.m	/^function testColormapColumns(fh)$/;"	f
+testColormapColumns	core/matlab_xunit/doc/html/exTestFixtures.html	/^function testColormapColumns(fh)$/;"	f
+testContainsRegexp	core/matlab_xunit/tests/testContainsRegexp.m	/^function test_suite = testContainsRegexp$/;"	f
+testCos	core/matlab_xunit/doc/examples_general/testCos.m	/^function test_suite = testCos$/;"	f
+testCycleAtLevel	lamg/test/util/testCycleAtLevel.m	/^function [data, details] = testCycleAtLevel(setup, finest, varargin)$/;"	f
+testDefaultTolerance	core/matlab_xunit/obsolete/tests/testIsAlmostEqual.m	/^function testDefaultTolerance$/;"	f
+testDefaultToleranceSingle	core/matlab_xunit/obsolete/tests/testIsAlmostEqual.m	/^function testDefaultToleranceSingle$/;"	f
+testDefectCorrection	lamg/test/util/testDefectCorrection.m	/^function [g0, x] = testDefectCorrection(g1, eta)$/;"	f
+testDetachNode	lamg/test/util/testDetachNode.m	/^function acf = testDetachNode(s, l, i, varargin)$/;"	f
+testDiffusionVsAffinity	lamg/test/util/testDiffusionVsAffinity.m	/^function [cc, dd, L, D, setup] = testDiffusionVsAffinity(n, nu, K, outputDir)$/;"	f
+testDirName	core/matlab_xunit/tests/testRuntestsWithDirectoryName.m	/^function testDirName$/;"	f
+testDisconnectedGs	lamg/test/misc/testDisconnectedGs.m	/^function testDisconnectedGs(n, e)$/;"	f
+testEmptyRelTol	core/matlab_xunit/obsolete/tests/testAssertAlmostEqual.m	/^function testEmptyRelTol$/;"	f
+testEqual	core/matlab_xunit/obsolete/tests/testAssertAlmostEqual.m	/^function testEqual$/;"	f
+testEqualWithFourInputs	core/matlab_xunit/obsolete/tests/testAssertAlmostEqual.m	/^function testEqualWithFourInputs$/;"	f
+testEqualWithThreeInputs	core/matlab_xunit/obsolete/tests/testAssertAlmostEqual.m	/^function testEqualWithThreeInputs$/;"	f
+testExactlyEqual	core/matlab_xunit/obsolete/tests/testIsAlmostEqual.m	/^function testExactlyEqual$/;"	f
+testFiniteAndInf	core/matlab_xunit/tests/testAssertEqual.m	/^function testFiniteAndInf$/;"	f
+testFiniteAndNaN	core/matlab_xunit/tests/testAssertEqual.m	/^function testFiniteAndNaN$/;"	f
+testFliplr	core/matlab_xunit/doc/example_subfunction_tests/testFliplr.m	/^function test_suite = testFliplr$/;"	f
+testFliplrMatrix	core/matlab_xunit/doc/example_quick_start/testFliplrMatrix.m	/^function testFliplrMatrix$/;"	f
+testFliplrMatrix	core/matlab_xunit/doc/example_subfunction_tests/testFliplr.m	/^function testFliplrMatrix$/;"	f
+testFliplrVector	core/matlab_xunit/doc/example_quick_start/testFliplrVector.m	/^function testFliplrVector$/;"	f
+testFliplrVector	core/matlab_xunit/doc/example_subfunction_tests/testFliplr.m	/^function testFliplrVector$/;"	f
+testFoobar	core/matlab_xunit/obsolete/tests/cwd_test/testFoobar.m	/^function testFoobar$/;"	f
+testFoobar	core/matlab_xunit/tests/cwd_test/testFoobar.m	/^function testFoobar$/;"	f
+testFunctionHandlesA	core/matlab_xunit/tests/helper_classes/testFunctionHandlesA.m	/^function test_suite = testFunctionHandlesA$/;"	f
+testFunctionHandlesA	core/matlab_xunit/tests/helper_classes/testFunctionHandlesE.m	/^function test_suite = testFunctionHandlesA$/;"	f
+testFunctionHandlesB	core/matlab_xunit/tests/helper_classes/testFunctionHandlesB.m	/^function test_suite = testFunctionHandlesB$/;"	f
+testFunctionHandlesC	core/matlab_xunit/tests/helper_classes/testFunctionHandlesC.m	/^function test_suite = testFunctionHandlesC$/;"	f
+testFunctionHandlesD	core/matlab_xunit/tests/helper_classes/testFunctionHandlesD.m	/^function test_suite = testFunctionHandlesD$/;"	f
+testFunctionHandlesTeardownNoSetup	core/matlab_xunit/tests/helper_classes/testFunctionHandlesTeardownNoSetup.m	/^function suite = testFunctionHandlesTeardownNoSetup$/;"	f
+testGrid	lamg/test/util/testGrid.m	/^function results = testGrid(gridType, d, N, print, varargin)$/;"	f
+testIncrementArray	lamg/test/util/testIncrementArray.m	/^function  testIncrementArray()$/;"	f
+testInfAndInf	core/matlab_xunit/tests/testAssertEqual.m	/^function testInfAndInf$/;"	f
+testInfiniteAndNaN	core/matlab_xunit/tests/testAssertEqual.m	/^function testInfiniteAndNaN$/;"	f
+testIsAlmostEqual	core/matlab_xunit/obsolete/tests/testIsAlmostEqual.m	/^function test_suite = testIsAlmostEqual$/;"	f
+testIsSetUpString	core/matlab_xunit/tests/testIsSetUpString.m	/^function test_suite = testIsSetUpString$/;"	f
+testIsTearDownString	core/matlab_xunit/tests/testIsTearDownString.m	/^function test_suite = testIsTearDownString$/;"	f
+testIsTestCaseSubclass	core/matlab_xunit/tests/testIsTestCaseSubclass.m	/^function test_suite = testIsTestCaseSubclass$/;"	f
+testIsTestString	core/matlab_xunit/tests/testIsTestString.m	/^function test_suite = testIsTestString$/;"	f
+testListSparse	lamg/test/sparseops/testListSparse.m	/^function testListSparse()$/;"	f
+testMatrixAssignment	lamg/test/util/testMatrixAssignment.m	/^function testMatrixAssignment$/;"	f
+testMinusInfAndMinusInf	core/matlab_xunit/tests/testAssertEqual.m	/^function testMinusInfAndMinusInf$/;"	f
+testMyCode	core/matlab_xunit/architecture/testSample.m	/^function testMyCode$/;"	f
+testMyFeature	core/matlab_xunit/doc/examples_general/testWithSetupError.m	/^function testMyFeature(testData)$/;"	f
+testNotASubclass	core/matlab_xunit/tests/testIsTestCaseSubclass.m	/^function testNotASubclass$/;"	f
+testNotEqual	core/matlab_xunit/obsolete/tests/testAssertAlmostEqual.m	/^function testNotEqual$/;"	f
+testOneStringContains	core/matlab_xunit/tests/testContainsRegexp.m	/^function testOneStringContains$/;"	f
+testOneStringDoesntContain	core/matlab_xunit/tests/testContainsRegexp.m	/^function testOneStringDoesntContain$/;"	f
+testOneStringIs	core/matlab_xunit/tests/testIsSetUpString.m	/^function testOneStringIs$/;"	f
+testOneStringIs	core/matlab_xunit/tests/testIsTearDownString.m	/^function testOneStringIs$/;"	f
+testOneStringIs	core/matlab_xunit/tests/testIsTestString.m	/^function testOneStringIs$/;"	f
+testOneStringIsNot	core/matlab_xunit/tests/testIsSetUpString.m	/^function testOneStringIsNot$/;"	f
+testOneStringIsNot	core/matlab_xunit/tests/testIsTearDownString.m	/^function testOneStringIsNot$/;"	f
+testOneStringIsNot	core/matlab_xunit/tests/testIsTestString.m	/^function testOneStringIsNot$/;"	f
+testOppositeSignInfs	core/matlab_xunit/tests/testAssertEqual.m	/^function testOppositeSignInfs$/;"	f
+testPointer	core/matlab_xunit/doc/examples_general/testSetupExample.m	/^function testPointer(fh)$/;"	f
+testPointer	core/matlab_xunit/doc/html/exTestFixtures.html	/^function testPointer(fh)$/;"	f
+testPsd	lamg/test/util/testAugmentedSdd.m	/^function isSpd = testPsd(A)$/;"	f
+testRandomSeed	lamg/test/util/testRandomSeed.m	/^function [acf, t] = testRandomSeed(g, maxAcf, seeds, varargin)$/;"	f
+testRelaxAcfComparison	lamg/test/util/testRelaxAcfComparison.m	/^function [stats, batchReader] = testRelaxAcfComparison(dir, varargin)$/;"	f
+testRelaxAcfWof	lamg/test/util/testRelaxAcfWof.m	/^function [stats, batchReader] = testRelaxAcfWof(dir, varargin)$/;"	f
+testRelaxTime	lamg/test/util/testRelaxTime.m	/^function [tAdd, tMvm, tMvmx, tRelax] = testRelaxTime(setup)$/;"	f
+testRuntestsWithDirectoryName	core/matlab_xunit/tests/testRuntestsWithDirectoryName.m	/^function test_suite = testRuntestsWithDirectoryName$/;"	f
+testSample	core/matlab_xunit/architecture/testSample.m	/^function test_suite = testSample$/;"	f
+testSetupExample	core/matlab_xunit/doc/examples_general/testSetupExample.m	/^function test_suite = testSetupExample$/;"	f
+testSimple	core/matlab_xunit/tests/helper_classes/testSimple.m	/^function testSimple$/;"	f
+testSin	core/matlab_xunit/doc/examples_general/testSin.m	/^function testSin$/;"	f
+testSinPi	core/matlab_xunit/doc/examples_general/testBadSinTest.m	/^function testSinPi$/;"	f
+testSingleEqual	core/matlab_xunit/obsolete/tests/testAssertAlmostEqual.m	/^function testSingleEqual$/;"	f
+testSingleNotEqual	core/matlab_xunit/obsolete/tests/testAssertAlmostEqual.m	/^function testSingleNotEqual$/;"	f
+testSingleZeros	core/matlab_xunit/obsolete/tests/testAssertAlmostEqual.m	/^function testSingleZeros$/;"	f
+testSparse	core/matlab_xunit/obsolete/tests/testAssertAlmostEqual.m	/^function testSparse$/;"	f
+testSparseAggregation	lamg/test/sparseops/testSparseAggregation.m	/^function A = testSparseAggregation(n, nz)$/;"	f
+testSparseSetting	lamg/test/sparseops/testSparseSetting.m	/^function A = testSparseSetting(nz, numRuns)$/;"	f
+testSpecialValues	core/matlab_xunit/obsolete/tests/testIsAlmostEqual.m	/^function testSpecialValues$/;"	f
+testSpecifiedTolerance	core/matlab_xunit/obsolete/tests/testIsAlmostEqual.m	/^function testSpecifiedTolerance$/;"	f
+testSub1	core/matlab_xunit/obsolete/tests/cwd_test/testSubfunctions.m	/^function testSub1$/;"	f
+testSub1	core/matlab_xunit/tests/cwd_test/testSubfunctions.m	/^function testSub1$/;"	f
+testSub2	core/matlab_xunit/obsolete/tests/cwd_test/testSubfunctions.m	/^function testSub2$/;"	f
+testSub2	core/matlab_xunit/tests/cwd_test/testSubfunctions.m	/^function testSub2$/;"	f
+testSubclass	core/matlab_xunit/tests/testIsTestCaseSubclass.m	/^function testSubclass$/;"	f
+testSubfunctions	core/matlab_xunit/obsolete/tests/cwd_test/testSubfunctions.m	/^function test_cases = testSubfunctions$/;"	f
+testSubfunctions	core/matlab_xunit/tests/cwd_test/testSubfunctions.m	/^function test_suite = testSubfunctions$/;"	f
+testTestCase	core/matlab_xunit/tests/testIsTestCaseSubclass.m	/^function testTestCase$/;"	f
+testTooManyInputs	core/matlab_xunit/doc/examples_general/testCos.m	/^function testTooManyInputs$/;"	f
+testUint8	core/matlab_xunit/obsolete/tests/testIsAlmostEqual.m	/^function testUint8$/;"	f
+testWithSetupError	core/matlab_xunit/doc/examples_general/testWithSetupError.m	/^function test_suite = testWithSetupError$/;"	f
+testZeros	core/matlab_xunit/obsolete/tests/testAssertAlmostEqual.m	/^function testZeros$/;"	f
+test_Infs	core/matlab_xunit/tests/test_compareFloats.m	/^function test_Infs$/;"	f
+test_NaNs	core/matlab_xunit/tests/test_compareFloats.m	/^function test_NaNs$/;"	f
+test_NanAndNan	core/matlab_xunit/tests/test_assertVectorsAlmostEqual.m	/^function test_NanAndNan$/;"	f
+test_TestSuiteInDir	core/matlab_xunit/tests/test_TestSuiteInDir.m	/^function test_suite = test_TestSuiteInDir$/;"	f
+test_arrayToString	core/matlab_xunit/tests/test_arrayToString.m	/^function test_suite = test_arrayToString$/;"	f
+test_assertElementsAlmostEqual	core/matlab_xunit/tests/test_assertElementsAlmostEqual.m	/^function suite = test_assertElementsAlmostEqual$/;"	f
+test_assertFilesEqual	core/matlab_xunit/tests/test_assertFilesEqual.m	/^function test_suite = test_assertFilesEqual$/;"	f
+test_assertVectorsAlmostEqual	core/matlab_xunit/tests/test_assertVectorsAlmostEqual.m	/^function suite = test_assertVectorsAlmostEqual$/;"	f
+test_bothFilesEmpty	core/matlab_xunit/tests/test_assertFilesEqual.m	/^function test_bothFilesEmpty$/;"	f
+test_cannotReadFirstFile	core/matlab_xunit/tests/test_assertFilesEqual.m	/^function test_cannotReadFirstFile$/;"	f
+test_cannotReadSecondFile	core/matlab_xunit/tests/test_assertFilesEqual.m	/^function test_cannotReadSecondFile$/;"	f
+test_case	core/matlab_xunit/tests/dir1/test_thatPasses.m	/^function test_case$/;"	f
+test_case	core/matlab_xunit/tests/dir2/test_thatFails.m	/^function test_case$/;"	f
+test_compareFloats	core/matlab_xunit/tests/test_compareFloats.m	/^function suite = test_compareFloats$/;"	f
+test_comparisonMessage	core/matlab_xunit/tests/test_comparisonMessage.m	/^function test_suite = test_comparisonMessage$/;"	f
+test_comparisonTypeSpecified	core/matlab_xunit/tests/test_compareFloats.m	/^function test_comparisonTypeSpecified$/;"	f
+test_complexInput	core/matlab_xunit/tests/test_compareFloats.m	/^function test_complexInput$/;"	f
+test_constructor	core/matlab_xunit/tests/test_TestSuiteInDir.m	/^function test_constructor$/;"	f
+test_differentSize	core/matlab_xunit/tests/test_assertFilesEqual.m	/^function test_differentSize$/;"	f
+test_elementwiseAbsoluteTolerance	core/matlab_xunit/tests/test_compareFloats.m	/^function test_elementwiseAbsoluteTolerance$/;"	f
+test_elementwiseRelativeTolerance	core/matlab_xunit/tests/test_compareFloats.m	/^function test_elementwiseRelativeTolerance$/;"	f
+test_emptyInput	core/matlab_xunit/tests/test_arrayToString.m	/^function test_emptyInput$/;"	f
+test_emptyInput	core/matlab_xunit/tests/test_stringToCellArray.m	/^function test_emptyInput$/;"	f
+test_equal	core/matlab_xunit/tests/test_assertFilesEqual.m	/^function test_equal$/;"	f
+test_failedAssertion	core/matlab_xunit/tests/test_assertElementsAlmostEqual.m	/^function test_failedAssertion$/;"	f
+test_failedAssertion	core/matlab_xunit/tests/test_assertVectorsAlmostEqual.m	/^function test_failedAssertion$/;"	f
+test_failedAssertionWithCustomMessage	core/matlab_xunit/tests/test_assertVectorsAlmostEqual.m	/^function test_failedAssertionWithCustomMessage$/;"	f
+test_finiteAndInfinite	core/matlab_xunit/tests/test_assertElementsAlmostEqual.m	/^function test_finiteAndInfinite()$/;"	f
+test_finiteAndInfinite	core/matlab_xunit/tests/test_assertVectorsAlmostEqual.m	/^function test_finiteAndInfinite()$/;"	f
+test_finiteAndNaN	core/matlab_xunit/tests/test_assertElementsAlmostEqual.m	/^function test_finiteAndNaN()$/;"	f
+test_finiteAndNaN	core/matlab_xunit/tests/test_assertVectorsAlmostEqual.m	/^function test_finiteAndNaN$/;"	f
+test_fiveInputs	core/matlab_xunit/tests/test_parseFloatAssertInputs.m	/^function test_fiveInputs()$/;"	f
+test_fourInputs	core/matlab_xunit/tests/test_parseFloatAssertInputs.m	/^function test_fourInputs()$/;"	f
+test_gatherTestCases	core/matlab_xunit/tests/test_TestSuiteInDir.m	/^function test_gatherTestCases$/;"	f
+test_happyCase	core/matlab_xunit/tests/testAssertExceptionThrown.m	/^function test_happyCase$/;"	f
+test_happyCase	core/matlab_xunit/tests/test_assertElementsAlmostEqual.m	/^function test_happyCase$/;"	f
+test_happyCase	core/matlab_xunit/tests/test_assertVectorsAlmostEqual.m	/^function test_happyCase$/;"	f
+test_happyCase	core/matlab_xunit/tests/test_comparisonMessage.m	/^function test_happyCase$/;"	f
+test_happyCase	core/matlab_xunit/tests/test_stringToCellArray.m	/^function test_happyCase$/;"	f
+test_infiniteAndInfinite	core/matlab_xunit/tests/test_assertElementsAlmostEqual.m	/^function test_infiniteAndInfinite()$/;"	f
+test_infiniteAndInfinite	core/matlab_xunit/tests/test_assertVectorsAlmostEqual.m	/^function test_infiniteAndInfinite$/;"	f
+test_infiniteAndNaN	core/matlab_xunit/tests/test_assertElementsAlmostEqual.m	/^function test_infiniteAndNaN()$/;"	f
+test_largeInput	core/matlab_xunit/tests/test_arrayToString.m	/^function test_largeInput$/;"	f
+test_nanAndNaN	core/matlab_xunit/tests/test_assertElementsAlmostEqual.m	/^function test_nanAndNaN()$/;"	f
+test_noException	core/matlab_xunit/tests/testAssertExceptionThrown.m	/^function test_noException$/;"	f
+test_nonFloatInputs	core/matlab_xunit/tests/test_assertElementsAlmostEqual.m	/^function test_nonFloatInputs()$/;"	f
+test_nonFloatInputs	core/matlab_xunit/tests/test_assertVectorsAlmostEqual.m	/^function test_nonFloatInputs()$/;"	f
+test_normalCase	core/matlab_xunit/tests/helper_classes/testFunctionHandlesTeardownNoSetup.m	/^function test_normalCase$/;"	f
+test_oneFileEmpty	core/matlab_xunit/tests/test_assertFilesEqual.m	/^function test_oneFileEmpty$/;"	f
+test_oppositeSignInfs	core/matlab_xunit/tests/test_assertVectorsAlmostEqual.m	/^function test_oppositeSignInfs$/;"	f
+test_parseFloatAssertInputs	core/matlab_xunit/tests/test_parseFloatAssertInputs.m	/^function suite = test_parseFloatAssertInputs$/;"	f
+test_plusMinusInfinity	core/matlab_xunit/tests/test_assertElementsAlmostEqual.m	/^function test_plusMinusInfinity()$/;"	f
+test_sameSizeButDifferent	core/matlab_xunit/tests/test_assertFilesEqual.m	/^function test_sameSizeButDifferent$/;"	f
+test_sameobject	core/lightspeed/tests/test_sameobject.m	/^function test_sameobject$/;"	f
+test_sixInputs	core/matlab_xunit/tests/test_parseFloatAssertInputs.m	/^function test_sixInputs()$/;"	f
+test_sizeMismatch	core/matlab_xunit/tests/test_assertElementsAlmostEqual.m	/^function test_sizeMismatch()$/;"	f
+test_sizeMismatch	core/matlab_xunit/tests/test_assertVectorsAlmostEqual.m	/^function test_sizeMismatch()$/;"	f
+test_smallInput	core/matlab_xunit/tests/test_arrayToString.m	/^function test_smallInput$/;"	f
+test_spacesAtEnd	core/matlab_xunit/tests/test_stringToCellArray.m	/^function test_spacesAtEnd$/;"	f
+test_spacesInFront	core/matlab_xunit/tests/test_stringToCellArray.m	/^function test_spacesInFront$/;"	f
+test_stringToCellArray	core/matlab_xunit/tests/test_stringToCellArray.m	/^function test_suite = test_stringToCellArray$/;"	f
+test_thatFails	core/matlab_xunit/tests/dir2/test_thatFails.m	/^function test_suite = test_thatFails$/;"	f
+test_thatPasses	core/matlab_xunit/tests/dir1/test_thatPasses.m	/^function test_suite = test_thatPasses$/;"	f
+test_threeInputs	core/matlab_xunit/tests/test_parseFloatAssertInputs.m	/^function test_threeInputs()$/;"	f
+test_tooFewInputs	core/matlab_xunit/tests/test_parseFloatAssertInputs.m	/^function test_tooFewInputs()$/;"	f
+test_tooManyInputs	core/matlab_xunit/tests/test_parseFloatAssertInputs.m	/^function test_tooManyInputs()$/;"	f
+test_twoInputs	core/matlab_xunit/tests/test_parseFloatAssertInputs.m	/^function test_twoInputs()$/;"	f
+test_twoSingleAndDoubleInputs	core/matlab_xunit/tests/test_parseFloatAssertInputs.m	/^function test_twoSingleAndDoubleInputs()$/;"	f
+test_twoSingleInputs	core/matlab_xunit/tests/test_parseFloatAssertInputs.m	/^function test_twoSingleInputs()$/;"	f
+test_vectorAbsoluteTolerance	core/matlab_xunit/tests/test_compareFloats.m	/^function test_vectorAbsoluteTolerance$/;"	f
+test_vectorRelativeTolerance	core/matlab_xunit/tests/test_compareFloats.m	/^function test_vectorRelativeTolerance$/;"	f
+test_wrongException	core/matlab_xunit/tests/testAssertExceptionThrown.m	/^function test_wrongException$/;"	f
+tetragamma	core/lightspeed/util.c	/^double tetragamma(double x)$/;"	f	signature:(double x)
+tetragamma	core/lightspeed/util.h	/^double tetragamma(double x);$/;"	p	signature:(double x)
+textvec	core/util/textvec.m	/^function h = textvec(v,i,c)$/;"	f
+the_long_wait_is_over	ufget/UFgui.java	/^    private void the_long_wait_is_over ( )$/;"	m	class:UFgui	file:	access:private	signature:( )
+toCellArray	core/util/toCellArray.m	/^function cellArray = toCellArray(matrix)$/;"	f
+toJava	core/lightspeed/toJava.m	/^function jv = toJava(v,collection)$/;"	f
+today	ufget/UFgui.java	/^    private Date today, last_download ;$/;"	f	class:UFgui	file:	access:private
+tokenize	graphViz4Matlab/util/tokenize.m	/^function tokens = tokenize(str,delimiter)$/;"	f
+tolerance	Gauss_Seidel/solver.h	/^double tolerance(double *x, int n);$/;"	p	signature:(double *x, int n)
+tolerance	Gauss_Seidel/tolerance.c	/^double tolerance(double *x, int n){$/;"	f	signature:(double *x, int n)
+tolerance	solver.h	/^double tolerance(double *x, int n);$/;"	p	signature:(double *x, int n)
+tolerance	tolerance.c	/^double tolerance(double *x, int n){$/;"	f	signature:(double *x, int n)
+translatecolorRGB	core/util/rgb.m	/^function out=translatecolorRGB(in)$/;"	f
+translatecolorchar	core/util/rgb.m	/^function out=translatecolorchar(in)$/;"	f
+translatecolorstring	core/util/rgb.m	/^function out=translatecolorstring(in)$/;"	f
+transpose	core/lightspeed/matfile.c	/^void transpose(double *dest, double *src, int rows, int cols)$/;"	f	signature:(double *dest, double *src, int rows, int cols)
+trapez	core/old_util/trapez.m	/^function y = trapez(f,a,b,n)$/;"	f
+tri_pochhammer	core/lightspeed/util.c	/^double tri_pochhammer(double x, int n)$/;"	f	signature:(double x, int n)
+tri_pochhammer	core/lightspeed/util.h	/^double tri_pochhammer(double x, int n);$/;"	p	signature:(double x, int n)
+triangle	core/util/triangle.m	/^function triangle(v,r,c)$/;"	f
+trigamma	core/lightspeed/trigamma.m	/^function y = trigamma(x)$/;"	f
+trigamma	core/lightspeed/util.c	/^double trigamma(double x)$/;"	f	signature:(double x)
+trigamma	core/lightspeed/util.h	/^double trigamma(double x);$/;"	p	signature:(double x)
+trimProblemFlow	lamg/test/util/trimProblemFlow.m	/^function gNew = trimProblemFlow(g, sz)$/;"	f
+trmvecmul	cmg.h	/^void trmvecmul (mIndex *, precision *, mSize , precision *, mSize , boolean);$/;"	p	signature:(mIndex *, precision *, mSize , precision *, mSize , boolean)
+trmvecmul	cmg/Include/cmg.h	/^void trmvecmul (mIndex *, precision *, mSize , precision *, mSize , boolean);$/;"	p	signature:(mIndex *, precision *, mSize , precision *, mSize , boolean)
+trmvecmul	cmg/Source/Solver/rmvec.c	/^void trmvecmul (mIndex *CI, precision *x, mSize  m, precision *y, mSize n, boolean dc)$/;"	f	signature:(mIndex *CI, precision *x, mSize m, precision *y, mSize n, boolean dc)
+trmvecmul	rmvec.c	/^void trmvecmul (mIndex *CI, precision *x, mSize  m, precision *y, mSize n, boolean dc)$/;"	f	signature:(mIndex *CI, precision *x, mSize m, precision *y, mSize n, boolean dc)
+twoLevelAcf	lamg/main/util/twoLevelAcf.m	/^function [acf,details] = twoLevelAcf(setup, numLevels, levels, cycleIndexTwoLevel, maxDirectSolverSize, varargin)$/;"	f
+twoLevelEnergyRatio	lamg/main/util/twoLevelEnergyRatio.m	/^function [s,acf,details] = twoLevelEnergyRatio(key, randomSeed, doRun, varargin)$/;"	f
+twoLevelOperator	lamg/test/util/twoLevelOperator.m	/^function M = twoLevelOperator(setup, nu, g)$/;"	f
+ub_IN	cmg/Source/Hierarchy/perturbtril.c	19;"	d	file:
+uffind	ufget/uffind.m	/^function id = uffind(field, varargin)$/;"	f
+ufget	ufget/ufget.m	/^function Problem = ufget (matrix, UF_Index, action)$/;"	f
+ufgetAll	graph/main/ufgetAll.m	/^function ufgetAll(minEdges, maxEdges)$/;"	f
+ufget_defaults	ufget/ufget_defaults.m	/^function params = ufget_defaults(settingsFile)$/;"	f
+ufget_lookup	ufget/ufget_lookup.m	/^function [group, name, id] = ufget_lookup (matrix, UF_Index)$/;"	f
+ufgrep	ufget/ufgrep.m	/^function list = ufgrep (expression, index)$/;"	f
+ufkinds	ufget/ufkinds.m	/^function kinds = ufkinds$/;"	f
+ufweb	ufget/ufweb.m	/^function stats = ufweb (matrix, opts)$/;"	f
+umfpackTiming	lamg/test/util/umfpackTiming.m	/^function umfpackTiming()$/;"	f
+undecidedNodes	lamg/main/mex/undecidedNodes.m	/^function bins = undecidedNodes(A, candidate, isOpen, numBins)$/;"	f
+undecidedNodes_matlab	lamg/main/mex/undecidedNodes_matlab.m	/^function bins = undecidedNodes_matlab(A, candidate, isOpen, numBins)$/;"	f
+union_sorted	core/lightspeed/union_sorted.m	/^function [c,a_match,b_match] = union_sorted(a,b)$/;"	f
+union_sorted_rows	core/lightspeed/union_sorted_rows.m	/^function [c,a_match,b_match] = union_sorted_rows(a,b)$/;"	f
+update	core/lightspeed/matfile.c	/^void update(MATFile *pmat, char *var, int global, int sparse)$/;"	f	signature:(MATFile *pmat, char *var, int global, int sparse)
+update_icon	ufget/UFgui.java	/^    private void update_icon (String fullname)$/;"	m	class:UFgui	file:	access:private	signature:(String fullname)
+url_in	ufget/UFgui.java	/^    private static BufferedInputStream url_in = null ;$/;"	f	class:UFgui	file:	access:private
+urlwriteSafe	core/util/urlwriteSafe.m	/^function urlwriteSafe(url, filename)$/;"	f
+usage	core/lightspeed/install_random.bat	/^:usage$/;"	l
+uv	core/util/uv.m	/^function e = uv(d,i)$/;"	f
+v_IN	cmg/Source/Hierarchy/vpack.c	20;"	d	file:
+val	Gauss_Seidel/solver.h	/^    double *val, *diag;$/;"	m	struct:matrix	access:public
+val	solver.h	/^    double *val, *diag;$/;"	m	struct:matrix	access:public
+valueChanged	ufget/UFgui.java	/^        public void valueChanged (ListSelectionEvent event)$/;"	m	class:UFgui.matrix_Table_RowListener	access:public	signature:(ListSelectionEvent event)
+vec	core/lightspeed/vec.m	/^function v = vec(a)$/;"	f
+vmv	cmg.h	/^void vmv   (precision *, precision *, precision *, mSize);$/;"	p	signature:(precision *, precision *, precision *, mSize)
+vmv	cmg/Include/cmg.h	/^void vmv   (precision *, precision *, precision *, mSize);$/;"	p	signature:(precision *, precision *, precision *, mSize)
+vmv	cmg/Source/Solver/vmv.c	/^void vmv (precision *x, precision *y, precision *z, mSize n)$/;"	f	signature:(precision *x, precision *y, precision *z, mSize n)
+vmv	vmv.c	/^void vmv (precision *x, precision *y, precision *z, mSize n)$/;"	f	signature:(precision *x, precision *y, precision *z, mSize n)
+vpv	cmg.h	/^void vpv   (precision *, precision *, precision *, mSize);$/;"	p	signature:(precision *, precision *, precision *, mSize)
+vpv	cmg/Include/cmg.h	/^void vpv   (precision *, precision *, precision *, mSize);$/;"	p	signature:(precision *, precision *, precision *, mSize)
+vpv	cmg/Source/Solver/vpv.c	/^void vpv (precision *x, precision *y, precision *z, mSize n)$/;"	f	signature:(precision *x, precision *y, precision *z, mSize n)
+vpv	vpv.c	/^void vpv (precision *x, precision *y, precision *z, mSize n)$/;"	f	signature:(precision *x, precision *y, precision *z, mSize n)
+vpvmv	cmg.h	/^void vpvmv (precision *, precision *, precision *, precision *, mSize);$/;"	p	signature:(precision *, precision *, precision *, precision *, mSize)
+vpvmv	cmg/Include/cmg.h	/^void vpvmv (precision *, precision *, precision *, precision *, mSize);$/;"	p	signature:(precision *, precision *, precision *, precision *, mSize)
+vpvmv	cmg/Source/Solver/vpvmv.c	/^void vpvmv (precision *x, precision *y, precision *z, precision *w, mSize n)$/;"	f	signature:(precision *x, precision *y, precision *z, precision *w, mSize n)
+vpvmv	vpvmv.c	/^void vpvmv (precision *x, precision *y, precision *z, precision *w, mSize n)$/;"	f	signature:(precision *x, precision *y, precision *z, precision *w, mSize n)
+vvmul	cmg.h	/^void vvmul (precision *, precision *, precision *, mSize);$/;"	p	signature:(precision *, precision *, precision *, mSize)
+vvmul	cmg/Include/cmg.h	/^void vvmul (precision *, precision *, precision *, mSize);$/;"	p	signature:(precision *, precision *, precision *, mSize)
+vvmul	cmg/Source/Solver/vvmul.c	/^void vvmul (precision *x, precision *y, precision *z, mSize n)$/;"	f	signature:(precision *x, precision *y, precision *z, mSize n)
+vvmul	vvmul.c	/^void vvmul (precision *x, precision *y, precision *z, mSize n)$/;"	f	signature:(precision *x, precision *y, precision *z, mSize n)
+w_OUT	cmg/Source/Hierarchy/vpack.c	21;"	d	file:
+wishpdf	core/lightspeed/wishpdf.m	/^function p = wishpdf(varargin)$/;"	f
+wishpdfln	core/lightspeed/wishpdfln.m	/^function lp = wishpdfln(x,a,b,inverse)$/;"	f
+x0_in	Gauss_Seidel/iterseidel.c	15;"	d	file:
+x0_in	examples/iterweightedjacobi.c	15;"	d	file:
+x0_in	iterseidel.c	15;"	d	file:
+x0_in	iterweightedjacobi.c	15;"	d	file:
+x0_in	lamg/iterweightedjacobi.c	15;"	d	file:
+x_OUT	cmg/MATLAB/Solver/mx_d_preconditioner.c	17;"	d	file:
+x_OUT	cmg/MATLAB/Solver/mx_s_preconditioner.c	17;"	d	file:
+x_out	Gauss_Seidel/iterseidel.c	13;"	d	file:
+x_out	examples/iterweightedjacobi.c	13;"	d	file:
+x_out	iterseidel.c	13;"	d	file:
+x_out	iterweightedjacobi.c	13;"	d	file:
+x_out	lamg/iterweightedjacobi.c	13;"	d	file:
+xerbla_	core/lightspeed/dtrsm.c	/^int xerbla_(char *srname, int *info)$/;"	f	signature:(char *srname, int *info)
+yes_no	ufget/UFgui.java	/^    private String yes_no (int k)$/;"	m	class:UFgui	file:	access:private	signature:(int k)

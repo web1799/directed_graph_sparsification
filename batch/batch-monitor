@@ -1,0 +1,16 @@
+#!/bin/bash
+
+jobName=$1
+numRuns=$2
+
+qstat -u ${USER}
+
+cd $out
+for i in $(seq 1 1 ${2}); do
+    file="linearSolvers_${jobName}_`printf "%03d" $i`/solvers.html.log";
+    if [ -e $file ]; then
+	tail -10 $file | grep Running | tail -1 | awk {'print $2'} | sed -e 's/://g' | xargs -iddd printf "Run %03d: at problem %s\n" $i ddd
+    else
+	printf "Run %03d: has not started\n" $i
+    fi
+done

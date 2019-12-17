@@ -1,0 +1,31 @@
+#!/bin/bash
+#-----------------------------------------------------
+# Download a list of files from a text file.
+# Line format: URL localOutputFile
+#-----------------------------------------------------
+
+# Read input arguments
+
+progname=`basename $0`
+
+if [[ ($# -ne 1) ]]; then
+    echo "Usage: $progname <input file>"
+    echo ""
+    echo "Download a list of files specified in an input text file."
+    echo "Line format: URL localOutputFile"
+    exit 1
+fi
+
+INPUT=$1
+[ ! -f $INPUT ] && { echo "$INPUT file not found"; exit -1; }
+
+
+# Read and parse lines from file
+OLDIFS=$IFS
+IFS=" "
+while read url outputFile
+do
+  echo "Downloading $url to $outputFile..."
+  wget "$url" -q -O "$outputFile"
+done < $INPUT
+IFS=$OLDIFS

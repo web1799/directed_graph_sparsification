@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -N myjob
+#PBS -l walltime=0:10:00
+#PBS -l mppwidth=24
+#PBS -j oe
+#PBS -q development
+
+env
+echo "Job ID   : ${PBS_JOBID}"
+echo "EXEC_ARGS: ${EXEC_ARGS}"

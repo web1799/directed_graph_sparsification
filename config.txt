@@ -1,0 +1,4 @@
+home_dir='c:/oren'
+out_dir=[home_dir '/out']
+data_dir=[home_dir '/data']
+sfdp_exec='sfdp'

@@ -1,0 +1,2 @@
+http://istec.colostate.edu/istec_cray/istec_csu_cray_users_guide_ver1.pdf /lustre/beagle/lamg/jobs/csu-cray-doc.pdf
+http://google.com /lustre/beagle/lamg/jobs/index.html

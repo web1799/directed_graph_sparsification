@@ -1,0 +1,27 @@
+A directory with files related to compilation and scheduling on the
+Beagle Cray XE6 at U Chicago CI/ANL.
+
+* MATLAB wrapper functions that are compiled to MCC executables:
+  linearSolvers.m
+* mccCompile.m: MCC compilation script of a wrapper function
+* MATLAB PBS job submission framework:
+  matlab-batch
+  matlab-job
+* Shortcuts to submitting the main jobs:
+  batch-downloadCollection
+  batch-linearSolvers
+* PBS test job scripts:
+  test.pbs
+
+Order of operations:
+* Download my collection into the $data directory.
+* Run ufget_all in MATLAB on sandbox: downloads entire UF collection into
+  the directory $data/uf.
+* Compile wrapper functions to mcc: mccCompile('linearSolvers'), etc.
+* Run the script batch-downloadCollection on login to convert the entire
+  collection under $data to our format and split multi-connected graphs
+  into components.
+* Run createIndex('lap') in MATLAB on sandbox to index our collection.
+  Creates $data/lap_index.mat.
+* Run batch-linearSolvers with an appropriate wall time and parameters
+  to run LAMG on the test collection.

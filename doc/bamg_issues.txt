@@ -1,0 +1,26 @@
+AMG-146 	Create container classes and functions for multilevel maxflow solver 	Blocker 	Open Open 	Max Flow 	
+AMG-143 	Max flow direct solver 	Blocker 	Open Open 	Max Flow 	
+AMG-142 	Create and test equisaturation function 	Blocker 	Open Open 	Max Flow 	
+AMG-147 	Data pump that makes graphs positive-weighted, singly-connected 	Critical 	Open Open 	Max Flow 	
+AMG-145 	Max Flow Problem class 	Critical 	Open Open 	Max Flow 	
+AMG-144 	Flow plotter 	Major 	Open Open 	Max Flow 	
+AMG-140 	AMG-115 EIS Elimination Interpolation 	Blocker 	Open Open 	Fiedler 	
+AMG-115 	Fiedler Processor 	Blocker 	Open Open 	Fiedler 	
+AMG-138 	Compare performance of RQ vs. EIS eigensolvers 	Major 	Open Open 	Fiedler 	
+AMG-137 	AMG-115 EIS Interpolation near zero crossing 	Major 	Open Open 	Fiedler 	
+AMG-141 	Study improved long CG/MINRES acceleration using FAS 	Major 	Open Open 	LAMG Enhancements 	
+AMG-123 	Improve aggregation sweep by smart ordering of points 	Major 	Open Open 	LAMG Enhancements 	
+AMG-139 	Merge elimination and aggregation 	Minor 	Open Open 	LAMG Enhancements 	
+AMG-127 	Speed up test instance auto-location and loading 	Minor 	Open Open 	LAMG Enhancements 	
+AMG-122 	Grid + extra link test case 	Minor 	Open Open 	LAMG Enhancements 	
+AMG-78 	Read all BAMG papers in svn references/amg directory 	Minor 	Open Open 	LAMG Enhancements 	
+AMG-131 	Anis-Rotated Bootstrap Cycle 	Critical 	Open Open 	Anis-Rotated 	
+AMG-133 	Try Double Bootstrap Cycle 	Major 	Open Open 	Anis-Rotated 	
+AMG-130 	Study different affinity criteria 	Critical 	Open Open 	Long Term 	
+AMG-103 	AMG-54 HTML printout of Setup object 	Minor 	Open Open 	Long Term 	
+AMG-102 	3-D random grid test case 	Minor 	Open Open 	Long Term 	
+AMG-72 	AMG-61 Regularization parameter analysis 	Minor 	Open Open 	Long Term 	
+AMG-58 	2-D random diffusion grid test case 	Minor 	Open Open 	Long Term 	
+AMG-53 	Two suns test case 	Minor 	Open Open 	Long Term 	
+AMG-46 	Vectorize aggregation stage 	Minor 	Open Open 	Long Term 	
+AMG-30 	Incorporate generated graphs from Networkx 	Minor 	Open Open 	Long Term 	

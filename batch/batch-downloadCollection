@@ -1,0 +1,2 @@
+# Download graph collection (no parallelization needed, just lots of memory)
+matlab-batch -w "1:00:00" -q development -v "\"download\" \"\" 1.08e8 Inf" linearSolvers

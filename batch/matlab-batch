@@ -1,0 +1,200 @@
+#!/bin/bash
+#-----------------------------------------------------
+# A generic MATLAB PBS batch runner. Assumes that the
+# MATLAB executable has a parameter to be varied over
+# different independent runs.
+#-----------------------------------------------------
+
+#=============================================
+# Default argument values
+#=============================================
+
+# Number of parallel runs
+NUM_RUNS=1
+
+# MATLAB "map" function execution arguments
+EXEC_ARGS=""
+
+# Number of cores (24 per nodes on Beagle)
+CORES="24"
+
+# Max job run time
+WALL_TIME="00:10:00"
+
+# Job work directory
+WORK_DIR="/lustre/beagle/lamg/jobs"
+
+# Queue name
+QUEUE="batch"
+
+# MCC executable to reduce run results (reduce=merge)
+REDUCER=""
+
+# MATLAB "reduce" function execution arguments
+REDUCER_ARGS=""
+
+#=============================================
+# Constants
+#=============================================
+export JOB_PBS_FILE="`which matlab-job`"
+
+#=============================================
+# Call run merger
+#=============================================
+function call_result_merger {
+  REDUCER=$1
+  shift
+  REDUCER_ARGS=$1
+  shift
+  JOB_BASE_NAME=$1
+  shift
+  jobs=("${@}")
+  NUM_RUNS=${#jobs[@]}
+  echo "Calling result merger $REDUCER on job ${JOB_BASE_NAME}, $NUM_RUNS runs"
+  echo "REDUCER_ARGS = ${REDUCER_ARGS}"
+
+  # PBS options for the merger job. Shouldn't be time-intensive, typically.
+  WALL_TIME="00:10:00"
+  CORES=24
+
+  # A work around a possible qsub variable parsing bug. Replace quotes inside
+  # MATLAB function arguments by the magic token '%%%' that does not require escaping.
+  # matlab_job converts it back into quotes.
+  ARGS=`echo "\"${JOB_BASE_NAME}\" ${NUM_RUNS} ${REDUCER_ARGS}" | sed -e 's/"/%%%/g'`
+  job_id=`qsub -N "${JOB_BASE_NAME}" -q "${QUEUE}" -j oe -o "${WORK_DIR}" -e "${WORK_DIR}" -l "walltime=$WALL_TIME,mppwidth=$CORES" -v "EXEC=\"${EXEC}\",EXEC_ARGS=\"${ARGS}\",WORK_DIR=${WORK_DIR},CURRENT_DIR=${CURRENT_DIR}" ${JOB_PBS_FILE}`
+  echo "Triggered run #${run_id}: job ${job_id}"
+
+  jobs_delimited=""
+  for ((i=0; i<$NUM_RUNS; i++)); do
+    jobs_delimited="$jobs_delimited${jobs[i]}"
+    if [[ $i -lt $(( NUM_RUNS-1)) ]]; then
+      jobs_delimited="$jobs_delimited,"
+    fi
+  done
+  echo $jobs_delimited
+}
+
+#=============================================
+# Print usage, parse input arguments
+#=============================================
+progname=`basename $0`
+
+function printTypeForHelp
+{
+    echo "Type \"$progname -h\" for help."
+}
+
+function printUsage
+{
+    echo -e ""
+    echo -e "Usage: $progname [-r numRuns] [-c cores] [-w wall_time] [-o work_dir] [-v exec_args]"
+    echo -e "       [-q queue] [-m merger] <exec>"
+    echo -e ""
+    echo -e "Runs a MATLAB MCC executable in a set of parallel PBS batch jobs."
+    echo -e ""
+    echo -e "\texec\t\tthe MCC executable to run. Assumed to (1) correspond to a MATLAB"
+    echo -e "\t\t\tfunction of the form result = exec(jobName, numRuns, runId, arg1, arg2, ...)"
+    echo -e "\t\t\tthat operates on a data that can be partitioned into numRuns independent"
+    echo -e "\t\t\truns identified by the running index runId=1..numRuns; (2) be in the same"
+    echo -e "\t\t\tdirectory with the corresponding generated Beagle MATLAB runner script"
+    echo -e "\t\t\tnamed \"run_<exec>.sh\". jobName is a unique job identifier string."
+    echo -e ""
+    echo -e "\t-r numRuns\tNumber of parallel runs. Default: ${NUM_RUNS}"
+    echo -e ""
+    echo -e "\t-c cores\tNumber of cores to utilize. Default: ${CORES}"
+    echo -e ""
+    echo -e "\t-w wall_time\tMaximum wall time to be used by each run. Default: ${WALL_TIME}"
+    echo -e ""
+    echo -e "\t-o work_dir\tDirectory for job log files. Default: ${WORK_DIR}"
+    echo -e ""
+    echo -e "\t-v exec_args\tThe (quoted) argument list \"arg1 args2 ...\" to pass to the"
+    echo -e "\t\t\tmatlab function following numRuns and runId. Default: \"${EXEC_ARGS}\""
+    echo -e ""
+    echo -e "\t-q queue\tDestination queue name to submit the jobs to. Default: ${QUEUE}"
+    echo -e ""
+    echo -e "\t-m reducer\tMCC executable to merge (reduce) the results of the runs."
+    echo -e "\t\t\tDefault: none. Assumed to correspond to a MATLAB function with the"
+    echo -e "\t\t\t signature result = reduce(jobName, numRuns, arg1, arg2, ...)"
+    echo -e "\t\t\t(see exec description above)."
+    echo -e ""
+    echo -e "\t-a reducer_args\tThe (quoted) argument list \"arg1 args2 ...\" to pass to the"
+    echo -e "\t\t\treducer matlab function. Default: \"${REDUCER_ARGS}\""
+    echo -e ""
+}
+
+while getopts "hr:c:w:o:v:q:m:a:" optionName; do
+    case "$optionName" in
+	r) NUM_RUNS="${OPTARG}";;
+	c) CORES="${OPTARG}";;
+	w) WALL_TIME="${OPTARG}";;
+	o) WORK_DIR="${OPTARG}";;
+	v) EXEC_ARGS="${OPTARG}";;
+	q) QUEUE="${OPTARG}";;
+	m) REDUCER="${OPTARG}";;
+	a) REDUCER_ARGS="${OPTARG}";;
+	h) printUsage; exit 0;;
+	[?]) printTypeForHelp; exit -1;;
+    esac
+done
+shift $(($OPTIND - 1))
+set -- "$*" 
+IFS=" "; declare -a remaining_args=($*)
+
+# Argument validation
+if [ ${#remaining_args[*]} -ne 1 ]; then
+    echo "Must specify an MCC executable"
+    printTypeForHelp
+    exit -1
+fi
+EXEC=${remaining_args[0]}
+
+# Print args
+echo "--- Running MATLAB MCC Executable in batch jobs ---"
+echo "Executable: $EXEC"
+echo "Arguments : $EXEC_ARGS"
+echo "# runs    : $NUM_RUNS"
+echo "# cores   : $CORES"
+echo "Wall time : $WALL_TIME"
+echo "Work dir  : $WORK_DIR"
+echo "Queue     : $QUEUE"
+
+#=============================================
+# Main program
+#=============================================
+
+# Queue NUM_RUNS parallel runs using the generic runner script run-matlab-job with the above
+# input PBS options. Note that we prepend EXEC_ARGS by numRuns and runId, assumed to be the
+# first two parameters of the MATLAB function.
+
+CURRENT_DIR=`pwd`
+JOB_BASE_NAME=`basename ${EXEC}`_`date +"%Y%m%d_%H%M%S"`
+#JOB_BASE_NAME=`basename ${EXEC}`
+
+# Save job IDs to an SQLITE database
+#DB="${WORK_DIR}/${JOB_BASE_NAME}.sqlite"
+#echo "Database  : ${DB}"
+# Create database of job names to be populated by the jobs started below
+#sqlite3 $DB "create table job (job varchar(100))"
+
+# Save job IDs into an array
+jobs=( )
+for ((run_id=1; run_id<=$NUM_RUNS; run_id++)); do 
+#for ((run_id=18; run_id<=18; run_id++)); do 
+  # A work around a possible qsub variable parsing bug. Replace quotes inside
+  # MATLAB function arguments by the magic token '%%%' that does not require escaping.
+  # matlab_job converts it back into quotes.
+  ARGS=`echo "\"${JOB_BASE_NAME}\" ${NUM_RUNS} ${run_id} ${EXEC_ARGS}" | sed -e 's/"/%%%/g'`
+  job_id=`qsub -N "${JOB_BASE_NAME}" -q "${QUEUE}" -j oe -o "${WORK_DIR}" -e "${WORK_DIR}" -l "walltime=$WALL_TIME,mppwidth=$CORES" -v "EXEC=\"${EXEC}\",EXEC_ARGS=\"${ARGS}\",WORK_DIR=${WORK_DIR},CURRENT_DIR=${CURRENT_DIR}" ${JOB_PBS_FILE}`
+  echo "Triggered run #${run_id}: job ${job_id}"
+  jobs=( "${jobs[@]}" "${job_id}" )
+done
+
+# Call reducer matlab executable
+if [ "x$REDUCER" != "x" ]; then
+  call_result_merger "${REDUCER}" "${REDUCER_ARGS}" "${JOB_BASE_NAME}" "${jobs[@]}"
+fi
+
+# Wait for all jobs to be queued before we exit
+wait
+
+# Clean up

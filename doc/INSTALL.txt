@@ -1,0 +1,65 @@
+=====================================
+LAMG Code - Installation Instructions
+=====================================
+Notes:
+- Full installation documentions are available at http://lamg.googlecode.com
+- The make script described below adds directories to the MATLAB path and saves it.
+  In shared installations of MATLAB, the path will not saved for next session.
+  So when you re-run MATLAB make sure that the directories are on the path by
+  running 'make(false);' at the MATLAB prompt in step 2 below.
+
+To Install:
+-----------
+1. Unzip the LAMG distribution file into a directory, say C:\lamg
+   (or could be  /c/lamg in Unix).
+
+2. At the MATLAB prompt, type
+
+>> cd C:\lamg;      % Replace this value with your installation directory
+
+3A. IF YOU ARE WORKING ON A WINDOWS 7 64-BIT (AMD) MACHINE, type
+
+>> make;
+
+3B. ON OTHER OPERATING SYSTEMS, you will need to set up your mex compiler
+and compile the LAMG mex functions into binaries:
+
+>> mex -setup
+... Choose a compiler ... if you haven't installed one you will need to! ...
+>> make('compile');
+
+4. To verify a successful installation of LAMG, type at the MATLAB prompt:
+
+>> lamg_example;
+
+The output should look like this:
+
+Setting up problem
+Setting up solver
+Solving A*x=b
+------------------------------------------------------------------------
+Multi-level setup
+	#levels          = 3
+	Design gamma     = 1.5
+	Edge  complexity = 2.338
+	Cycle complexity = 0.697
+l  Type     Nodes    Edges    NodeR  EdgeR   DegL1   Nu  Gam  Work  TV 
+=======================================================================
+1  FINEST   400      760      1.000  1.000  3.80    0   1.0  0.00  0  
+2  ELIM     200      721      0.500  0.949  7.21    3   1.5  0.50  4  
+3  AGG      92       296      0.460  0.411  6.43    0   0.0  0.20  0  
+
+|A*x-b|/|b|          1.20e-008
+Convergence factor   0.091
+Setup time [sec]     total 0.025, normalized 3.30e-005
+Solve time [sec]     total 0.033, normalized 4.41e-005
+
+To Uninstall:
+-------------
+5. At the MATLAB prompt, type
+
+>> cd <to any directory OUTSIDE C:/lamg>
+>> rmpathsub('C:/lamg');
+
+Note: the directory name is case-sensitive even on Windows, so make sure
+it EXACTLY matches the directory used in step 2 above.

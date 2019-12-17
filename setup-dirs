@@ -1,0 +1,12 @@
+#!/bin/bash
+#-----------------------------------------------------
+# Creates the initial directory structure assuming
+# the LAMG code has been checked into the current
+# directory.
+#-----------------------------------------------------
+
+cd ..
+mkdir -p out
+mkdir -p data
+mkdir -p bin
+mkdir -p jobs
